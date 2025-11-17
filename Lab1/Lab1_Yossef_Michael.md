@@ -45,8 +45,6 @@ backups, cleared event logs and encrypted files
   payload that was decoded/processed at runtime (MSBuild + certutil used
   to deliver and activate the payload).
 
-<!-- -->
-
 - **Defense Evasion: T1211 --- Exploitation for Defense
   Evasion:**  
   Observation: The exploit targets a vulnerability in the CLFS kernel
@@ -60,22 +58,16 @@ backups, cleared event logs and encrypted files
   the process - matching access‑token manipulation/impersonation
   behaviors.
 
-<!-- -->
-
 - **Defense Evasion, Privilege Escalation: T1055 --- Process
   Injection (and sub-techniques):**  
   Observation: After exploitation, the attackers injected into
   winlogon.exe (process injection / in‑memory techniques) to execute in
   a high‑privilege context.
 
-<!-- -->
-
 - **Credential Access: T1003.001 --- OS Credential Dumping:
   LSASS Memory:**  
   Observation: The threat actors used procdump.exe to dump LSASS memory
   to harvest credentials (Sysinternals procdump -ma lsass.exe).
-
-<!-- -->
 
 - **Impact: T1490 --- Inhibit System Recovery:**  
   Observation: Commands recorded include deleting backup catalogs
@@ -95,6 +87,7 @@ backups, cleared event logs and encrypted files
  
 ### 🔐 **_Summary:_**
 This attack is unusual because the adversaries initial access method is unknown, yet once the zero-day CLFS kernel vulnerability showed they immediately leveraged it to leak kernel addresses and overwrite access       tokens. Instead of common loaders, they used certutil to deliver an encrypted, runtime-decoded payload. This blend of mystery entry point, true kernel-level zero-day exploitation, and system-process injection makes the operation far more advanced.
+
 
 
 
