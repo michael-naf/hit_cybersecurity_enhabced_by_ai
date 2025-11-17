@@ -19,12 +19,12 @@ Windows Common Log File System (CLFS) to escalate from a standard user
 to system privileges. It hasn\'t been determined what initial access
 vectors led to the devices being compromised by adversary group but
 afterwards, [they delivered a malicious MSBuild payload downloaded via
-*[certutil]{.underline}*]{.mark}, [used the CLFS exploit]{.mark} to
-[overwrite a process token]{.mark} and [inject into high‑privilege
-processes]{.mark}, [dumped LSASS memory with *[procdump]{.underline}* to
-harvest credentials]{.mark}, [and then deployed ransomware that deleted
-backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
-(ransom note !\_READ_ME_REXX2\_!.txt)]{.mark}.
+*[certutil]*], [used the CLFS exploit] to
+[overwrite a process token] and [inject into high‑privilege
+processes], [dumped LSASS memory with *[procdump]* to
+harvest credentials], [and then deployed ransomware that deleted
+backups], [cleared event logs] and [encrypted files
+(ransom note !\_READ_ME_REXX2\_!.txt)].
 
 
 
@@ -93,6 +93,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
