@@ -48,7 +48,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   *NtQuerySystemInformation* API to leak kernel addresses to user mode.
 
 - **Defense Evasion, Privilege Escalation: T1134 --- Access
-  Token Manipulation**
+  Token Manipulation**  
   Observation: The exploit overwrote the process token (article notes
   token bits set to 0xFFFFFFFF), effectively granting full privileges to
   the process - matching access‑token manipulation/impersonation
@@ -87,6 +87,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
