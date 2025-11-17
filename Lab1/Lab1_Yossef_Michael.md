@@ -1,12 +1,12 @@
-#📖 **_CTI Report Mapping_**
+📖## **_CTI Report Mapping_**
 
-##👨‍🎓 **_Students:_**
+👨‍🎓### **_Students:_**
 
 ·       Yossef Okropiridze, <yossiu1@gmail.com>
 
 ·       Michael Naftalishen, <michaelnafi99@gmail.com>
 
-##📍 **_Link to the Article:_**
+📍### **_Link to the Article:_**
 
 [Exploitation of CLFS zero-day leads to ransomware activity \| Microsoft
 Security
