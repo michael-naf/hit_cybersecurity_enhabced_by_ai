@@ -73,7 +73,7 @@ backups, cleared event logs and encrypted files
   Observation: The threat actors used procdump.exe to dump LSASS memory
   to harvest credentials (Sysinternals procdump -ma lsass.exe).
 
-- **Impact: [T1490])https://attack.mitre.org/techniques/T1490/) --- Inhibit System Recovery:**  
+- **Impact: [T1490](https://attack.mitre.org/techniques/T1490/) --- Inhibit System Recovery:**  
   Observation: Commands recorded include deleting backup catalogs
   (*[wbadmin]{.underline}* delete catalog -quiet) and disabling recovery
   options - typical ransomware behavior to prevent restoration.
