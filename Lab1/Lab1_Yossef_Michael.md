@@ -93,9 +93,10 @@ backups, cleared event logs and encrypted files
 <br>
 <br>
 <br>
- 
+
 ### 🔐 **_Summary:_**
 This attack is unusual because the adversaries initial access method is unknown, yet once the zero-day CLFS kernel vulnerability showed they immediately leveraged it to leak kernel addresses and overwrite access       tokens. Instead of common loaders, they used certutil to deliver an encrypted, runtime-decoded payload. This blend of mystery entry point, true kernel-level zero-day exploitation, and system-process injection makes the operation far more advanced.
+
 
 
 
