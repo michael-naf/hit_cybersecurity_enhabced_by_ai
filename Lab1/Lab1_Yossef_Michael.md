@@ -1,6 +1,4 @@
 ## 📖 **_CTI Report Mapping_**
-<br>
-<br>
 
 ### 👨‍🎓 **_Students:_**
 
@@ -9,12 +7,15 @@
 ·       Michael Naftalishen, <michaelnafi99@gmail.com>
 <br>
 <br>
+<br>
+
 
 ### 📍 **_Link to the Article:_**
 
 [Exploitation of CLFS zero-day leads to ransomware activity \| Microsoft
 Security
 Blog](https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/)
+<br>
 <br>
 <br>
 
@@ -34,6 +35,7 @@ backups, cleared event logs and encrypted files
   
 ![Sequence of events](Lab1_Schema.jpg)
 
+<br>
 <br>
 <br>
   
@@ -90,9 +92,11 @@ backups, cleared event logs and encrypted files
   impact techniques.
 <br>
 <br>
+<br>
  
 ### 🔐 **_Summary:_**
 This attack is unusual because the adversaries initial access method is unknown, yet once the zero-day CLFS kernel vulnerability showed they immediately leveraged it to leak kernel addresses and overwrite access       tokens. Instead of common loaders, they used certutil to deliver an encrypted, runtime-decoded payload. This blend of mystery entry point, true kernel-level zero-day exploitation, and system-process injection makes the operation far more advanced.
+
 
 
 
