@@ -58,6 +58,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
 
 - **Defense Evasion, Privilege Escalation: T1055 --- Process
   Injection (and sub-techniques)**
+  
   Observation: After exploitation, the attackers injected into
   winlogon.exe (process injection / in‑memory techniques) to execute in
   a high‑privilege context.
@@ -87,6 +88,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
