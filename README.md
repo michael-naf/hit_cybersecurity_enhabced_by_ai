@@ -7,6 +7,6 @@ For all the official course materials, please visit the main course's repository
 ## 🔬 **_Labs:_**
 - **Lab1 - MITRE ATT&CK Mapping:**
     - [Lab1 assignment](https://github.com/melofon/HIT-ai-cybersecurity-labs/tree/main/labs/lab1)  
-    - [Lab1](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Lab%201%20-%20MITRE%20ATT%26CK%20Mapping/README.md)
+    - [Lab1](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Lab%201%20-%20MITRE%20ATT%26CK%20Mapping/Lab1.md)
 
 - **Lab2 -**
