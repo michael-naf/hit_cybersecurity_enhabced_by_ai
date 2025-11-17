@@ -26,7 +26,11 @@ harvest credentials]{.mark}, [and then deployed ransomware that deleted
 backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
 (ransom note !\_READ_ME_REXX2\_!.txt)]{.mark}.
 
+
+
 ![Sequence of events](Lab1_Schema.jpg)
+
+
 
 ### **_Tactics, Techniques and Behaviors:_**
 
@@ -89,6 +93,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
