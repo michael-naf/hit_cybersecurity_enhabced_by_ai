@@ -3,4 +3,4 @@ This repository is dedicated to the course "Introduction to Cybersecurity enhabc
 Here you will find our Labs resources and final project.
 
 ## **_Labs :_**
-**Lab1** - MITRE ATT&CK Mapping
+- **Lab1** - MITRE ATT&CK Mapping
