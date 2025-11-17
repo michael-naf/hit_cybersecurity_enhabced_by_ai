@@ -1,5 +1,6 @@
 #  ⛨ Introduction to Cybersecurity enhabced by AI
-This repository is dedicated to the course "Introduction to Cybersecurity enhanced by AI" designed by Dr. Andrei Kojukhov and Viacheslav Nefedov.  
+This repository is dedicated to the course "Introduction to Cybersecurity enhanced by AI"  
+designed by Dr. Andrei Kojukhov and Viacheslav Nefedov.  
 Here you will find our Labs resources and final project.  
 
 For more materials, visit the course's repository - [GitHub](https://github.com/melofon/HIT-ai-cybersecurity-labs)  
