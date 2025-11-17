@@ -1,16 +1,22 @@
 ## 📖 **_CTI Report Mapping_**
+<br>
+<br>
 
 ### 👨‍🎓 **_Students:_**
 
 ·       Yossef Okropiridze, <yossiu1@gmail.com>
 
 ·       Michael Naftalishen, <michaelnafi99@gmail.com>
+<br>
+<br>
 
 ### 📍 **_Link to the Article:_**
 
 [Exploitation of CLFS zero-day leads to ransomware activity \| Microsoft
 Security
 Blog](https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/)
+<br>
+<br>
 
 ### 🗒️ **_Schema Description:_**
 
@@ -25,9 +31,6 @@ processes, dumped LSASS memory with _procdump_ to
 harvest credentials, and then deployed ransomware that deleted
 backups, cleared event logs and encrypted files
 (ransom note !\_READ_ME_REXX2\_!.txt).
-
-<br>
-<br>
   
 ![Sequence of events](Lab1_Schema.jpg)
 
@@ -85,10 +88,12 @@ backups, cleared event logs and encrypted files
   Observation: The campaign included file encryption and placement of a
   ransom note (!\_READ_ME_REXX2\_!.txt), consistent with ransomware
   impact techniques.
-
+<br>
+<br>
  
 ### 🔐 **_Summary:_**
 This attack is unusual because the adversaries initial access method is unknown, yet once the zero-day CLFS kernel vulnerability showed they immediately leveraged it to leak kernel addresses and overwrite access       tokens. Instead of common loaders, they used certutil to deliver an encrypted, runtime-decoded payload. This blend of mystery entry point, true kernel-level zero-day exploitation, and system-process injection makes the operation far more advanced.
+
 
 
 
