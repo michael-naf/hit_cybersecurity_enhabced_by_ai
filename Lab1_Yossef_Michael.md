@@ -1,18 +1,18 @@
 ## **_CTI Report Mapping_**
 
-**_Students:_**
+### **_Students:_**
 
 ·       Yossef Okropiridze, <yossiu1@gmail.com>
 
 ·       Michael Naftalishen, <michaelnafi99@gmail.com>
 
-**_Link to the Article:_**
+### **_Link to the Article:_**
 
 [Exploitation of CLFS zero-day leads to ransomware activity \| Microsoft
 Security
 Blog](https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/)
 
-**_Schema Description:_**
+### **_Schema Description:_**
 
 An adversary group exploited a zero‑day kernel vulnerability in the
 Windows Common Log File System (CLFS) to escalate from a standard user
@@ -26,7 +26,7 @@ harvest credentials]{.mark}, [and then deployed ransomware that deleted
 backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
 (ransom note !\_READ_ME_REXX2\_!.txt)]{.mark}.
 
-**_Tactics, Techniques and Behaviors:_**
+### **_Tactics, Techniques and Behaviors:_**
 
 - **Command and Control: T1105 --- Ingress Tool Transfer:**  
   Observation: The adversaries used certutil to download an MSBuild file
@@ -87,6 +87,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
