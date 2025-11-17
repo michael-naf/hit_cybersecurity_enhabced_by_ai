@@ -26,12 +26,12 @@ harvest credentials, and then deployed ransomware that deleted
 backups, cleared event logs and encrypted files
 (ransom note !\_READ_ME_REXX2\_!.txt).
 
-
-
+  
+  
 ![Sequence of events](Lab1_Schema.jpg)
 
-
-
+  
+  
 ### 🚔 **_Tactics, Techniques and Behaviors:_**
 
 - **Command and Control: T1105 --- Ingress Tool Transfer:**  
@@ -87,6 +87,7 @@ backups, cleared event logs and encrypted files
  
 ### 🔐 **_Summary:_**
 This attack is unusual because the adversaries initial access method is unknown, yet once the zero-day CLFS kernel vulnerability showed they immediately leveraged it to leak kernel addresses and overwrite access       tokens. Instead of common loaders, they used certutil to deliver an encrypted, runtime-decoded payload. This blend of mystery entry point, true kernel-level zero-day exploitation, and system-process injection makes the operation far more advanced.
+
 
 
 
