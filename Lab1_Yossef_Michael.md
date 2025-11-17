@@ -1,7 +1,7 @@
 **_CTI Report Mapping_**
 
-***[\
-Students]{.underline}*:**
+**_
+Students:_**
 
 ·       Yossef Okropiridze, 208051268, <yossiu1@gmail.com>
 
@@ -88,6 +88,7 @@ backups]{.mark}, [cleared event logs]{.mark} and [encrypted files
   impact techniques.
 
  
+
 
 
 
