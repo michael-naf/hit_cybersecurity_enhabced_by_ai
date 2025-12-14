@@ -13,3 +13,4 @@ For more materials, visit the course's repository - [GitHub](https://github.com/
 
 - **Lab2 - Basic Anomaly Detection**
     - [Lab2 assignment](https://github.com/melofon/HIT-ai-cybersecurity-labs/tree/main/labs/lab2)
+    - [Lab2](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Lab2-Basic-Anomaly-Detection/work)
