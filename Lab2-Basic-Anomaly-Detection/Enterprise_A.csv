@@ -1,0 +1,1001 @@
+timestamp,user_name,process,parent_process,command,command_length,num_args,is_anomaly
+22/12/2025 20:29,user_07,notepad.exe,explorer.exe,Get-Registry /usr/bin.txt Set-File C:\Users\Public.log Stop-Registry /tmp.ps1 New-Job C:\Windows\T,98,4,1
+03/12/2025 14:06,user_10,powershell.exe,powershell.exe,New-Registry C:\Use,19,1,0
+31/12/2025 11:41,user_08,cmd.exe,explorer.exe,Set-Service /tmp.ps1 Set-Proce,30,2,0
+29/12/2025 09:59,user_06,notepad.exe,explorer.exe,Remove-Job /usr/bin.ps1,23,1,0
+21/12/2025 13:16,user_10,cmd.exe,wscript.exe,Get-Registry /tmp.py Remov,26,2,0
+25/12/2025 17:31,user_03,powershell.exe,services.exe,Stop-File /usr/bin.,19,1,0
+31/12/2025 15:06,user_04,notepad.exe,explorer.exe,Stop-Service /usr/bin.py St,27,2,0
+08/12/2025 08:57,user_06,notepad.exe,explorer.exe,New-Job /usr/bin.ps1 Stop-Proce,31,2,0
+19/12/2025 10:57,user_01,python.exe,explorer.exe,Remove-Job C:\Windows\Temp.ps1 Stop-Job C:\Users\P,50,2,0
+26/12/2025 09:38,user_04,rundll32.exe,wscript.exe,Set-Service /usr/bin.log Remove-R,33,2,0
+18/12/2025 17:41,user_10,cmd.exe,wscript.exe,Start-Registry C:\Users\Public.ps1 Stop-Fil,43,2,0
+26/12/2025 08:43,user_08,notepad.exe,explorer.exe,Set-Registry /tmp.txt Sta,25,2,0
+12/12/2025 14:12,user_02,python.exe,explorer.exe,Remove-Regist,13,1,0
+29/12/2025 12:01,user_03,python.exe,rundll32.exe,Stop-Process C:\Windows\Temp.txt Set-Service /,46,2,0
+03/12/2025 13:06,user_06,cmd.exe,wscript.exe,Stop-Registry,13,1,0
+26/12/2025 12:01,user_02,powershell.exe,cmd.exe,Stop-Service /usr/bin.ps1 Set-Regi,34,2,0
+30/12/2025 08:35,user_05,wscript.exe,explorer.exe,Remove-Registry /usr/bin.,25,1,0
+21/12/2025 08:13,user_04,notepad.exe,explorer.exe,Start-Regi,10,1,0
+21/12/2025 11:11,user_07,notepad.exe,explorer.exe,Get-File C:\Users\P,19,1,0
+14/12/2025 14:51,user_03,notepad.exe,explorer.exe,Get-Service /tmp.txt Remove-Job C:\Windows\Temp,47,2,0
+29/12/2025 08:55,user_09,rundll32.exe,cmd.exe,Get-Process C:\Windows,22,1,0
+31/12/2025 12:41,user_04,cmd.exe,mshta.exe,Remove-File /tmp.py New-Registry /usr/bin.ps,44,2,0
+03/12/2025 14:05,user_07,python.exe,cscript.exe,Remove-Registry C:\Users\Public.log Get-S,41,2,0
+23/12/2025 10:37,user_05,notepad.exe,explorer.exe,Remove-Job,10,1,0
+18/12/2025 10:42,user_04,notepad.exe,explorer.exe,Set-File C:\Users\Public.txt Start-Job C:\,42,2,0
+17/12/2025 13:30,user_06,rundll32.exe,mshta.exe,New-File C:\W,13,1,0
+01/12/2025 13:25,user_10,notepad.exe,explorer.exe,Get-Process C:,14,1,0
+05/12/2025 09:17,user_04,regsvr32.exe,explorer.exe,Remove-Process /tmp.p,21,1,0
+28/12/2025 17:58,user_07,powershell.exe,mshta.exe,Get-File C:\Windows\Temp.py Stop-File C:\Users\,47,2,0
+18/12/2025 17:20,user_06,cmd.exe,explorer.exe,Set-Job C:\Wind,15,1,0
+15/12/2025 13:09,user_10,rundll32.exe,explorer.exe,Remove-Registry /tmp.log Remove-,32,2,0
+04/12/2025 12:32,user_01,cmd.exe,rundll32.exe,Remove-Job C:\Users\Public.txt Start-File C:\User,49,2,0
+04/12/2025 09:30,user_10,notepad.exe,explorer.exe,Start-Registry C:\Users\Public.py Rem,37,2,0
+31/12/2025 10:22,user_05,wscript.exe,powershell.exe,Get-Job /tmp.,13,1,0
+05/12/2025 12:07,user_05,cscript.exe,explorer.exe,Stop-Process C:\Windows\Temp.txt S,34,2,0
+09/12/2025 10:08,user_01,python.exe,cscript.exe,Start-Registry /usr/bin.ps1 New-Job C:\Users\P,46,2,0
+09/12/2025 17:21,user_09,cscript.exe,explorer.exe,Start-File /tmp.py Remove-Servic,32,2,0
+01/12/2025 11:08,user_01,notepad.exe,explorer.exe,Remove-Registry C:\Users\Publi,30,1,0
+12/12/2025 12:47,user_10,powershell.exe,explorer.exe,Set-File C:\Users\Public.ps1 Stop-Jo,36,2,0
+08/12/2025 16:00,user_05,notepad.exe,explorer.exe,Start-Registry,14,1,0
+16/12/2025 18:51,user_07,cmd.exe,wscript.exe,Start-Process /usr/bin.ps1 New-Process C:\,42,2,0
+19/12/2025 10:10,user_03,cmd.exe,mshta.exe,Set-Job /tmp.lo,15,1,0
+12/12/2025 12:56,user_01,python.exe,python.exe,Set-File /tmp.,14,1,0
+12/12/2025 10:02,user_03,cmd.exe,cscript.exe,Remove-Job C,12,1,0
+21/12/2025 17:43,user_06,cscript.exe,cmd.exe,Remove-Job /usr/bin.log Start-File /tmp,39,2,0
+29/12/2025 18:12,user_01,powershell.exe,python.exe,Set-Service C:\Users\Public.py Get-Registry /usr/b,50,2,0
+24/12/2025 14:46,user_02,rundll32.exe,rundll32.exe,Remove-Registry C:\Windows\Temp.py Stop-Process /,49,2,0
+12/12/2025 10:31,user_06,python.exe,rundll32.exe,Start-File /usr/bin.txt Set-File /usr/bin,41,2,0
+28/12/2025 11:34,user_01,powershell.exe,python.exe,Get-Registry /tmp.ps1 Start-File /tmp.p,39,2,0
+08/12/2025 12:41,user_04,rundll32.exe,explorer.exe,Remove-Registry /usr/bi,23,1,0
+02/12/2025 12:55,user_02,powershell.exe,rundll32.exe,Stop-Process C:,15,1,0
+15/12/2025 03:15,user_06,notepad.exe,explorer.exe,New-Registry C:\Windows\Temp.py New-Job C:\Users\Public.py Stop-Job /usr,72,3,1
+03/12/2025 17:38,user_05,powershell.exe,cmd.exe,Set-File C:\Users\Public.ps1 Remove-Service C:\Wi,49,2,0
+12/12/2025 13:28,user_01,cmd.exe,winlogon.exe,Stop-File /tmp.py Set-Job C:\Windows\Tem,40,2,0
+03/12/2025 09:36,user_05,cmd.exe,cmd.exe,Start-File C:\,14,1,0
+08/12/2025 11:18,user_07,rundll32.exe,cscript.exe,Get-Process C,13,1,0
+08/12/2025 16:02,user_04,cscript.exe,explorer.exe,Set-Job C:\Users\Pu,19,1,0
+31/12/2025 10:29,user_10,cmd.exe,rundll32.exe,Remove-Registry /tmp.log Remove,31,2,0
+29/12/2025 12:01,user_01,rundll32.exe,explorer.exe,Get-Service /u,14,1,0
+26/12/2025 13:16,user_01,cmd.exe,cmd.exe,Set-Job /tmp.log New-Re,23,2,0
+01/12/2025 16:46,user_07,powershell.exe,svchost.exe,Stop-Process C,14,1,0
+12/12/2025 14:48,user_05,python.exe,cmd.exe,Start-Registry /tmp.py Se,25,2,0
+14/12/2025 14:41,user_03,rundll32.exe,services.exe,Remove-File C:\Windows\Temp.ps,30,1,0
+14/12/2025 23:49,user_06,notepad.exe,cmd.exe,Stop-File C:\Windows\Temp.py Set-Service C:\Users\Public.log New-Process C:\Windows\Temp.ps1 St,95,4,1
+12/12/2025 12:31,user_10,notepad.exe,explorer.exe,Set-File C:\Windows\Temp.ps1 Stop,33,2,0
+14/12/2025 10:41,user_08,cmd.exe,explorer.exe,Stop-File C:\Wi,15,1,0
+11/12/2025 08:21,user_03,notepad.exe,explorer.exe,New-Registry C:\Users\P,23,1,0
+08/12/2025 09:22,user_03,python.exe,wscript.exe,Remove-Regis,12,1,0
+05/12/2025 11:33,user_07,powershell.exe,cmd.exe,Stop-Job C:\Users\Public.py Re,30,2,0
+15/12/2025 11:57,user_05,notepad.exe,powershell.exe,Start-Registry /usr,19,1,0
+29/12/2025 11:37,user_06,cmd.exe,wscript.exe,Start-Service C:\Windows\Te,27,1,0
+30/12/2025 16:28,user_09,cmd.exe,cmd.exe,Start-Registry C:,17,1,0
+04/12/2025 08:20,user_07,cscript.exe,powershell.exe,New-Process /tmp.log Sta,24,2,0
+28/12/2025 18:15,user_03,mshta.exe,wscript.exe,Set-Job C:\Users\Public.ps1 Remove-Job /tmp.log Set-Service C:\Windows,70,3,1
+14/12/2025 14:01,user_06,notepad.exe,explorer.exe,Get-Job /usr/bin.log Set-File C:\Win,36,2,0
+17/12/2025 15:07,user_01,python.exe,regsvr32.exe,New-Registry C:\Windows\Te,26,1,0
+29/12/2025 16:56,user_08,powershell.exe,cscript.exe,Set-Service C:\Users\Public.txt Set,35,2,0
+11/12/2025 17:42,user_06,powershell.exe,regsvr32.exe,Start-File /tmp.ps1 Remove-Jo,29,2,0
+29/12/2025 17:37,user_06,python.exe,cmd.exe,Set-File C:\Users\Public.py Get-Process C,41,2,0
+21/12/2025 11:39,user_09,powershell.exe,wscript.exe,Set-Registry C:\Users\Public.txt Get,36,2,0
+11/12/2025 10:07,user_02,notepad.exe,explorer.exe,Get-File /tmp.py New-Process C:\Win,35,2,0
+07/12/2025 15:27,user_09,notepad.exe,explorer.exe,Set-File /tmp.log Start-Service /usr/bin.lo,43,2,0
+29/12/2025 13:27,user_10,rundll32.exe,svchost.exe,Stop-File C:\Users\Public.log Start-Registry C:\Wi,50,2,0
+19/12/2025 10:51,user_03,cscript.exe,explorer.exe,New-Job /usr/bin.py Stop-File /usr/bin.txt Stop-R,49,3,0
+10/12/2025 09:30,user_04,notepad.exe,explorer.exe,Stop-File C:\Users\Public.py Set-Pro,36,2,0
+22/12/2025 15:56,user_06,powershell.exe,explorer.exe,Remove-Job C:\User,18,1,0
+23/12/2025 10:07,user_07,notepad.exe,explorer.exe,Set-Registry,12,1,0
+23/12/2025 09:07,user_07,cmd.exe,wscript.exe,Get-Job C:\Users\Public.log Start-Service C:\Win,48,2,0
+04/12/2025 12:33,user_06,powershell.exe,regsvr32.exe,New-File /tmp.py Stop-Registry,30,2,0
+02/12/2025 09:08,user_05,cmd.exe,cscript.exe,New-Process /usr/bin.ps1 Set-Job /usr/bin.txt Sto,49,3,0
+17/12/2025 14:23,user_08,notepad.exe,explorer.exe,New-Service /usr/,17,1,0
+22/12/2025 09:14,user_09,notepad.exe,explorer.exe,Get-File /tmp,13,1,0
+22/12/2025 13:55,user_08,rundll32.exe,explorer.exe,Set-Job /usr/bin.log Stop-Service C:\Window,43,2,0
+29/12/2025 08:55,user_09,cmd.exe,explorer.exe,Set-Registry C:\Users\Publ,26,1,0
+11/12/2025 15:25,user_03,powershell.exe,winlogon.exe,New-Service C:,14,1,0
+17/12/2025 11:13,user_04,mshta.exe,explorer.exe,New-Registry C:\Users\Public.txt Start-Job /us,46,2,0
+28/12/2025 17:14,user_01,python.exe,rundll32.exe,Start-File /usr/bin.log Set-Registry C:\Windows\,48,2,0
+29/12/2025 08:04,user_09,cmd.exe,cmd.exe,Stop-Proce,10,1,0
+05/12/2025 10:37,user_01,python.exe,explorer.exe,Remove-Job C:\Windows\Temp.py Start-P,37,2,0
+09/12/2025 16:27,user_10,cmd.exe,explorer.exe,Remove-Process C:,17,1,0
+24/12/2025 10:53,user_03,python.exe,python.exe,Start-Proc,10,1,0
+23/12/2025 09:58,user_10,python.exe,powershell.exe,Set-Registry,12,1,0
+03/12/2025 13:54,user_01,notepad.exe,explorer.exe,Get-Process C:\Windows\Temp.p,29,1,0
+01/12/2025 14:39,user_01,notepad.exe,explorer.exe,Start-Job /usr/bin.ps1 Remove-Pro,33,2,0
+02/12/2025 08:34,user_01,notepad.exe,explorer.exe,Stop-Process C:\Users\,22,1,0
+09/12/2025 10:57,user_09,notepad.exe,explorer.exe,Get-Process C:\Use,18,1,0
+03/12/2025 13:03,user_04,rundll32.exe,explorer.exe,Start-Job C:\Windows\Temp.ps1 St,32,2,0
+24/12/2025 10:06,user_02,notepad.exe,explorer.exe,New-File C:\Users\Public.ps1 St,31,2,0
+26/12/2025 12:10,user_03,cscript.exe,explorer.exe,Remove-Process C:\Windows\Temp.log Set-,39,2,0
+22/12/2025 14:57,user_10,notepad.exe,explorer.exe,Start-Job /usr/bin.ps1 Get-Service /tmp.txt Re,46,3,0
+01/12/2025 10:01,user_03,notepad.exe,explorer.exe,New-Process C:\Windows\Temp.lo,30,1,0
+07/12/2025 13:27,user_07,python.exe,cscript.exe,Set-Process /usr/bin.log,24,1,0
+05/12/2025 08:24,user_08,notepad.exe,explorer.exe,Start-File C:\Users\Public.,27,1,0
+04/12/2025 15:15,user_01,notepad.exe,explorer.exe,Stop-Service /tmp.txt Start-File C:\Users\P,43,2,0
+15/12/2025 12:52,user_10,wscript.exe,explorer.exe,Start-Process C:\Windows\Temp.py Remo,37,2,0
+26/12/2025 08:49,user_09,python.exe,cmd.exe,Get-Process /tmp.log Remove-Service C:\Users\Pub,48,2,0
+22/12/2025 12:41,user_03,notepad.exe,explorer.exe,Set-Job /tmp.ps1 Get-Service C,30,2,0
+07/12/2025 09:30,user_01,wscript.exe,cmd.exe,Start-File C:\Users\Public.ps1 Set,34,2,0
+31/12/2025 17:19,user_05,cmd.exe,svchost.exe,New-Service /tmp.log Stop-Service /,35,2,0
+31/12/2025 17:13,user_02,notepad.exe,explorer.exe,Start-Service C:\Users\Pu,25,1,0
+28/12/2025 11:14,user_03,rundll32.exe,rundll32.exe,Set-File /tmp.py Get-J,22,2,0
+07/12/2025 11:38,user_06,notepad.exe,explorer.exe,Get-Registry /usr/bin.py Remove-Service /tmp.,45,2,0
+07/12/2025 16:24,user_10,powershell.exe,explorer.exe,Start-Registry C:\Users\Public.py Set-Se,40,2,0
+24/12/2025 16:26,user_07,notepad.exe,explorer.exe,Stop-Service /usr/,18,1,0
+02/12/2025 17:32,user_08,cmd.exe,explorer.exe,Get-Registry /usr/bin.py Start-Process /usr/bin.tx,50,2,0
+01/12/2025 13:42,user_04,powershell.exe,svchost.exe,Set-Registry /tmp.txt Remove-Registry C:\Wind,45,2,0
+14/12/2025 09:28,user_03,notepad.exe,explorer.exe,Stop-File /usr/,15,1,0
+07/12/2025 10:26,user_04,cmd.exe,wscript.exe,New-Service C:\Windows\Temp.ps1 Remove-Servi,44,2,0
+30/12/2025 15:07,user_10,powershell.exe,services.exe,New-Process C:\Windows\T,24,1,0
+05/12/2025 09:06,user_04,mshta.exe,cscript.exe,Start-Servic,12,1,0
+14/12/2025 17:09,user_04,cmd.exe,cmd.exe,Set-File C:\W,13,1,0
+16/12/2025 18:24,user_10,rundll32.exe,explorer.exe,New-Service,11,1,0
+19/12/2025 12:13,user_07,cmd.exe,explorer.exe,Remove-Service C:\Windows\Temp.txt Stop-Serv,44,2,0
+23/12/2025 14:53,user_09,python.exe,taskeng.exe,Start-Registry C:\Windows\Temp.ps1 Set-R,40,2,0
+07/12/2025 10:45,user_03,notepad.exe,explorer.exe,Get-Registry C:\Users\Public.log St,35,2,0
+26/12/2025 11:38,user_03,rundll32.exe,rundll32.exe,New-Service,11,1,0
+14/12/2025 18:18,user_02,powershell.exe,cmd.exe,Get-Job /tmp.log Get-Se,23,2,0
+15/12/2025 12:25,user_09,powershell.exe,regsvr32.exe,Remove-Serv,11,1,0
+02/12/2025 18:56,user_06,rundll32.exe,cmd.exe,Stop-Job /usr/bi,16,1,0
+23/12/2025 14:58,user_05,powershell.exe,cscript.exe,Get-Registry /tmp.log New-Process /usr/bin.tx,45,2,0
+16/12/2025 15:03,user_07,mshta.exe,cscript.exe,New-Registry C:\Users\Public.txt Set-Pro,40,2,0
+18/12/2025 14:21,user_06,notepad.exe,explorer.exe,New-Process /usr/bin.txt Set,28,2,0
+15/12/2025 10:36,user_06,rundll32.exe,explorer.exe,Get-Registry /usr/b,19,1,0
+23/12/2025 08:14,user_08,powershell.exe,wscript.exe,Stop-Process C:\Windows\Temp.py Start-Reg,41,2,0
+25/12/2025 15:05,user_06,mshta.exe,explorer.exe,Remove-Job C:\Windows\Temp.txt Sto,34,2,0
+29/12/2025 13:35,user_03,notepad.exe,explorer.exe,Get-Process /usr/bin.log New-Proce,34,2,0
+05/12/2025 09:44,user_05,python.exe,wscript.exe,Start-Process /t,16,1,0
+22/12/2025 14:55,user_02,powershell.exe,powershell.exe,Get-Service C:\Use,18,1,0
+01/12/2025 18:38,user_03,notepad.exe,explorer.exe,Get-File /usr/bin.ps1 Remove-Regi,33,2,0
+10/12/2025 16:02,user_09,cmd.exe,cmd.exe,Get-File /usr/bin.ps1 Remove-Service C:\Users\Pu,48,2,0
+07/12/2025 14:35,user_02,powershell.exe,rundll32.exe,New-Process /usr/bin.py Get-File C,34,2,0
+11/12/2025 17:46,user_02,notepad.exe,explorer.exe,Get-Job /tmp.log Get-Process /tmp.ps1 Remove-Proce,50,3,0
+16/12/2025 15:58,user_10,cmd.exe,cscript.exe,Set-File /usr/bin.py Start-Process C:\Windows\T,47,2,0
+17/12/2025 18:31,user_10,python.exe,explorer.exe,Get-File /tm,12,1,0
+15/12/2025 18:32,user_07,mshta.exe,explorer.exe,Remove-File,11,1,0
+01/12/2025 17:56,user_06,powershell.exe,explorer.exe,Stop-Job /tmp.log Set-File,26,2,0
+25/12/2025 12:04,user_02,cmd.exe,rundll32.exe,Start-Process C:\Windows\Temp.txt New-Job /u,44,2,0
+31/12/2025 08:23,user_05,rundll32.exe,wscript.exe,Get-Registry /u,15,1,0
+28/12/2025 11:05,user_02,notepad.exe,explorer.exe,Get-File /usr/bin.py Se,23,2,0
+08/12/2025 09:18,user_01,python.exe,cmd.exe,Remove-Registry C:\Wi,21,1,0
+26/12/2025 14:45,user_04,rundll32.exe,rundll32.exe,Stop-Job C:\Users\Public.ps1 R,30,2,0
+10/12/2025 16:58,user_01,cmd.exe,rundll32.exe,Start-Job C:\Windo,18,1,0
+07/12/2025 13:40,user_10,python.exe,python.exe,Remove-Process C:\Users\Public.txt Start-Process,48,2,0
+28/12/2025 16:07,user_03,notepad.exe,explorer.exe,Set-Process /usr/bin.txt Remove-Job,35,2,0
+04/12/2025 14:03,user_09,cmd.exe,rundll32.exe,Stop-Process /tmp.ps1 New-Jo,28,2,0
+22/12/2025 10:43,user_08,cmd.exe,explorer.exe,Remove-Job /tmp.py Remove-Fi,28,2,0
+21/12/2025 16:16,user_06,notepad.exe,cmd.exe,Remove-Job /tmp.ps1 Get-Job,27,2,0
+22/12/2025 16:12,user_01,wscript.exe,explorer.exe,Set-File C:\Users\Public.ps1,28,1,0
+22/12/2025 18:05,user_03,cmd.exe,explorer.exe,New-Service /usr/bin.txt Set-Service,36,2,0
+09/12/2025 11:41,user_03,rundll32.exe,cscript.exe,Start-Service C:\Windows\T,26,1,0
+03/12/2025 18:02,user_07,powershell.exe,winlogon.exe,Start-Job /usr/bin.ps1 Set-Registry,35,2,0
+28/12/2025 13:05,user_08,cmd.exe,rundll32.exe,New-Job /usr/bin.py Stop-Process C:\Window,42,2,0
+22/12/2025 09:53,user_10,cmd.exe,rundll32.exe,Stop-Registry C:\Users\Public.l,31,1,0
+28/12/2025 11:55,user_05,mshta.exe,cscript.exe,New-File C:\Windows\,20,1,0
+05/12/2025 14:08,user_01,powershell.exe,rundll32.exe,Stop-Process C:\Users\Public.py Get,35,2,0
+05/12/2025 14:36,user_01,cscript.exe,cmd.exe,New-Process C:\Windows\Te,25,1,0
+22/12/2025 17:27,user_02,powershell.exe,wscript.exe,Set-File /tmp.py Set-Process /tm,32,2,0
+09/12/2025 15:11,user_01,cmd.exe,cscript.exe,Remove-Process /tmp.log Ne,26,2,0
+04/12/2025 15:14,user_03,wscript.exe,explorer.exe,New-Job /tmp.ps1 Get-Service C:\Users\Pu,40,2,0
+15/12/2025 22:40,user_01,powershell.exe,winlogon.exe,New-Registry C:\Windows\Temp.ps1 Get-Process C:\Users\Public.log Start-Service C:\Windows\,90,3,1
+11/12/2025 12:44,user_08,notepad.exe,explorer.exe,Start-Registr,13,1,0
+12/12/2025 13:29,user_07,notepad.exe,powershell.exe,Remove-Process C:\Windows\Temp.log,34,1,0
+10/12/2025 18:01,user_02,cmd.exe,wscript.exe,Remove-Service C:\Wi,20,1,0
+25/12/2025 13:34,user_02,powershell.exe,powershell.exe,Stop-Registry /tmp.ps1 Star,27,2,0
+25/12/2025 15:45,user_06,notepad.exe,explorer.exe,New-File C:\Windows\Temp.txt New-Service C:\Wind,48,2,0
+29/12/2025 09:20,user_07,notepad.exe,explorer.exe,New-Process C:\Windows\Temp.txt,31,1,0
+17/12/2025 15:20,user_04,cmd.exe,cscript.exe,New-Process C:\Windows\Temp.py New-,35,2,0
+02/12/2025 15:00,user_06,notepad.exe,explorer.exe,New-Job C:\Windows\Temp.ps1 Get-,32,2,0
+11/12/2025 16:42,user_04,notepad.exe,explorer.exe,Set-Process /tmp.p,18,1,0
+26/12/2025 13:16,user_08,python.exe,explorer.exe,Get-Service /usr/bin.py Set-Registry C:\Win,43,2,0
+08/12/2025 16:00,user_02,rundll32.exe,cscript.exe,Start-Job /usr/bin.log Remove-File C:\,38,2,0
+31/12/2025 16:27,user_10,regsvr32.exe,explorer.exe,Stop-Service C:\Windows\Temp.t,30,1,0
+15/12/2025 08:17,user_10,cmd.exe,cmd.exe,Stop-File /usr/bin.ps1 Set-Regist,33,2,0
+28/12/2025 10:55,user_05,powershell.exe,cmd.exe,Set-Registry C:\Users\Public.ps1 Remove-Registry,48,2,0
+14/12/2025 13:18,user_08,notepad.exe,explorer.exe,Start-File /usr/bin.p,21,1,0
+10/12/2025 10:40,user_10,powershell.exe,wscript.exe,Get-Regist,10,1,0
+21/12/2025 17:50,user_10,notepad.exe,explorer.exe,Set-File /usr/bin.py Start-Regi,31,2,0
+16/12/2025 14:25,user_01,cmd.exe,mshta.exe,Remove-Proc,11,1,0
+28/12/2025 09:41,user_06,wscript.exe,explorer.exe,Set-Servic,10,1,0
+30/12/2025 12:58,user_06,regsvr32.exe,cmd.exe,Get-Registry /usr/bin.log,25,1,0
+03/12/2025 09:19,user_03,wscript.exe,cmd.exe,Set-File /tmp.py Set-Registry C:\Windows\Temp.log,49,2,0
+02/12/2025 09:17,user_05,powershell.exe,mshta.exe,Stop-Job /usr/bin,17,1,0
+07/12/2025 11:58,user_10,powershell.exe,regsvr32.exe,Remove-File C:\Windows\Temp.ps1 Get-Registry C:\Windows\Temp.ps1 New-Registry /usr/bin.txt,90,3,1
+23/12/2025 13:19,user_05,notepad.exe,explorer.exe,Start-Registry /usr/b,21,1,0
+28/12/2025 15:11,user_01,notepad.exe,explorer.exe,Start-Process /tmp.log Set-File C:\Users\P,42,2,0
+07/12/2025 14:51,user_07,cmd.exe,powershell.exe,Get-Job C:\,11,1,0
+25/12/2025 08:28,user_05,cmd.exe,rundll32.exe,Stop-Job /tmp.py,16,1,0
+29/12/2025 09:01,user_02,wscript.exe,cmd.exe,Start-File C:\U,15,1,0
+30/12/2025 12:11,user_05,cmd.exe,python.exe,New-File /,10,1,0
+01/12/2025 11:04,user_04,python.exe,explorer.exe,New-Registry C:\Users\,22,1,0
+09/12/2025 11:25,user_02,notepad.exe,explorer.exe,Get-Job C:\Windo,16,1,0
+03/12/2025 08:53,user_04,powershell.exe,explorer.exe,Get-File /usr/bin.log Get-File /usr/bin.txt Remove,50,3,0
+02/12/2025 08:14,user_05,notepad.exe,explorer.exe,Get-Service /usr/bi,19,1,0
+10/12/2025 14:13,user_05,notepad.exe,explorer.exe,New-Registry /tmp.ps1 Start-,28,2,0
+29/12/2025 17:39,user_01,powershell.exe,wscript.exe,Set-Job /usr/bin.ps1 Remove-Job C:\Windows\Temp.t,49,2,0
+03/12/2025 12:40,user_07,cscript.exe,explorer.exe,Start-Process /usr/bin.log Get-Registry C:\User,47,2,0
+09/12/2025 18:51,user_10,python.exe,rundll32.exe,New-Registry /tmp.txt Remove-Job,32,2,0
+24/12/2025 12:58,user_04,powershell.exe,python.exe,Get-Process /usr/bi,19,1,0
+04/12/2025 09:48,user_09,notepad.exe,explorer.exe,Set-Process /tmp.py Set-Service C:\Users\Publ,45,2,0
+24/12/2025 10:04,user_02,powershell.exe,taskeng.exe,Start-Registr,13,1,0
+28/12/2025 10:30,user_09,cmd.exe,rundll32.exe,Start-File /tmp.tx,18,1,0
+17/12/2025 12:08,user_10,wscript.exe,cmd.exe,Set-Registry /usr/bin.ps,24,1,0
+25/12/2025 17:42,user_07,notepad.exe,explorer.exe,Get-Registry /tmp.py Stop-Service C:\Windows,44,2,0
+24/12/2025 12:05,user_01,powershell.exe,mshta.exe,Stop-Process C:\Users\Public.txt Remove-Se,42,2,0
+05/12/2025 08:02,user_01,cmd.exe,cmd.exe,New-Job C:\Windows,18,1,0
+12/12/2025 09:56,user_03,notepad.exe,explorer.exe,Remove-Registry C:\Users\Public.py Re,37,2,0
+15/12/2025 14:52,user_07,notepad.exe,explorer.exe,Start-Process /tmp.log Set-File /tmp.,37,2,0
+22/12/2025 15:12,user_07,rundll32.exe,explorer.exe,Start-Regis,11,1,0
+29/12/2025 14:21,user_08,notepad.exe,explorer.exe,Set-Job C:\Windows\Temp.log Remove-Fil,38,2,0
+09/12/2025 11:16,user_07,mshta.exe,wscript.exe,Set-File /tmp.py Stop,21,2,0
+07/12/2025 12:19,user_10,cmd.exe,cmd.exe,Remove-Process C:\Users\Public.t,32,1,0
+16/12/2025 13:00,user_01,powershell.exe,rundll32.exe,Stop-Service C:\User,20,1,0
+02/12/2025 13:52,user_10,wscript.exe,cmd.exe,Start-Job /usr/bin,18,1,0
+08/12/2025 10:27,user_03,cmd.exe,services.exe,Get-Process,11,1,0
+01/12/2025 16:50,user_09,notepad.exe,explorer.exe,Get-Job /tmp.py Stop-Registr,28,2,0
+14/12/2025 20:08,user_02,powershell.exe,explorer.exe,Get-Registry C:\Windows\Temp.ps1 Stop-Process C:\Windows\Temp.log Remove-Process C:\W,85,3,1
+24/12/2025 13:37,user_03,mshta.exe,explorer.exe,New-File /usr/bin.txt Set-Job /,31,2,0
+22/12/2025 15:00,user_03,python.exe,powershell.exe,Stop-Service C:\Win,19,1,0
+29/12/2025 11:17,user_09,python.exe,cscript.exe,Get-Job C:\Windows\Temp.ps1 New-Registry C:,43,2,0
+23/12/2025 16:08,user_08,cmd.exe,winlogon.exe,Set-File /tmp.log Stop-Job /t,29,2,0
+17/12/2025 10:29,user_07,cscript.exe,powershell.exe,Set-Process /usr/bin.py,23,1,0
+26/12/2025 13:21,user_05,cmd.exe,wscript.exe,Start-Job /tmp.txt Set-Service /usr/bin.ps1 Set,47,3,0
+24/12/2025 10:56,user_07,mshta.exe,explorer.exe,Remove-File C:\Users\Public.txt New-Registry /t,47,2,0
+17/12/2025 14:34,user_04,notepad.exe,explorer.exe,Start-Job /tmp.py St,20,2,0
+23/12/2025 18:19,user_10,powershell.exe,cscript.exe,Get-Service /tmp.ps1 Stop-File /,32,2,0
+11/12/2025 11:39,user_02,python.exe,rundll32.exe,Remove-Registry C:\Users\Public.py Stop-Serv,44,2,0
+10/12/2025 14:51,user_06,notepad.exe,explorer.exe,New-Registry C:\Windows\Tem,27,1,0
+21/12/2025 17:30,user_10,powershell.exe,explorer.exe,Get-File C:\User,16,1,0
+04/12/2025 11:31,user_04,cscript.exe,explorer.exe,Get-Job C:\Windows\Temp.log New-,32,2,0
+14/12/2025 10:23,user_03,powershell.exe,explorer.exe,Stop-Job /tmp.py Start-Serv,27,2,0
+22/12/2025 01:54,user_09,powershell.exe,cscript.exe,Remove-Registry /usr/bin.ps1 Stop-Job /tmp.py Start-Job C:\Windows\Temp.py New-,79,4,1
+09/12/2025 08:56,user_02,notepad.exe,explorer.exe,Set-File /usr/bin.l,19,1,0
+16/12/2025 08:36,user_04,cmd.exe,winlogon.exe,Get-Process /tmp.log Set-Job C:\Windows,39,2,0
+15/12/2025 19:13,user_02,notepad.exe,explorer.exe,Start-File C:\Windows\Temp.log Get-Process C:\W,47,2,1
+24/12/2025 17:06,user_01,cmd.exe,powershell.exe,Stop-Service C:\Users\Public.ps1 New,36,2,0
+17/12/2025 18:23,user_07,regsvr32.exe,explorer.exe,Get-Service C,13,1,0
+29/12/2025 17:57,user_04,cmd.exe,cmd.exe,Start-File /tmp.ps,18,1,0
+11/12/2025 12:55,user_04,notepad.exe,explorer.exe,Set-Service /tmp.tx,19,1,0
+25/12/2025 10:33,user_10,notepad.exe,explorer.exe,Get-Registry C:\Windows\,24,1,0
+19/12/2025 10:10,user_09,notepad.exe,explorer.exe,New-Process /usr/bin.ps1 Remove-File C,38,2,0
+22/12/2025 15:33,user_02,powershell.exe,cmd.exe,Get-Job /tmp.ps1 Set-Service C:\W,33,2,0
+08/12/2025 15:52,user_06,notepad.exe,explorer.exe,Stop-File /tmp.log New-,23,2,0
+11/12/2025 12:16,user_09,rundll32.exe,cscript.exe,Stop-Job /usr/bin.txt Stop-,27,2,0
+21/12/2025 14:17,user_10,notepad.exe,explorer.exe,Set-Service /tmp.py Start-File C:\Win,37,2,0
+02/12/2025 13:22,user_07,notepad.exe,explorer.exe,Get-Job C:,10,1,0
+19/12/2025 01:26,user_09,cmd.exe,cmd.exe,Start-Registry /usr/bin.txt New-Job /tmp.ps1 Remove-Job C:\Windows\Temp.log Ne,78,4,1
+24/12/2025 09:40,user_05,cmd.exe,cmd.exe,Remove-Process C:\Use,21,1,0
+25/12/2025 12:00,user_08,powershell.exe,cscript.exe,Start-Registry C:\Windows\Temp.log New-Process C:,49,2,0
+29/12/2025 14:09,user_01,notepad.exe,explorer.exe,New-Job C:\Users\Public.log New-Registry C:\User,48,2,0
+01/12/2025 13:45,user_01,notepad.exe,explorer.exe,Get-File C:,11,1,0
+12/12/2025 08:51,user_06,powershell.exe,wscript.exe,Stop-Registry C:\Windows\Temp.log G,35,2,0
+09/12/2025 16:43,user_09,powershell.exe,rundll32.exe,Set-File C:\Users\,18,1,0
+31/12/2025 10:51,user_07,python.exe,python.exe,Start-File C:\Window,20,1,0
+16/12/2025 14:45,user_08,mshta.exe,cscript.exe,Start-Registry /usr/bin.log Remove-Process /u,45,2,0
+01/12/2025 17:41,user_10,notepad.exe,explorer.exe,Set-Registr,11,1,0
+10/12/2025 16:35,user_09,notepad.exe,explorer.exe,Remove-Process C:\Use,21,1,0
+10/12/2025 17:58,user_01,notepad.exe,explorer.exe,Set-Registry C:\Users\Public.ps1 Stop-Process,45,2,0
+19/12/2025 09:19,user_06,cmd.exe,rundll32.exe,New-Registry C:\Windows\Temp.txt New,36,2,0
+08/12/2025 16:08,user_03,cscript.exe,explorer.exe,Start-File /tmp.py Remo,23,2,0
+14/12/2025 09:57,user_01,powershell.exe,winlogon.exe,Remove-Service,14,1,0
+19/12/2025 09:14,user_04,cmd.exe,cmd.exe,Set-Process C:\Users\Public.ps1 Remov,37,2,0
+01/12/2025 11:44,user_02,rundll32.exe,cmd.exe,Remove-Process /tmp.py Start-File C:\Windows\Te,47,2,0
+29/12/2025 18:00,user_08,notepad.exe,explorer.exe,New-Service,11,1,0
+28/12/2025 13:35,user_04,cmd.exe,explorer.exe,Get-Process C:\Users\Public.py New-Serv,39,2,0
+04/12/2025 18:07,user_05,cmd.exe,cscript.exe,Get-Process,11,1,0
+21/12/2025 20:56,user_05,rundll32.exe,wscript.exe,New-Job C:\Users\Public.txt Remove-Process C:\Windows\,54,2,1
+19/12/2025 14:23,user_07,notepad.exe,powershell.exe,Set-Registry /u,15,1,0
+26/12/2025 12:56,user_03,cmd.exe,explorer.exe,New-Job /tmp.txt Remove-File C:\Windows\Tem,43,2,0
+09/12/2025 18:12,user_04,powershell.exe,rundll32.exe,New-Registry C:\Windows\Temp.log Start-File C:\U,48,2,0
+14/12/2025 17:29,user_06,notepad.exe,explorer.exe,Remove-Registry C:\Windows\Temp.py Set-Proces,45,2,0
+31/12/2025 13:59,user_10,notepad.exe,explorer.exe,Start-Registry C:\Windows\Temp.py Set-,38,2,0
+08/12/2025 09:41,user_01,cmd.exe,explorer.exe,Stop-File C:\Windows\Temp.ps1,29,1,0
+30/12/2025 15:31,user_04,wscript.exe,cmd.exe,New-Registry /,14,1,0
+01/12/2025 08:08,user_10,powershell.exe,wscript.exe,Remove-Registry /usr/bin,24,1,0
+28/12/2025 17:05,user_01,notepad.exe,explorer.exe,Set-File C:\Users\Public.txt Stop-File C:\Users,47,2,0
+28/12/2025 13:41,user_10,cmd.exe,wscript.exe,Start-Service C:\Users\Public,29,1,0
+26/12/2025 10:51,user_08,notepad.exe,explorer.exe,Get-File C:\Users\Public.log New-Job /us,40,2,0
+01/12/2025 17:59,user_08,cmd.exe,services.exe,Stop-Job /usr/bin.py Stop-Proce,31,2,0
+17/12/2025 14:15,user_04,python.exe,python.exe,New-Process /usr/bin.py Set-File /,34,2,0
+24/12/2025 18:23,user_03,notepad.exe,explorer.exe,Start-File /usr/bin.py Remove-Job /,35,2,0
+24/12/2025 11:28,user_06,notepad.exe,explorer.exe,Get-File C:\Users\Pub,21,1,0
+26/12/2025 14:31,user_06,python.exe,explorer.exe,Set-Registry C:\Users\Public.py Remove-Servi,44,2,0
+04/12/2025 08:45,user_10,notepad.exe,explorer.exe,Get-Service C:\Users\Public.py New-Servic,41,2,0
+01/12/2025 10:06,user_01,python.exe,svchost.exe,New-Process C,13,1,0
+22/12/2025 12:35,user_08,mshta.exe,powershell.exe,Remove-Service /usr/bin.p,25,1,0
+23/12/2025 12:57,user_03,notepad.exe,powershell.exe,Remove-Job C:\Users\Public.py Stop-File,39,2,0
+19/12/2025 09:01,user_10,cmd.exe,rundll32.exe,Remove-Job /tmp.ps1 New-Registry /,34,2,0
+21/12/2025 11:01,user_02,notepad.exe,explorer.exe,Get-Registry C:\Windo,21,1,0
+09/12/2025 14:51,user_02,cmd.exe,cmd.exe,Get-Registry /usr/bin.py Get-,29,2,0
+10/12/2025 10:06,user_08,notepad.exe,explorer.exe,Remove-Job C:\Windows\Temp,26,1,0
+16/12/2025 10:28,user_03,powershell.exe,regsvr32.exe,Remove-Service /usr/bin.log Set-Ser,35,2,0
+10/12/2025 11:05,user_10,cscript.exe,explorer.exe,New-Job /tmp.log Stop-File /u,29,2,0
+09/12/2025 18:17,user_09,notepad.exe,explorer.exe,Remove-Registr,14,1,0
+04/12/2025 08:59,user_07,rundll32.exe,explorer.exe,Set-Job C:\Users\Public.txt Get-Service /tmp.t,46,2,0
+12/12/2025 09:47,user_05,rundll32.exe,explorer.exe,Set-Process /tmp.txt New-Process C:\Use,39,2,0
+21/12/2025 11:29,user_01,python.exe,explorer.exe,New-Registry C:\Users\Public.log St,35,2,0
+31/12/2025 13:08,user_08,notepad.exe,explorer.exe,Start-Job C:\Users\Public.txt Stop-Job /usr/bi,46,2,0
+15/12/2025 15:44,user_05,regsvr32.exe,explorer.exe,Get-File /tmp.log S,19,2,0
+17/12/2025 16:35,user_06,python.exe,rundll32.exe,Remove-Service /usr/bin.py Ne,29,2,0
+03/12/2025 14:48,user_02,cmd.exe,wscript.exe,New-File /tmp.log Start-Job C:\Wi,33,2,0
+30/12/2025 08:10,user_06,cmd.exe,explorer.exe,Set-File /tmp.ps1,17,1,0
+05/12/2025 11:08,user_01,notepad.exe,explorer.exe,Remove-Registry C:\Users\Public.log Stop-,41,2,0
+21/12/2025 17:39,user_04,cmd.exe,explorer.exe,New-Registry C:\Windows\Temp.log Remove-Job /tmp.p,50,2,0
+28/12/2025 08:10,user_07,powershell.exe,wscript.exe,Remove-File /usr/bin.log Get-Registry /usr/bi,45,2,0
+23/12/2025 12:40,user_09,cmd.exe,wscript.exe,Get-Job C:\Users\Public.py Set-P,32,2,0
+05/12/2025 02:57,user_02,notepad.exe,powershell.exe,Get-Job C:\Users\Public.ps1 New-Job /usr/bin.ps1 Set-Registry /tmp.py Remove-File C:\Users\Publi,96,4,1
+26/12/2025 13:03,user_10,cscript.exe,explorer.exe,Set-File /usr/bin.py Get-Registr,32,2,0
+21/12/2025 12:40,user_03,cmd.exe,explorer.exe,Remove-Registry /usr/bin.ps1 Start-Se,37,2,0
+04/12/2025 11:29,user_07,cmd.exe,rundll32.exe,New-Job /usr/bin.t,18,1,0
+17/12/2025 11:31,user_01,powershell.exe,explorer.exe,Stop-Job C:\Users\Public.py Get,31,2,0
+11/12/2025 09:25,user_04,python.exe,rundll32.exe,Set-Job /usr/bin.log Remove-Job /tmp.ps1 Get-File,49,3,0
+04/12/2025 12:21,user_04,python.exe,explorer.exe,Remove-File /tmp.log Remove-File /usr/bin.p,43,2,0
+07/12/2025 15:58,user_10,notepad.exe,explorer.exe,Remove-Registry /usr/bin.ps1 Start,34,2,0
+14/12/2025 00:05,user_10,notepad.exe,explorer.exe,New-Registry C:\Windows\Temp.ps1 Get-Process /usr/bin.log Start-Registry /usr/bin.txt,85,3,1
+30/12/2025 11:49,user_07,powershell.exe,python.exe,Stop-Process /usr/bin.log New-Service /tmp.,43,2,0
+08/12/2025 11:18,user_06,powershell.exe,explorer.exe,Get-Process C:\Windo,20,1,0
+05/12/2025 12:09,user_05,powershell.exe,explorer.exe,Remove-Registry,15,1,0
+18/12/2025 12:16,user_01,notepad.exe,explorer.exe,Remove-Job C:\Users\,20,1,0
+02/12/2025 08:14,user_10,notepad.exe,explorer.exe,Stop-Service C:\Windows\Temp.py Ge,34,2,0
+07/12/2025 10:32,user_07,notepad.exe,explorer.exe,Set-Process /usr/bin.ps1 Remove-Process C:\Windows\Temp.txt Remove-J,68,3,1
+18/12/2025 15:01,user_04,cmd.exe,regsvr32.exe,Set-File C:\Users\Public.log,28,1,0
+18/12/2025 16:25,user_05,cmd.exe,cscript.exe,Get-Process,11,1,0
+16/12/2025 12:09,user_01,python.exe,services.exe,Stop-Service /tmp.ps1 New-Registry C:\Wi,40,2,0
+12/12/2025 12:33,user_04,powershell.exe,explorer.exe,Stop-Registry C:\Wi,19,1,0
+19/12/2025 09:25,user_06,cmd.exe,cmd.exe,New-Job /tmp.log,16,1,0
+01/12/2025 12:54,user_01,notepad.exe,explorer.exe,Start-Registry C:\Wi,20,1,0
+03/12/2025 09:53,user_02,rundll32.exe,explorer.exe,Get-File /tmp.log Get-Process /usr/bin.tx,41,2,0
+03/12/2025 14:48,user_07,python.exe,taskeng.exe,Set-Job /usr/,13,1,0
+01/12/2025 17:49,user_06,notepad.exe,explorer.exe,New-Service /usr/bin.lo,23,1,0
+21/12/2025 12:14,user_07,cscript.exe,explorer.exe,Start-Service C:\Users\,23,1,0
+11/12/2025 12:16,user_06,notepad.exe,explorer.exe,Get-Registry C:\Users\Public.ps1 New-,37,2,0
+31/12/2025 17:37,user_01,notepad.exe,explorer.exe,Set-Process /tmp.py Stop-Registry /tmp.py Se,44,3,0
+04/12/2025 13:45,user_03,notepad.exe,explorer.exe,Set-File /tmp.py Set-Service /tmp.txt New,41,3,0
+07/12/2025 17:05,user_02,powershell.exe,cscript.exe,Get-Process C:\Windows\Temp.,28,1,0
+31/12/2025 17:40,user_08,mshta.exe,taskeng.exe,Start-Job C:\Windows\Temp.log,29,1,0
+31/12/2025 09:20,user_08,notepad.exe,explorer.exe,Get-File /tmp.py New-R,22,2,0
+15/12/2025 15:40,user_06,rundll32.exe,explorer.exe,New-Service C:\Users\Public.ps1 New-Process,43,2,0
+31/12/2025 09:58,user_03,powershell.exe,cmd.exe,Start-Service C:\Windows\,25,1,0
+05/12/2025 10:07,user_10,notepad.exe,explorer.exe,New-Process C:\,15,1,0
+26/12/2025 13:02,user_01,python.exe,rundll32.exe,Stop-Process C:\Windows\Temp.,29,1,0
+22/12/2025 12:17,user_08,notepad.exe,explorer.exe,Start-Job C:\Users\Public.ps1,29,1,0
+28/12/2025 13:15,user_07,rundll32.exe,explorer.exe,Start-Service C:\,17,1,0
+04/12/2025 15:24,user_04,mshta.exe,cmd.exe,New-Job C:\Windows\Tem,22,1,0
+08/12/2025 12:45,user_05,notepad.exe,explorer.exe,Start-Servi,11,1,0
+15/12/2025 10:21,user_10,rundll32.exe,explorer.exe,Set-File /usr/bin.log Ne,24,2,0
+21/12/2025 13:59,user_07,python.exe,taskeng.exe,Remove-Job /usr/bin.py Set-,27,2,0
+16/12/2025 18:48,user_08,notepad.exe,explorer.exe,New-File C:\Windows\Temp.log Remove-Regist,42,2,0
+19/12/2025 09:18,user_01,rundll32.exe,explorer.exe,Remove-Service,14,1,0
+22/12/2025 11:57,user_08,mshta.exe,taskeng.exe,New-Process /tmp.log New-Process C:\Windows\T,45,2,0
+07/12/2025 16:05,user_05,cmd.exe,cscript.exe,Set-Job C:\Users\Public.txt Get-Process,39,2,0
+29/12/2025 13:35,user_08,notepad.exe,explorer.exe,Remove-Service /tmp.ps1 S,25,2,0
+02/12/2025 09:39,user_10,notepad.exe,explorer.exe,Stop-Job /u,11,1,0
+02/12/2025 14:08,user_01,rundll32.exe,explorer.exe,Start-Service C:\Users\Public.log Rem,37,2,0
+29/12/2025 10:16,user_09,powershell.exe,cmd.exe,Get-Process C,13,1,0
+14/12/2025 10:15,user_05,cmd.exe,wscript.exe,Set-Job C:\Windows\Temp.log Start-Registry,42,2,0
+26/12/2025 08:23,user_07,rundll32.exe,explorer.exe,Start-Registry C:\Windows\Temp.,31,1,0
+11/12/2025 16:09,user_02,notepad.exe,explorer.exe,Start-Service C:\Users\Public.ps1 Set-Process /tmp.ps1 Set-Process C:\Windows\Tem,81,3,1
+25/12/2025 10:55,user_03,python.exe,python.exe,Remove-File C:\,15,1,0
+08/12/2025 16:56,user_06,notepad.exe,explorer.exe,New-Job C:\Users\Public.log N,29,2,0
+22/12/2025 08:47,user_01,cmd.exe,explorer.exe,Start-Proc,10,1,0
+04/12/2025 10:09,user_01,wscript.exe,cmd.exe,Start-Service /usr/bin.txt New-Jo,33,2,0
+10/12/2025 15:33,user_07,powershell.exe,explorer.exe,Remove-Service C:\Windows\,26,1,0
+05/12/2025 11:26,user_08,cmd.exe,rundll32.exe,Remove-Service /tmp.txt S,25,2,0
+29/12/2025 12:24,user_02,cmd.exe,cmd.exe,Get-Service /usr/bin.txt Start-File C:\Win,42,2,0
+03/12/2025 09:36,user_08,notepad.exe,explorer.exe,Set-Service C,13,1,0
+03/12/2025 13:49,user_06,cmd.exe,rundll32.exe,Set-Service /tmp.log Get-File /,31,2,0
+25/12/2025 13:28,user_06,notepad.exe,explorer.exe,New-Service /tmp.py New-Service /tmp.log,40,2,0
+28/12/2025 15:36,user_10,notepad.exe,explorer.exe,Set-Process C:\Windows\Temp.py Set-Re,37,2,0
+04/12/2025 12:00,user_05,powershell.exe,explorer.exe,Stop-Service C:\Users\Public.py Get-File /tm,44,2,0
+26/12/2025 11:12,user_09,rundll32.exe,explorer.exe,Set-Service,11,1,0
+12/12/2025 14:12,user_04,notepad.exe,explorer.exe,New-File /tmp,13,1,0
+21/12/2025 11:09,user_03,python.exe,rundll32.exe,Remove-Service /tmp.log Sta,27,2,0
+19/12/2025 10:35,user_10,python.exe,cmd.exe,New-Job /usr/bin.py G,21,2,0
+02/12/2025 14:58,user_04,powershell.exe,cmd.exe,Remove-Registry C:\Windows\Temp.ps1 Stop,40,2,0
+25/12/2025 15:02,user_07,notepad.exe,explorer.exe,New-Registry C:\Users\Public.py Start-Job C:\U,46,2,0
+30/12/2025 18:15,user_04,notepad.exe,explorer.exe,Stop-Process /usr/bin.log Remove-File,37,2,0
+14/12/2025 15:16,user_01,powershell.exe,mshta.exe,Start-Service /usr/bi,21,1,0
+23/12/2025 16:01,user_08,notepad.exe,explorer.exe,Stop-Job /usr/bin.log Stop-Process C:\Windo,43,2,0
+23/12/2025 13:20,user_01,cmd.exe,wscript.exe,Start-Service C:\Us,19,1,0
+11/12/2025 14:14,user_06,mshta.exe,wscript.exe,Start-File C:\Users\Public.,27,1,0
+24/12/2025 08:55,user_07,powershell.exe,wscript.exe,Set-Service C:\Users\,21,1,0
+09/12/2025 12:40,user_05,powershell.exe,cscript.exe,Remove-Job /tmp.ps1 S,21,2,0
+08/12/2025 18:01,user_03,rundll32.exe,explorer.exe,Get-Registry C:\Windows\Temp.txt Remove-Job,43,2,0
+21/12/2025 08:20,user_02,cscript.exe,explorer.exe,Set-Process C:\Windows\Temp.py Start-F,38,2,0
+18/12/2025 12:11,user_05,powershell.exe,cscript.exe,New-Service /usr/bin.txt Ge,27,2,0
+12/12/2025 13:05,user_08,cmd.exe,rundll32.exe,Get-Registry C:\Windows\Temp.ps,31,1,0
+17/12/2025 15:33,user_07,python.exe,cmd.exe,New-Registry C:\Windows\Temp.txt Start-S,40,2,0
+12/12/2025 09:38,user_06,wscript.exe,explorer.exe,Get-Job C:\Users\,17,1,0
+09/12/2025 12:02,user_07,notepad.exe,explorer.exe,Set-Registry C:\Users\Publi,27,1,0
+19/12/2025 14:02,user_02,notepad.exe,explorer.exe,Stop-Process /,14,1,0
+11/12/2025 17:06,user_04,powershell.exe,cmd.exe,Remove-Process /usr/bin.txt Start-Fil,37,2,0
+12/12/2025 13:50,user_03,cscript.exe,explorer.exe,Remove-Registry /tmp.log Set-Registry /tmp.py Set-,50,3,0
+02/12/2025 11:45,user_01,notepad.exe,explorer.exe,Stop-File /usr/bin.log Get-Process /usr/b,41,2,0
+11/12/2025 14:33,user_08,rundll32.exe,explorer.exe,Stop-Registry C:\Users\Public.log Rem,37,2,0
+01/12/2025 09:43,user_05,powershell.exe,explorer.exe,Start-Registry /usr/bin.py Get-File C,37,2,0
+11/12/2025 17:37,user_08,rundll32.exe,explorer.exe,Start-Process C:\Users\Public.log,33,1,0
+22/12/2025 10:58,user_08,rundll32.exe,services.exe,Start-Job /tmp.log Stop-J,25,2,0
+04/12/2025 17:53,user_06,python.exe,mshta.exe,Stop-Job C:\Users\Public.txt Start-Registry /tmp,48,2,0
+05/12/2025 11:20,user_04,cscript.exe,explorer.exe,New-Process /usr/bin.log New,28,2,0
+09/12/2025 12:13,user_02,notepad.exe,explorer.exe,Remove-Registry /usr/bin.txt Remove-,36,2,0
+19/12/2025 11:10,user_03,python.exe,rundll32.exe,New-Job C:\Windows\Temp.ps1 Stop-Job,36,2,0
+22/12/2025 09:30,user_06,notepad.exe,explorer.exe,Set-Registry /usr/bin.log Stop-Registry /us,43,2,0
+10/12/2025 11:01,user_09,notepad.exe,explorer.exe,Set-Process /usr/bin.py Set-Job /usr/bin.txt New,48,3,0
+23/12/2025 10:56,user_08,powershell.exe,wscript.exe,Get-Service C:\Windows\T,24,1,0
+18/12/2025 15:38,user_08,wscript.exe,explorer.exe,New-Process C:\Windows\Temp.ps1 Remo,36,2,0
+23/12/2025 15:24,user_06,python.exe,taskeng.exe,Get-Job C:\Windows,18,1,0
+05/12/2025 14:44,user_09,notepad.exe,explorer.exe,Set-Process /tmp.ps1,20,1,0
+09/12/2025 17:46,user_07,rundll32.exe,powershell.exe,New-File /tmp.log Stop-Service C:\,34,2,0
+28/12/2025 18:51,user_06,notepad.exe,explorer.exe,Set-File C:\Windows\Temp.txt Remove-File C:\Windo,49,2,1
+03/12/2025 09:50,user_10,cmd.exe,explorer.exe,Stop-Service /usr/bin.py Stop-Job /usr/bin.l,44,2,0
+25/12/2025 08:33,user_03,notepad.exe,explorer.exe,Set-Service /t,14,1,0
+11/12/2025 13:57,user_01,notepad.exe,explorer.exe,Start-Service,13,1,0
+22/12/2025 10:49,user_01,notepad.exe,explorer.exe,Start-Process C:\Window,23,1,0
+16/12/2025 08:26,user_08,notepad.exe,explorer.exe,Stop-Job /tmp.txt Set-Process C:\Windows\Tem,44,2,0
+28/12/2025 14:00,user_04,wscript.exe,explorer.exe,Set-Service,11,1,0
+09/12/2025 12:27,user_08,notepad.exe,explorer.exe,New-Service,11,1,0
+30/12/2025 15:23,user_07,cmd.exe,cmd.exe,Stop-File C:\Users\Public.p,27,1,0
+21/12/2025 17:56,user_05,cmd.exe,cmd.exe,Get-File /usr/bin.py Set-File /usr/bin.txt Ge,45,3,0
+05/12/2025 10:57,user_02,cmd.exe,powershell.exe,Stop-Job C:\Wind,16,1,0
+28/12/2025 22:58,user_08,cmd.exe,explorer.exe,New-Registry C:\Windows\Temp.py Get-Job C:\Users\Public.py,58,2,1
+16/12/2025 09:25,user_10,python.exe,python.exe,Stop-Process C:\Windows\Temp.txt Stop-Registry,46,2,0
+25/12/2025 09:09,user_04,notepad.exe,explorer.exe,Get-Service /usr/bin.log New-File /t,36,2,0
+14/12/2025 15:04,user_08,powershell.exe,powershell.exe,Remove-Registry /tmp.log Start-Service /tm,42,2,0
+12/12/2025 10:36,user_04,cmd.exe,cmd.exe,Start-Job /usr/bin.log Get-File C:\Users\Pu,43,2,0
+30/12/2025 11:34,user_05,notepad.exe,explorer.exe,Remove-Service C:\Windows\Temp.ps1 Get-Registry,47,2,0
+26/12/2025 09:25,user_10,rundll32.exe,cscript.exe,Stop-Job C:\Windows,19,1,0
+31/12/2025 01:41,user_03,notepad.exe,explorer.exe,New-Service /usr/bin.txt Start-Registry /usr/bin.py,51,2,1
+14/12/2025 16:05,user_09,powershell.exe,cscript.exe,Get-Service /tmp.log New-Service C:\User,40,2,0
+28/12/2025 12:41,user_06,powershell.exe,powershell.exe,Set-File C:\U,13,1,0
+04/12/2025 14:04,user_04,notepad.exe,explorer.exe,New-File /tmp.txt Start-,24,2,0
+24/12/2025 02:42,user_03,notepad.exe,explorer.exe,Get-Job /tmp.ps1 New-File /tmp.txt Start-Process /tmp.txt Stop-Registry /usr/bin.,81,4,1
+05/12/2025 14:06,user_09,notepad.exe,explorer.exe,Remove-Process /usr/bin.,24,1,0
+09/12/2025 10:17,user_09,python.exe,explorer.exe,Get-Service /usr/bin.log Stop-Service C:\Windows\,49,2,0
+14/12/2025 18:00,user_08,notepad.exe,explorer.exe,Remove-File /usr/bin.log Stop-File C:\User,42,2,0
+15/12/2025 15:11,user_06,mshta.exe,cscript.exe,Get-Registry /tmp.ps1 Stop-Regis,32,2,0
+19/12/2025 14:40,user_05,cmd.exe,python.exe,Set-Job C:\Windows\Temp.txt Set-Job /t,38,2,0
+24/12/2025 12:44,user_08,regsvr32.exe,explorer.exe,Stop-Job /tmp.txt Ne,20,2,0
+14/12/2025 08:55,user_03,wscript.exe,explorer.exe,Get-Service /usr/bin.py Remove-F,32,2,0
+05/12/2025 09:25,user_06,cmd.exe,explorer.exe,Set-Registry /tmp.txt N,23,2,0
+26/12/2025 08:11,user_04,cmd.exe,wscript.exe,Remove-Process /tmp.log New-Process /tm,39,2,0
+24/12/2025 17:25,user_04,powershell.exe,rundll32.exe,Start-File C:\Users\Public.log Remove-Registry,46,2,0
+22/12/2025 12:20,user_06,cmd.exe,wscript.exe,Set-File C:\Users\P,19,1,0
+03/12/2025 16:28,user_08,notepad.exe,explorer.exe,Start-Registry /usr/bin.txt Remove-J,36,2,0
+17/12/2025 08:14,user_07,python.exe,services.exe,Stop-Registry /tmp.py Set-Job C:\User,37,2,0
+08/12/2025 23:58,user_08,notepad.exe,explorer.exe,Start-Registry C:\Users\Public.ps1 New-File C:\Users\Public.ps1 New-File C:\Win,79,3,1
+10/12/2025 18:29,user_08,cmd.exe,cmd.exe,Start-Regist,12,1,0
+01/12/2025 11:16,user_08,cmd.exe,cscript.exe,Remove-Registry C:\Windows,26,1,0
+05/12/2025 09:41,user_03,notepad.exe,explorer.exe,New-Job C:\Users\Publi,22,1,0
+02/12/2025 15:09,user_06,notepad.exe,explorer.exe,Get-Service /tmp.py New,23,2,0
+05/12/2025 08:42,user_09,notepad.exe,explorer.exe,Remove-File C:\,15,1,0
+30/12/2025 00:45,user_01,notepad.exe,explorer.exe,Get-Process C:\Windows\Temp.py Start-Service C:\Users\Public.txt Get-File /,75,3,1
+14/12/2025 08:03,user_06,cmd.exe,regsvr32.exe,Get-Job /usr/bin,16,1,0
+16/12/2025 10:18,user_08,wscript.exe,explorer.exe,Start-Process /tmp.py Re,24,2,0
+18/12/2025 10:47,user_01,rundll32.exe,cscript.exe,Get-Service C:\Wind,19,1,0
+03/12/2025 16:30,user_05,cmd.exe,cmd.exe,New-Process C:,14,1,0
+11/12/2025 18:08,user_02,cmd.exe,cmd.exe,Get-File C:\Users\Public.txt Remove-,36,2,0
+28/12/2025 21:47,user_03,cscript.exe,explorer.exe,Get-Service /usr/bin.txt New-Job /tmp.py Start-File /tmp.log Start-Process /usr/bin.,84,4,1
+12/12/2025 08:42,user_08,cmd.exe,cmd.exe,Set-Service C:\Windows\Temp.py Start-Job /u,43,2,0
+12/12/2025 10:55,user_02,python.exe,powershell.exe,Get-Registry /usr/bin.py Get-Job C:\Windows\Temp,48,2,0
+03/12/2025 13:07,user_08,notepad.exe,explorer.exe,Remove-Regi,11,1,0
+09/12/2025 16:26,user_04,cmd.exe,wscript.exe,New-Registry C:\Window,22,1,0
+10/12/2025 15:26,user_07,cscript.exe,explorer.exe,Stop-File C:\Windows\,21,1,0
+15/12/2025 13:34,user_06,powershell.exe,python.exe,Start-Job C:\Windows\Te,23,1,0
+11/12/2025 13:41,user_10,cmd.exe,explorer.exe,Get-Job /usr/bin.py Ge,22,2,0
+15/12/2025 11:28,user_07,cmd.exe,cmd.exe,Remove-File C:\Windows\Temp.ps1 Start-File /,44,2,0
+05/12/2025 09:20,user_01,cmd.exe,explorer.exe,Get-File C:\Windows\Temp.log,28,1,0
+26/12/2025 12:26,user_07,python.exe,cmd.exe,Remove-Process /usr/bi,22,1,0
+16/12/2025 13:00,user_09,notepad.exe,explorer.exe,Stop-Job /usr/bin.ps1 New-Service C:\W,38,2,0
+08/12/2025 08:24,user_07,cmd.exe,rundll32.exe,Set-Service,11,1,0
+16/12/2025 15:29,user_01,cmd.exe,python.exe,New-File /tmp.txt New-Process C:\Users,38,2,0
+23/12/2025 18:54,user_01,cmd.exe,cmd.exe,Set-Registry C:\Windows\Temp.log New-File C:\Users\Public.txt Get-Service /tmp.ps1 New-Registry,95,4,1
+04/12/2025 14:17,user_02,notepad.exe,explorer.exe,Get-Job C:\Windows\Temp.txt Start-Se,36,2,0
+31/12/2025 12:17,user_02,mshta.exe,cmd.exe,Get-Process /tmp.txt Stop-Registry C:\Windows\Tem,49,2,0
+12/12/2025 12:18,user_06,mshta.exe,rundll32.exe,Set-File C:\Users\Public.ps1 Start-Pro,38,2,0
+23/12/2025 17:10,user_01,cmd.exe,cscript.exe,Get-Registry C:\Windows\T,25,1,0
+04/12/2025 13:42,user_03,wscript.exe,explorer.exe,Remove-Process C:\User,22,1,0
+16/12/2025 18:40,user_07,powershell.exe,python.exe,Set-Job /usr/,13,1,0
+19/12/2025 14:13,user_09,notepad.exe,explorer.exe,Set-Service /usr/bin.log,24,1,0
+17/12/2025 12:18,user_07,rundll32.exe,explorer.exe,Remove-Registry /usr/bin.py Remove-File C:\Us,45,2,0
+26/12/2025 11:43,user_04,cscript.exe,cmd.exe,Stop-Job /tmp.log Sta,21,2,0
+24/12/2025 11:56,user_03,cmd.exe,mshta.exe,Get-Service /tmp.log Set-File C:\Users\Public.ps1,49,2,0
+17/12/2025 08:17,user_10,notepad.exe,explorer.exe,Stop-Process C:\Windows\Temp.txt New-Process /tmp.,50,2,0
+30/12/2025 12:46,user_07,rundll32.exe,svchost.exe,New-Process C:\Windo,20,1,0
+28/12/2025 15:27,user_07,rundll32.exe,mshta.exe,Set-File /u,11,1,0
+22/12/2025 09:52,user_03,python.exe,svchost.exe,New-File /tmp.py Set-Job C:\Windows\Temp.,41,2,0
+08/12/2025 15:15,user_08,cmd.exe,cmd.exe,New-File C:\Windows\Temp.py New-,32,2,0
+09/12/2025 09:37,user_08,python.exe,rundll32.exe,Remove-Registry C:\Users\Publi,30,1,0
+26/12/2025 09:18,user_10,cscript.exe,cmd.exe,Start-File /tmp,15,1,0
+10/12/2025 14:14,user_09,notepad.exe,explorer.exe,Remove-Process C:\Windows\T,27,1,0
+17/12/2025 11:38,user_06,cmd.exe,cscript.exe,Stop-Registry /usr/bin.ps1 Get-,31,2,0
+16/12/2025 15:45,user_10,cmd.exe,powershell.exe,New-File C:\Users\Public.py Remove-Proces,41,2,0
+10/12/2025 13:07,user_01,python.exe,explorer.exe,New-Service C:\Windows\Temp.log,31,1,0
+02/12/2025 09:01,user_07,powershell.exe,rundll32.exe,New-Service /usr/bin.txt Start-Job C:,37,2,0
+30/12/2025 00:35,user_03,powershell.exe,cscript.exe,New-Job /tmp.log Get-Registry /usr/bin.log Start-Process /tmp,61,3,1
+05/12/2025 11:04,user_06,cmd.exe,cmd.exe,New-Registry /tmp.py Set-Registry C:\User,41,2,0
+22/12/2025 12:42,user_04,cmd.exe,regsvr32.exe,Start-Registry C:\Windows\Temp.py Set-Process C,47,2,0
+15/12/2025 15:58,user_04,rundll32.exe,cscript.exe,Remove-Process C:\Windows\Temp.ps1,34,1,0
+07/12/2025 14:13,user_03,powershell.exe,powershell.exe,Set-Job /tmp.py Set-File C:\Wi,30,2,0
+29/12/2025 18:48,user_07,cmd.exe,explorer.exe,New-Service /usr/bin.py New-File /usr/bin.py,44,2,0
+17/12/2025 09:33,user_06,mshta.exe,regsvr32.exe,Set-Job C:\Users\Public.py Stop-Job /t,38,2,0
+24/12/2025 10:45,user_07,cmd.exe,cmd.exe,Stop-Job C:\Users\Publ,22,1,0
+11/12/2025 14:36,user_04,notepad.exe,explorer.exe,Stop-Service C:\Users\Public.,29,1,0
+15/12/2025 11:01,user_06,notepad.exe,explorer.exe,Set-Service /usr/bin.txt N,26,2,0
+02/12/2025 15:34,user_07,regsvr32.exe,explorer.exe,Set-Job C:\Windows\Temp.,24,1,0
+18/12/2025 14:18,user_01,notepad.exe,explorer.exe,Get-Job C:\Users\Public.txt Set-Regi,36,2,0
+02/12/2025 14:14,user_05,powershell.exe,taskeng.exe,New-File /,10,1,0
+31/12/2025 12:55,user_05,cmd.exe,mshta.exe,New-Process /tmp.py Get-Process C:\Windo,40,2,0
+07/12/2025 18:12,user_02,cmd.exe,cscript.exe,Remove-Regi,11,1,0
+16/12/2025 14:41,user_01,powershell.exe,explorer.exe,Stop-Service C:\Users\Public.ps1 Get-Job /,42,2,0
+30/12/2025 18:02,user_01,cmd.exe,cscript.exe,Get-File /tmp.py Set-Registry /tmp.txt S,40,3,0
+09/12/2025 18:28,user_02,notepad.exe,explorer.exe,Start-Service C:\Users\Public.txt Set-Servi,43,2,0
+16/12/2025 16:55,user_01,cmd.exe,rundll32.exe,Stop-Process C:\Users\Public.ps1 Ne,35,2,0
+16/12/2025 09:31,user_06,powershell.exe,mshta.exe,Set-Job /usr/bin.log Stop-Registry /usr/bin,43,2,0
+08/12/2025 09:03,user_08,cscript.exe,powershell.exe,Get-Registry C:\,16,1,0
+04/12/2025 10:08,user_04,rundll32.exe,wscript.exe,Remove-File C:\Users\Public.,28,1,0
+04/12/2025 09:22,user_07,notepad.exe,explorer.exe,Get-File C:\Windows\Temp.py Get-Proc,36,2,0
+03/12/2025 10:35,user_06,notepad.exe,explorer.exe,Set-Registry /usr/bin.txt Get-File /tmp.,40,2,0
+11/12/2025 14:04,user_01,python.exe,explorer.exe,Set-Registr,11,1,0
+21/12/2025 09:24,user_02,cmd.exe,cmd.exe,Get-Registry /tmp.log Remove-Job /tmp.t,39,2,0
+11/12/2025 17:47,user_05,python.exe,explorer.exe,Start-File C,12,1,0
+11/12/2025 12:16,user_06,python.exe,wscript.exe,Stop-Process /tmp.py New-Proce,30,2,0
+18/12/2025 12:46,user_09,notepad.exe,explorer.exe,Start-Process,13,1,0
+23/12/2025 18:13,user_09,cmd.exe,explorer.exe,Set-Job /us,11,1,0
+08/12/2025 18:04,user_09,cmd.exe,wscript.exe,Set-Proces,10,1,0
+16/12/2025 17:25,user_05,cmd.exe,regsvr32.exe,Set-Service C:\Windows\Temp.py Remove-Service /tmp,50,2,0
+04/12/2025 08:33,user_08,python.exe,python.exe,Remove-Servic,13,1,0
+31/12/2025 12:48,user_04,python.exe,wscript.exe,Remove-Job C:\Users\Public.log New-Registry,43,2,0
+10/12/2025 10:01,user_04,powershell.exe,explorer.exe,New-Job C:\Users\Publ,21,1,0
+09/12/2025 16:15,user_01,python.exe,cscript.exe,New-Process C,13,1,0
+17/12/2025 10:37,user_05,powershell.exe,winlogon.exe,Remove-Registry /usr/bin.log Get-Serv,37,2,0
+18/12/2025 09:37,user_04,powershell.exe,services.exe,Set-Registry C:\Users\Publ,26,1,0
+16/12/2025 10:12,user_05,cmd.exe,cscript.exe,Start-Process /tmp.log Start-File C:\Users\Public.,50,2,0
+16/12/2025 12:43,user_04,rundll32.exe,explorer.exe,Set-File C:\Users\Public,24,1,0
+21/12/2025 18:09,user_01,cmd.exe,svchost.exe,Get-Job /t,10,1,0
+11/12/2025 12:32,user_05,cmd.exe,cmd.exe,Stop-Registry C:\Users\Public.txt S,35,2,0
+10/12/2025 16:11,user_03,notepad.exe,explorer.exe,Set-Registry /usr/bin.py Set-Job C:\Windows\Temp,48,2,0
+25/12/2025 12:23,user_10,powershell.exe,explorer.exe,Stop-Registry /tmp.py Start-Service C:\Windows\Te,49,2,0
+30/12/2025 17:09,user_03,rundll32.exe,rundll32.exe,Stop-File C:\Windows\Temp.log Get-Servi,39,2,0
+15/12/2025 18:46,user_09,cmd.exe,mshta.exe,New-Registry C:\Users\,22,1,0
+17/12/2025 15:54,user_03,cmd.exe,explorer.exe,Get-Service C:\Users\Public.ps1 Set-Proces,42,2,0
+12/12/2025 13:00,user_10,powershell.exe,rundll32.exe,Remove-Registry C:\Win,22,1,0
+29/12/2025 16:24,user_04,cmd.exe,explorer.exe,Get-Process C:\,15,1,0
+19/12/2025 18:02,user_08,notepad.exe,powershell.exe,New-Registry C:\Users\Public.log Stop-Registry C:\Users\Public.ps1 New-Process C:\Users\Public.ps1,98,3,1
+01/12/2025 15:52,user_01,regsvr32.exe,explorer.exe,Set-Registry C:\Users\Public.txt Start-Registry /u,50,2,0
+08/12/2025 16:53,user_02,mshta.exe,wscript.exe,Get-Service C:\Windows\Temp.log Rem,35,2,0
+09/12/2025 12:38,user_02,rundll32.exe,explorer.exe,Remove-Job /usr/b,17,1,0
+08/12/2025 11:03,user_06,notepad.exe,explorer.exe,Start-File /tmp.py Stop-Service C:\Windows\Temp.p,49,2,0
+15/12/2025 17:27,user_02,notepad.exe,explorer.exe,Stop-Registry,13,1,0
+18/12/2025 12:11,user_02,powershell.exe,explorer.exe,New-File C:\Wi,14,1,0
+05/12/2025 14:53,user_05,notepad.exe,explorer.exe,Remove-Process /usr/bin.ps1 New-Job C:\Users\Pub,48,2,0
+29/12/2025 15:17,user_02,cmd.exe,wscript.exe,New-Process /usr/bin.py Start-Service C:\,41,2,0
+28/12/2025 16:30,user_09,cmd.exe,explorer.exe,Start-Process,13,1,0
+01/12/2025 09:12,user_10,notepad.exe,explorer.exe,Get-Registry C:\Use,19,1,0
+11/12/2025 18:50,user_04,cmd.exe,explorer.exe,New-Process /tmp.log New-P,26,2,0
+23/12/2025 10:24,user_06,cmd.exe,powershell.exe,Stop-File /usr/bin.txt New-Process C:\Users\Publ,48,2,0
+01/12/2025 16:38,user_06,cmd.exe,explorer.exe,Set-Service,11,1,0
+19/12/2025 13:28,user_01,powershell.exe,wscript.exe,New-Job C:\Windows\Temp.py Get-Job C:\Users\Pu,46,2,0
+14/12/2025 13:33,user_03,cmd.exe,explorer.exe,Remove-Job C:\Windows,21,1,0
+02/12/2025 13:09,user_09,python.exe,services.exe,New-Job /tmp.log Stop-Job C:\Windows\Te,39,2,0
+30/12/2025 15:13,user_04,notepad.exe,explorer.exe,Remove-Service /usr/bin.py Remove-Service,41,2,0
+22/12/2025 14:01,user_01,rundll32.exe,explorer.exe,Remove-Job C:\Users\Public.log New-Process C:\Wind,50,2,0
+28/12/2025 17:10,user_04,notepad.exe,explorer.exe,Set-Registry /tmp.tx,20,1,0
+10/12/2025 08:46,user_05,notepad.exe,explorer.exe,Remove-Job /usr/bin.py Set-Job /usr/bin.,40,2,0
+17/12/2025 16:57,user_07,powershell.exe,winlogon.exe,Stop-Registry /tmp.txt Stop-Process,35,2,0
+14/12/2025 09:21,user_01,notepad.exe,explorer.exe,Set-Process,11,1,0
+23/12/2025 16:58,user_04,wscript.exe,explorer.exe,Get-Process /usr/bin.py Remove-Job C:\Users\P,45,2,0
+28/12/2025 14:24,user_07,cmd.exe,cscript.exe,New-Service C:\Windows\Temp.log,31,1,0
+25/12/2025 13:21,user_08,notepad.exe,explorer.exe,Remove-Job C:\Users,19,1,0
+08/12/2025 13:09,user_08,cmd.exe,mshta.exe,Get-Process C:\Users\,21,1,0
+19/12/2025 09:47,user_10,python.exe,explorer.exe,Stop-Job /tmp.log Remove-File C:,32,2,0
+07/12/2025 18:34,user_01,mshta.exe,wscript.exe,Get-Process,11,1,0
+05/12/2025 11:52,user_09,notepad.exe,explorer.exe,Get-Service C:\Windows\Temp.t,29,1,0
+18/12/2025 15:54,user_09,cmd.exe,explorer.exe,Remove-Job C:\Windows\Temp.log Remove-Service /t,48,2,0
+12/12/2025 11:34,user_07,notepad.exe,explorer.exe,New-Service /usr/,17,1,0
+01/12/2025 17:43,user_02,notepad.exe,explorer.exe,Remove-Registry /tmp.ps1 Set,28,2,0
+02/12/2025 08:23,user_01,powershell.exe,wscript.exe,Start-Registry C:\Windows\Temp.txt Start-,41,2,0
+29/12/2025 11:13,user_06,notepad.exe,explorer.exe,Remove-Process C:\Users\Public,30,1,0
+01/12/2025 17:05,user_02,powershell.exe,cmd.exe,Start-Registry C:\Use,21,1,0
+12/12/2025 08:26,user_02,cmd.exe,rundll32.exe,Remove-Process C:\Windows\Temp.log Remo,39,2,0
+05/12/2025 13:04,user_03,cmd.exe,rundll32.exe,Remove-Service /tmp.t,21,1,0
+05/12/2025 16:06,user_10,wscript.exe,cmd.exe,Stop-Process /usr/bin.txt Stop-File /tmp.py New-Registry C:\Users\Publi,71,3,1
+23/12/2025 09:06,user_08,powershell.exe,cscript.exe,New-File C:\Users\Public.,25,1,0
+24/12/2025 17:38,user_02,cmd.exe,powershell.exe,Start-Registry /us,18,1,0
+19/12/2025 09:25,user_06,regsvr32.exe,cmd.exe,Set-Process /usr/bin.log,24,1,0
+21/12/2025 12:11,user_10,cmd.exe,explorer.exe,Get-Job C:\Users\Public.p,25,1,0
+08/12/2025 15:08,user_03,cmd.exe,explorer.exe,Get-Registr,11,1,0
+28/12/2025 08:25,user_10,powershell.exe,cmd.exe,Get-Registry /usr/bin.ps1 Get-File /usr/bin.txt,47,2,0
+21/12/2025 10:11,user_09,cmd.exe,taskeng.exe,New-File /u,11,1,0
+09/12/2025 08:19,user_07,cmd.exe,wscript.exe,Stop-Process C:\Users\Public.txt Stop-Job /tmp.log Stop-Process C:\,67,3,1
+29/12/2025 08:06,user_09,cmd.exe,explorer.exe,Stop-File /usr/bin.ps1 Stop-Process C:\Use,42,2,0
+30/12/2025 10:06,user_07,rundll32.exe,rundll32.exe,Set-Service /tmp.,17,1,0
+21/12/2025 11:36,user_09,cmd.exe,wscript.exe,Remove-Job C:\Users\Public.ps1 Remove-Registry /tm,50,2,0
+23/12/2025 11:03,user_05,notepad.exe,explorer.exe,Start-Job C:\Windows\Tem,24,1,0
+11/12/2025 23:44,user_07,notepad.exe,explorer.exe,Remove-Process C:\Users\Public.txt Start-Process /tmp.,54,2,1
+24/12/2025 04:33,user_06,cmd.exe,cmd.exe,New-File /tmp.ps1 Set-Process /tmp.ps1 Get-File C:\Users\Public.ps1,67,3,1
+24/12/2025 08:25,user_08,cmd.exe,explorer.exe,Get-Job /usr/bin.log Stop-Regis,31,2,0
+18/12/2025 16:52,user_02,powershell.exe,explorer.exe,Stop-File C:\Windows\Temp.log Set-Job,37,2,0
+24/12/2025 13:02,user_01,python.exe,python.exe,New-Service /tmp.log Get-Process /tm,36,2,0
+17/12/2025 09:04,user_03,cmd.exe,explorer.exe,Set-File C:\,12,1,0
+28/12/2025 08:11,user_04,python.exe,rundll32.exe,New-File /usr/bin.ps1 Stop-Jo,29,2,0
+31/12/2025 18:04,user_09,cmd.exe,explorer.exe,New-Service /usr/bin.log Ne,27,2,0
+24/12/2025 17:14,user_04,powershell.exe,wscript.exe,Start-Registry /usr/bin.ps1 Start-Registry C:,45,2,0
+31/12/2025 15:37,user_03,powershell.exe,cmd.exe,Start-Registry /tmp.py Stop-Job C:\User,39,2,0
+12/12/2025 12:47,user_05,rundll32.exe,wscript.exe,New-File /usr/bin.py Start-File C:\Windows,42,2,0
+28/12/2025 10:12,user_09,notepad.exe,explorer.exe,Set-Process /usr/bin.log Start-Job /us,38,2,0
+12/12/2025 10:43,user_02,powershell.exe,wscript.exe,Get-Registry C:\Windows\Temp.,29,1,0
+21/12/2025 11:56,user_05,powershell.exe,mshta.exe,Stop-Service /tmp.log Set-Job,29,2,0
+05/12/2025 13:38,user_03,notepad.exe,explorer.exe,Get-Service /tmp.txt,20,1,0
+17/12/2025 18:05,user_06,notepad.exe,explorer.exe,Start-File /u,13,1,0
+17/12/2025 13:07,user_04,powershell.exe,cmd.exe,Start-Job C:\Windows\Temp.ps1 Star,34,2,0
+03/12/2025 10:20,user_08,cmd.exe,regsvr32.exe,Start-File C:\Windo,19,1,0
+16/12/2025 11:48,user_05,rundll32.exe,explorer.exe,Remove-Registry C:\Windows\Temp.txt Set-Ser,43,2,0
+03/12/2025 15:47,user_02,notepad.exe,explorer.exe,Remove-Process C,16,1,0
+29/12/2025 13:18,user_07,notepad.exe,explorer.exe,Stop-Registry C:\Users\Public.py Get-J,38,2,0
+19/12/2025 13:16,user_04,powershell.exe,explorer.exe,New-Registry /tm,16,1,0
+24/12/2025 14:02,user_01,python.exe,powershell.exe,New-Registry /tmp.txt New-File,30,2,0
+23/12/2025 10:01,user_02,cmd.exe,powershell.exe,New-File C:\Users\Public.log Get-Service /t,43,2,0
+17/12/2025 09:16,user_08,notepad.exe,explorer.exe,Get-Job C:\Windows\Te,21,1,0
+28/12/2025 18:43,user_05,mshta.exe,explorer.exe,Get-File /tmp.ps1 Start-Job /tmp.txt,36,2,0
+21/12/2025 15:50,user_08,cmd.exe,regsvr32.exe,Remove-Service /tmp.txt Start-Job C,35,2,0
+05/12/2025 12:07,user_06,notepad.exe,explorer.exe,Start-File /usr/bin.txt,23,1,0
+29/12/2025 15:06,user_04,notepad.exe,explorer.exe,Remove-Job /usr/bin.txt,23,1,0
+09/12/2025 16:26,user_03,python.exe,rundll32.exe,Set-Job /usr/bin.txt New-Job C:,31,2,0
+17/12/2025 12:46,user_05,powershell.exe,powershell.exe,Set-File C:\Windows\Temp.ps1,28,1,0
+31/12/2025 09:36,user_04,python.exe,explorer.exe,New-Service /tmp.txt Stop-,26,2,0
+23/12/2025 22:11,user_01,python.exe,rundll32.exe,Set-Process C:\Users\Public.py Set-Registry /usr/bin.py New-Job C:\Windows\Temp.log Remove-F,92,4,1
+17/12/2025 08:20,user_08,mshta.exe,cscript.exe,Get-Registry /tm,16,1,0
+07/12/2025 10:15,user_03,cmd.exe,cmd.exe,Get-Servic,10,1,0
+19/12/2025 10:49,user_03,powershell.exe,wscript.exe,Stop-Service,12,1,0
+07/12/2025 15:09,user_01,notepad.exe,explorer.exe,Stop-File C:\Windows\Temp.txt Get-Job C:\Windows\,49,2,0
+12/12/2025 13:26,user_05,cmd.exe,cscript.exe,Remove-Job C:\Users\Public.txt Set-Registry C:\Use,50,2,0
+16/12/2025 13:21,user_07,wscript.exe,python.exe,Start-Service C:\Users\Public.ps1 St,36,2,0
+31/12/2025 09:12,user_06,mshta.exe,explorer.exe,Remove-Job C:\Windows\T,23,1,0
+17/12/2025 11:46,user_08,cmd.exe,wscript.exe,New-Process /tmp.ps1 Start-Registr,34,2,0
+31/12/2025 15:46,user_02,notepad.exe,explorer.exe,Set-Service C:\Windows\Temp,27,1,0
+24/12/2025 02:48,user_09,powershell.exe,cmd.exe,Set-Process C:\Windows\Temp.py Remove-Job /usr/bin.ps1 Star,59,3,1
+19/12/2025 11:58,user_02,notepad.exe,explorer.exe,Get-File /tmp.log Start-Registry /tmp.py Remove-F,49,3,0
+01/12/2025 10:25,user_04,cmd.exe,explorer.exe,Set-Registry /usr/bin.py New-File C:\Wind,41,2,0
+29/12/2025 14:06,user_07,rundll32.exe,explorer.exe,New-Process /usr/bin,20,1,0
+31/12/2025 10:35,user_06,notepad.exe,explorer.exe,Start-Service C:,16,1,0
+16/12/2025 14:39,user_09,python.exe,explorer.exe,New-Registry C:\Windows\Temp.py Stop-Process /,46,2,0
+28/12/2025 14:19,user_08,python.exe,rundll32.exe,New-Process C:\Users\Public.py New-Registry C:,46,2,0
+14/12/2025 18:34,user_10,notepad.exe,cmd.exe,Start-Process /usr/bin.log Get-Registry,39,2,0
+30/12/2025 11:14,user_05,powershell.exe,python.exe,New-File C:\Windows\Temp.txt New-Process,40,2,0
+08/12/2025 15:39,user_06,mshta.exe,regsvr32.exe,Stop-File /usr/bin.ps1 Remove-Process /usr/bin.tx,49,2,0
+18/12/2025 14:15,user_03,cmd.exe,wscript.exe,New-Process C:\Users\Public.log St,34,2,0
+10/12/2025 14:31,user_03,powershell.exe,cmd.exe,Remove-File C:\Window,21,1,0
+26/12/2025 10:47,user_02,powershell.exe,cscript.exe,Get-File /tmp.txt New-Service C:\Users\,39,2,0
+02/12/2025 17:42,user_05,rundll32.exe,wscript.exe,Get-Process /usr/bin.py Remove-Fi,33,2,0
+07/12/2025 15:29,user_02,wscript.exe,explorer.exe,Start-File C:\Windows\Temp.txt Remove-Job C:\User,49,2,0
+26/12/2025 13:40,user_08,wscript.exe,explorer.exe,Stop-Process C:\Windows\Temp.log Remove-,40,2,0
+08/12/2025 09:22,user_09,powershell.exe,python.exe,Start-File C:\Windo,19,1,0
+12/12/2025 12:24,user_06,notepad.exe,explorer.exe,Get-Registry /u,15,1,0
+12/12/2025 13:26,user_01,powershell.exe,mshta.exe,Start-File /tmp.ps1,19,1,0
+28/12/2025 09:29,user_06,cmd.exe,wscript.exe,Set-Service /usr/bin.,21,1,0
+18/12/2025 11:49,user_07,cmd.exe,explorer.exe,Set-Service /usr/bin.txt Ne,27,2,0
+19/12/2025 14:20,user_03,notepad.exe,explorer.exe,Start-Job C:\Users\P,20,1,0
+25/12/2025 11:04,user_03,rundll32.exe,explorer.exe,Get-Process C:\Wi,17,1,0
+01/12/2025 14:00,user_08,rundll32.exe,rundll32.exe,Set-Registry /tmp.py Start-Registry /us,39,2,0
+19/12/2025 10:35,user_10,wscript.exe,cmd.exe,Start-Job /usr/bin.py Stop-Ser,30,2,0
+07/12/2025 09:52,user_06,regsvr32.exe,explorer.exe,Stop-Registry C:\Users\Publi,28,1,0
+28/12/2025 14:33,user_08,powershell.exe,powershell.exe,Set-Job C:\Windows\,19,1,0
+17/12/2025 16:50,user_10,notepad.exe,explorer.exe,Stop-Registry /tmp.ps1 Stop-File /usr/bin.py Ne,47,3,0
+31/12/2025 18:45,user_09,notepad.exe,explorer.exe,Get-Job C:\Users\Public.log,27,1,0
+16/12/2025 16:24,user_06,notepad.exe,explorer.exe,Remove-Process C:\Users,23,1,0
+15/12/2025 16:32,user_08,notepad.exe,explorer.exe,Stop-File C:\User,17,1,0
+31/12/2025 17:33,user_08,rundll32.exe,explorer.exe,Get-Service C:\Windows\Temp.txt New-Registry,44,2,0
+31/12/2025 18:56,user_06,rundll32.exe,explorer.exe,Get-File /t,11,1,0
+08/12/2025 15:29,user_04,notepad.exe,explorer.exe,Set-Process C:,14,1,0
+12/12/2025 09:32,user_02,python.exe,powershell.exe,Get-Service /tmp.ps1 Set-Service /usr/b,39,2,0
+16/12/2025 14:11,user_07,powershell.exe,cscript.exe,Stop-Proces,11,1,0
+17/12/2025 17:20,user_01,cmd.exe,powershell.exe,New-Registry,12,1,0
+07/12/2025 10:28,user_10,notepad.exe,explorer.exe,New-Service /usr/bin.ps,23,1,0
+22/12/2025 08:58,user_07,notepad.exe,explorer.exe,Remove-File C:\Windows\Temp,27,1,0
+14/12/2025 09:36,user_08,python.exe,cmd.exe,Set-File C:\Windows\Temp.log Remove-Reg,39,2,0
+15/12/2025 12:06,user_09,notepad.exe,explorer.exe,Stop-Process C:\Windows\Temp.txt N,34,2,0
+18/12/2025 09:43,user_10,cmd.exe,cmd.exe,Set-Registry C:\Windows\Temp.log Sta,36,2,0
+29/12/2025 09:01,user_05,rundll32.exe,rundll32.exe,Start-Job /tmp.txt Remove-Registry /usr/bin.lo,46,2,0
+28/12/2025 13:10,user_10,python.exe,cmd.exe,Set-Service C:\U,16,1,0
+07/12/2025 13:22,user_08,cmd.exe,cmd.exe,Remove-File C:\Windows\Temp.txt Remove-Regist,45,2,0
+03/12/2025 17:35,user_03,cscript.exe,explorer.exe,Start-Job C:\Windows\Temp.,26,1,0
+21/12/2025 09:36,user_08,notepad.exe,explorer.exe,Get-Job /usr/bin.txt,20,1,0
+08/12/2025 17:56,user_04,notepad.exe,explorer.exe,Stop-File /tmp.ps1 New-Process C:\Windows\T,43,2,0
+21/12/2025 11:49,user_10,rundll32.exe,explorer.exe,Stop-Job /usr/bin.txt Set-Registry /tmp.ps1 New-Se,50,3,0
+08/12/2025 11:37,user_09,notepad.exe,explorer.exe,Remove-Job C:\Windows\Temp.txt New-Registry /usr/b,50,2,0
+21/12/2025 12:31,user_08,powershell.exe,explorer.exe,Remove-Service C:\Users\Public.log Set-Job /us,46,2,0
+12/12/2025 09:30,user_08,notepad.exe,explorer.exe,Set-File C:\Users\Publ,22,1,0
+07/12/2025 15:55,user_05,python.exe,python.exe,Stop-Registry C:\Users\Pub,26,1,0
+10/12/2025 10:15,user_09,cmd.exe,wscript.exe,Remove-Job /usr/bin.py Stop-File /tmp.log G,43,3,0
+12/12/2025 09:51,user_07,python.exe,rundll32.exe,New-Regist,10,1,0
+16/12/2025 12:45,user_10,notepad.exe,explorer.exe,Remove-Job C:\Windows\Te,24,1,0
+16/12/2025 11:56,user_10,rundll32.exe,explorer.exe,Get-File C:\Users\Public.ps1 Set-Fil,36,2,0
+04/12/2025 11:56,user_08,notepad.exe,explorer.exe,Set-Proces,10,1,0
+21/12/2025 15:34,user_04,rundll32.exe,python.exe,Set-Service /tmp.ps1 Stop-Process /tm,37,2,0
+21/12/2025 17:05,user_01,python.exe,explorer.exe,Start-Service,13,1,0
+14/12/2025 16:20,user_09,cmd.exe,explorer.exe,Set-Service /usr/bin.txt New-Registry C:\User,45,2,0
+15/12/2025 17:29,user_09,rundll32.exe,explorer.exe,Stop-Registry /t,16,1,0
+02/12/2025 12:14,user_06,python.exe,powershell.exe,New-File /usr/bin.log New-Service C:\Wind,41,2,0
+25/12/2025 14:04,user_05,cmd.exe,services.exe,Remove-File C:\Users\Public.py Get-Service C:,45,2,0
+29/12/2025 15:33,user_05,rundll32.exe,cscript.exe,Remove-Registry C:\Users\Pu,27,1,0
+26/12/2025 09:45,user_02,rundll32.exe,rundll32.exe,New-Process /tmp.txt Remove-Proc,32,2,0
+28/12/2025 14:28,user_04,rundll32.exe,explorer.exe,Start-File C:\Users\Public.py Get-Service,41,2,0
+17/12/2025 09:00,user_02,cmd.exe,explorer.exe,New-Registry /tmp.txt Start-Servic,34,2,0
+23/12/2025 11:18,user_03,rundll32.exe,cscript.exe,Get-Registry C:\Wind,20,1,0
+12/12/2025 14:20,user_05,python.exe,cmd.exe,Stop-Service /usr/bin.ps1 Remove-P,34,2,0
+03/12/2025 10:59,user_07,cmd.exe,wscript.exe,New-Process C:\Users\Pub,24,1,0
+01/12/2025 12:05,user_05,notepad.exe,explorer.exe,Stop-Job /tmp.,14,1,0
+15/12/2025 12:34,user_07,cmd.exe,explorer.exe,Stop-Service /tmp.ps1 Get-File,30,2,0
+18/12/2025 12:22,user_09,wscript.exe,cmd.exe,Remove-Job C:\Windows\Tem,25,1,0
+18/12/2025 17:26,user_08,regsvr32.exe,explorer.exe,Start-Registry /usr/bin.p,25,1,0
+21/12/2025 21:08,user_10,wscript.exe,cmd.exe,New-Process C:\Windows\Temp.txt Start-Registry /usr/bin.py Stop-Process C:\Users\Public.py Stop-,96,4,1
+10/12/2025 11:35,user_02,notepad.exe,cmd.exe,Stop-Service,12,1,0
+22/12/2025 09:32,user_02,python.exe,cscript.exe,Remove-Job C:\Windows\Temp.txt Get-Registry C,45,2,0
+24/12/2025 22:48,user_09,cmd.exe,explorer.exe,Start-Service C:\Users\Public.py Remove-File C:\Windows\Temp.ps1 Stop-Service C:\Windows\Te,91,3,1
+30/12/2025 18:17,user_06,powershell.exe,explorer.exe,Stop-File,9,1,0
+19/12/2025 12:13,user_01,cmd.exe,cscript.exe,New-Job C:\Windows\Temp.ps1 Get-Servi,37,2,0
+18/12/2025 16:48,user_02,rundll32.exe,wscript.exe,Set-Process /usr/bin.ps1 S,26,2,0
+04/12/2025 12:50,user_08,python.exe,wscript.exe,Stop-Job /us,12,1,0
+04/12/2025 13:08,user_02,cmd.exe,wscript.exe,Remove-File C:\Users\Public.py Set-File /tmp.txt G,50,3,0
+31/12/2025 18:19,user_06,wscript.exe,cmd.exe,Get-Job C:\Windows\Temp.txt Sto,31,2,0
+21/12/2025 17:26,user_01,cmd.exe,cscript.exe,Start-Registr,13,1,0
+23/12/2025 11:09,user_06,regsvr32.exe,explorer.exe,Set-Service C:\Windows\Temp.ps1 Start-Job C:,44,2,0
+07/12/2025 09:29,user_02,cmd.exe,explorer.exe,Start-File /tmp.log Get-Service /t,34,2,0
+16/12/2025 14:50,user_04,cmd.exe,wscript.exe,Start-File /tmp.ps1 Stop-Registry C:\Users\Publ,47,2,0
+09/12/2025 10:02,user_10,wscript.exe,explorer.exe,Stop-File /tmp.txt Start-Service /usr/bin.py Get-F,50,3,0
+21/12/2025 12:25,user_06,cscript.exe,powershell.exe,Remove-Process C:\Users\Public.py St,36,2,0
+19/12/2025 13:04,user_02,notepad.exe,explorer.exe,Get-Service /tmp.txt Start-File C:\Users\Pub,44,2,0
+04/12/2025 17:30,user_05,cscript.exe,cmd.exe,Stop-Service /usr/bin.ps1 Remove-Job /usr/bin.p,47,2,0
+09/12/2025 03:17,user_09,notepad.exe,explorer.exe,Remove-Process /usr/bin.ps1 Set-Registry /tmp.txt Stop-Job C:\Users\Public.ps,77,3,1
+15/12/2025 18:29,user_09,python.exe,powershell.exe,Set-File C:\Windows\Temp.py Remove-Job /tmp.ps1,47,2,0
+04/12/2025 16:56,user_06,notepad.exe,explorer.exe,Stop-Process C:\Wi,18,1,0
+05/12/2025 08:56,user_02,cmd.exe,powershell.exe,Stop-Process /usr/bin.txt Get-Fi,32,2,0
+19/12/2025 12:50,user_07,cmd.exe,taskeng.exe,Remove-Job,10,1,0
+21/12/2025 09:11,user_07,powershell.exe,cmd.exe,Remove-File /usr/bin.ps1 Rem,28,2,0
+25/12/2025 11:17,user_08,notepad.exe,explorer.exe,Get-Job C:\Windows\T,20,1,0
+14/12/2025 15:33,user_09,cmd.exe,cmd.exe,Set-Registry C:\Users\P,23,1,0
+29/12/2025 15:49,user_05,python.exe,cmd.exe,Get-File /usr/bin.ps1 Get-Service /tmp.log N,44,3,0
+22/12/2025 09:42,user_08,python.exe,explorer.exe,Remove-File C:\Windows\Temp.ps1 Remove-,39,2,0
+05/12/2025 11:20,user_05,notepad.exe,explorer.exe,Stop-Service /usr/bin.txt Stop-Process /t,41,2,0
+30/12/2025 11:27,user_03,python.exe,cmd.exe,Start-Registry C:\Users\P,25,1,0
+05/12/2025 13:53,user_09,powershell.exe,cmd.exe,Remove-Proce,12,1,0
+09/12/2025 14:53,user_05,wscript.exe,explorer.exe,Stop-Process C:\Users\Public.txt Start-,39,2,0
+01/12/2025 15:47,user_02,notepad.exe,explorer.exe,Remove-Service /usr/bin.py Start-Job,36,2,0
+07/12/2025 17:30,user_08,rundll32.exe,explorer.exe,Get-File /,10,1,0
+14/12/2025 10:33,user_09,cmd.exe,cmd.exe,Remove-File C:\Users\Public.txt New-Job /tmp,44,2,0
+07/12/2025 15:53,user_02,cmd.exe,cmd.exe,Get-Service /tmp.ps1 Remove-Process C:\Users\Publ,49,2,0
+07/12/2025 12:15,user_09,cmd.exe,explorer.exe,New-File /usr/bin.txt Remove-Job /usr/bi,40,2,0
+22/12/2025 18:12,user_01,regsvr32.exe,cmd.exe,Remove-Registry /usr/bin.ps1 Remove-J,37,2,0
+05/12/2025 12:27,user_06,notepad.exe,explorer.exe,Stop-Process /tmp.log Set-Service /,35,2,0
+30/12/2025 15:51,user_08,cmd.exe,cmd.exe,Set-Registry /usr/bin.py New-Service C:\Win,43,2,0
+03/12/2025 18:20,user_08,rundll32.exe,winlogon.exe,Stop-Job /tmp,13,1,0
+16/12/2025 15:54,user_04,powershell.exe,winlogon.exe,Start-Registry /tmp.py Start-,29,2,0
+03/12/2025 18:07,user_03,powershell.exe,regsvr32.exe,Stop-Job /usr/,14,1,0
+11/12/2025 15:28,user_04,powershell.exe,svchost.exe,Remove-Service,14,1,0
+07/12/2025 14:37,user_08,cmd.exe,regsvr32.exe,New-Service C:\Users\Pub,24,1,0
+28/12/2025 13:17,user_10,python.exe,python.exe,Remove-Job C:\Windows\Temp.ps1 Start-Job,40,2,0
+17/12/2025 13:37,user_08,powershell.exe,rundll32.exe,Set-Service /usr/bin.py Remove-File /us,39,2,0
+01/12/2025 12:24,user_04,cmd.exe,cscript.exe,Remove-Regi,11,1,0
+08/12/2025 09:12,user_07,notepad.exe,explorer.exe,Stop-Process /tmp.,18,1,0
+31/12/2025 08:18,user_08,rundll32.exe,svchost.exe,Remove-Registry,15,1,0
+17/12/2025 15:48,user_07,cmd.exe,explorer.exe,Start-Job /tmp.ps1 Set-Job C,28,2,0
+17/12/2025 10:33,user_10,powershell.exe,python.exe,New-Job C:\Windows\Temp.,24,1,0
+26/12/2025 08:10,user_06,regsvr32.exe,powershell.exe,New-Service /tmp.ps1 Re,23,2,0
+11/12/2025 09:47,user_04,cmd.exe,regsvr32.exe,Start-File /usr/bin.py Remove-Job /,35,2,0
+29/12/2025 14:29,user_07,python.exe,explorer.exe,Stop-Registry /usr/bin.log Start-,33,2,0
+08/12/2025 17:32,user_10,python.exe,python.exe,Remove-Regi,11,1,0
+18/12/2025 14:41,user_02,powershell.exe,wscript.exe,Set-Job C:\Users\Public.ps1,27,1,0
+23/12/2025 17:43,user_06,mshta.exe,cscript.exe,Remove-Registry /usr/bin.py Remove-File C:\Us,45,2,0
+30/12/2025 03:20,user_05,rundll32.exe,mshta.exe,New-Process C:\Windows\Temp.txt Remove-Process C:\User,54,2,1
+09/12/2025 16:58,user_07,powershell.exe,explorer.exe,Set-Service /usr/bin.ps1 Get,28,2,0
+23/12/2025 18:44,user_03,mshta.exe,wscript.exe,Stop-Job /tmp.ps1 Stop-Process C:\Users\P,41,2,0
+11/12/2025 15:05,user_05,python.exe,wscript.exe,Stop-File C:\Windows\Temp.log Remove-Process C,46,2,0
+15/12/2025 09:25,user_01,rundll32.exe,wscript.exe,Set-File C:\Windows\Temp.py Remove,34,2,0
+02/12/2025 18:18,user_06,notepad.exe,explorer.exe,New-Process /tmp.py Remove-Service C:\Users,43,2,0
+07/12/2025 16:33,user_09,notepad.exe,explorer.exe,New-Registry /tmp.py Remove-File /tmp.py Stop-Fi,48,3,0
+05/12/2025 20:57,user_10,notepad.exe,explorer.exe,Set-Process C:\Windows\Temp.ps1 Start-Service C:\Users\Public.log Get-Registry C:\Windows\Temp.tx,97,3,1
+17/12/2025 08:46,user_01,cmd.exe,explorer.exe,Stop-File C:\Users\Public.py,28,1,0
+02/12/2025 18:50,user_02,notepad.exe,explorer.exe,Get-Service C:\Windows\Temp.ps1 Get-File /tmp.txt New-File C:\Windows\Temp.txt New-Job,86,4,1
+10/12/2025 22:10,user_06,notepad.exe,explorer.exe,Remove-Service /usr/bin.ps1 Set-Registry /tmp.txt New-Service C:\Users\Publ,75,3,1
+22/12/2025 21:26,user_01,notepad.exe,explorer.exe,Stop-Process /usr/bin.txt New-Registry /usr/bin.ps1 Set-Job /usr/bin.log Start-Registry /tmp.,93,4,1
+30/12/2025 18:02,user_02,cmd.exe,explorer.exe,Start-Registry C:\Users\Public.txt Remo,39,2,0
+16/12/2025 09:36,user_08,cmd.exe,rundll32.exe,Stop-Job C:\,12,1,0
+02/12/2025 15:33,user_10,notepad.exe,explorer.exe,Get-Process C:\Users\Public.txt Start-Job C:,44,2,0
+31/12/2025 08:09,user_05,rundll32.exe,taskeng.exe,Start-Registry /usr/bin.py Se,29,2,0
+09/12/2025 10:14,user_05,mshta.exe,rundll32.exe,Remove-Pro,10,1,0
+10/12/2025 17:36,user_01,python.exe,rundll32.exe,Stop-Job /tmp.p,15,1,0
+31/12/2025 10:03,user_01,cmd.exe,wscript.exe,Stop-Registry C:\Users\Public.txt,33,1,0
+29/12/2025 09:05,user_07,cmd.exe,cscript.exe,Start-Registry /tmp.,20,1,0
+01/12/2025 11:42,user_06,python.exe,svchost.exe,Get-Process /usr/bin.txt Get-Pr,31,2,0
+28/12/2025 02:34,user_05,powershell.exe,cmd.exe,New-File C:\Users\Public.txt Stop-Registry C:\Users\Public.log Get-Service C:\Wi,80,3,1
+02/12/2025 12:12,user_01,notepad.exe,python.exe,Remove-Service /usr/b,21,1,0
+03/12/2025 15:52,user_08,notepad.exe,explorer.exe,Set-Process C:\Us,17,1,0
+24/12/2025 16:12,user_10,cmd.exe,cmd.exe,New-Registry C:\Users\Public.py Remove-File,43,2,0
+31/12/2025 08:25,user_01,python.exe,explorer.exe,Remove-File C:\Users\Public.txt S,33,2,0
+28/12/2025 08:04,user_02,cmd.exe,explorer.exe,Set-Registry /tmp.py New-File /u,32,2,0
+17/12/2025 13:09,user_01,notepad.exe,explorer.exe,Start-Process /tmp.txt Set-Service C,36,2,0
+22/12/2025 16:06,user_05,wscript.exe,explorer.exe,Remove-Service /tmp.ps1,23,1,0
+28/12/2025 18:58,user_06,cmd.exe,wscript.exe,Remove-Registr,14,1,0
+28/12/2025 14:33,user_05,notepad.exe,cmd.exe,Remove-Process /usr/bin.ps1 New-Registry,40,2,0
+02/12/2025 09:28,user_01,notepad.exe,explorer.exe,Stop-Process C:\Users\,22,1,0
+12/12/2025 14:38,user_05,notepad.exe,explorer.exe,Remove-Process C:\Windows\Temp.lo,33,1,0
+28/12/2025 15:09,user_02,python.exe,cmd.exe,Stop-Registry C:\Users\,23,1,0
+10/12/2025 13:11,user_01,python.exe,python.exe,Stop-Job C:\Users\Public.py Se,30,2,0
+08/12/2025 16:56,user_10,python.exe,rundll32.exe,Set-Process C:\Windows\Temp.ps1 Start-,38,2,0
+23/12/2025 10:29,user_08,cmd.exe,powershell.exe,Remove-Job /usr/bin.log Set-Job,31,2,0
+05/12/2025 08:39,user_09,notepad.exe,explorer.exe,Get-Service /usr/bin.log Get-,29,2,0
+11/12/2025 17:44,user_03,mshta.exe,cscript.exe,Stop-Job C:\Users\Public.py Stop-Process C:\Window,50,2,0
+24/12/2025 10:21,user_10,cmd.exe,cmd.exe,Stop-Service C:\Wi,18,1,0
+09/12/2025 13:05,user_05,wscript.exe,cmd.exe,Set-File C:\Windows\Temp.py New-Service,39,2,0
+30/12/2025 15:19,user_05,mshta.exe,rundll32.exe,Set-Job /usr/bin.log Re,23,2,0
+05/12/2025 12:57,user_02,cmd.exe,rundll32.exe,Stop-File C:\Windows\Temp.log Stop-File C:\Wi,45,2,0
+19/12/2025 09:24,user_10,powershell.exe,rundll32.exe,Stop-Service /usr/bin.log New-Job /tmp.txt,42,2,0
+16/12/2025 15:50,user_10,cscript.exe,explorer.exe,Stop-Registry /tmp.py Stop-Process /tmp.tx,42,2,0
+07/12/2025 11:45,user_04,python.exe,powershell.exe,Remove-Service C:\Window,24,1,0
+11/12/2025 04:07,user_07,mshta.exe,cmd.exe,Set-File C:\Windows\Temp.txt Get-Service C:\Windows\Temp.py Stop-F,66,3,1
+30/12/2025 12:18,user_06,notepad.exe,explorer.exe,Get-File C:\Windows\Temp.log Remove-File C:,43,2,0
+15/12/2025 13:55,user_03,python.exe,cscript.exe,Stop-Process C:\Users\Public.py S,33,2,0
+18/12/2025 17:12,user_01,powershell.exe,powershell.exe,Start-File /tmp,15,1,0
+30/12/2025 17:43,user_04,notepad.exe,explorer.exe,Stop-File /tmp.log Get-Job,26,2,0
+08/12/2025 10:53,user_09,cmd.exe,cmd.exe,Remove-Registry C:\Windows\Temp.ps1 Remove-S,44,2,0
+07/12/2025 09:24,user_10,cscript.exe,explorer.exe,Set-Process C:\Windows\Temp,27,1,0
+24/12/2025 04:19,user_04,python.exe,python.exe,Remove-File /tmp.ps1 Get-File /usr/bin.py Stop-Job /usr/bin.py Remove-Proces,76,4,1
+30/12/2025 11:42,user_05,cmd.exe,cscript.exe,Start-Registry C:\Users,23,1,0
+05/12/2025 08:14,user_10,cmd.exe,explorer.exe,Get-File C:\Windows\Te,22,1,0
+25/12/2025 08:20,user_08,notepad.exe,python.exe,Set-File C:\Windows\Temp.txt Stop-File C:\U,43,2,0
+01/12/2025 04:45,user_04,cmd.exe,wscript.exe,Set-Process /usr/bin.ps1 Start-Service /tmp.txt Remove-Proces,61,3,1
+03/12/2025 17:11,user_02,cmd.exe,explorer.exe,Get-File /usr/bin.ps1 Remove-Service,36,2,0
+23/12/2025 13:38,user_09,notepad.exe,explorer.exe,Remove-Reg,10,1,0
+26/12/2025 10:27,user_01,rundll32.exe,cmd.exe,Remove-Process /usr/bi,22,1,0
+28/12/2025 12:29,user_02,notepad.exe,explorer.exe,Set-Job /tmp.ps1,16,1,0
+24/12/2025 12:15,user_09,rundll32.exe,wscript.exe,Set-Job /usr/bin.log Get-Registry C:\Users\Publi,48,2,0
+07/12/2025 17:39,user_06,notepad.exe,explorer.exe,New-Service /usr/bin.ps1 Start-Registry C:\Wi,45,2,0
+30/12/2025 11:28,user_09,notepad.exe,explorer.exe,Stop-Registry C:\Users\Public.ps1 Stop-Job C:,45,2,0
+04/12/2025 09:32,user_10,cmd.exe,explorer.exe,New-Service C:,14,1,0
+22/12/2025 09:42,user_04,rundll32.exe,explorer.exe,Stop-Registry C:\Windows\Temp.ps1 Set-Proce,43,2,0
+08/12/2025 01:35,user_02,notepad.exe,explorer.exe,Set-Process /usr/bin.ps1 Stop-Process /usr/bin.ps1 Stop-Process /tmp.p,70,3,1
+11/12/2025 14:11,user_06,powershell.exe,powershell.exe,Remove-Registry /tmp.log New-Service,36,2,0
+04/12/2025 09:33,user_06,cmd.exe,explorer.exe,New-Job C:\Wind,15,1,0
+31/12/2025 12:45,user_05,powershell.exe,cmd.exe,Stop-Registry C:\Users\Pu,25,1,0
+01/12/2025 11:10,user_09,cmd.exe,wscript.exe,Stop-Job /tmp.ps1 Stop-Service /usr/bin.txt Start,49,3,0
+25/12/2025 09:39,user_07,regsvr32.exe,explorer.exe,Set-Registry /,14,1,0
+22/12/2025 09:47,user_10,wscript.exe,explorer.exe,Remove-Job C:\Windows\Temp,26,1,0
+01/12/2025 13:37,user_08,powershell.exe,explorer.exe,New-Registry /usr/bin.log Remove,32,2,0
+28/12/2025 10:36,user_03,python.exe,powershell.exe,New-Process C:,14,1,0
+25/12/2025 15:26,user_01,cmd.exe,explorer.exe,New-Job /usr/bi,15,1,0
+16/12/2025 18:54,user_06,powershell.exe,explorer.exe,New-Registry /tmp.txt Stop-File,31,2,0
+03/12/2025 09:29,user_03,notepad.exe,explorer.exe,New-Registry C:\Users\Public.py Stop-Registr,44,2,0
+30/12/2025 16:40,user_06,python.exe,cmd.exe,Start-Serv,10,1,0
+04/12/2025 16:59,user_09,cmd.exe,cmd.exe,Stop-File /tmp.txt New-Registry,31,2,0
+07/12/2025 10:18,user_05,cmd.exe,python.exe,Get-Job /tmp.log Start-Service /tmp.t,37,2,0
+01/12/2025 09:55,user_02,notepad.exe,explorer.exe,New-Service /usr/bin.py New-Registr,35,2,0
+17/12/2025 18:51,user_01,regsvr32.exe,explorer.exe,Remove-Process C:\Window,24,1,0
+08/12/2025 08:03,user_10,cmd.exe,powershell.exe,Remove-Service /tmp.tx,22,1,0
+04/12/2025 10:50,user_04,notepad.exe,python.exe,Get-Process /,13,1,0
+07/12/2025 14:20,user_10,cmd.exe,cmd.exe,Stop-Process C:\Users\Public.ps1 G,34,2,0
+09/12/2025 16:38,user_08,cmd.exe,explorer.exe,Start-Registry /tmp.log,23,1,0
+12/12/2025 12:36,user_02,notepad.exe,explorer.exe,Start-Registry /u,17,1,0
+21/12/2025 14:55,user_04,rundll32.exe,wscript.exe,New-Job /usr/bin.log Remove-Job /tmp.,37,2,0
+18/12/2025 14:13,user_05,rundll32.exe,explorer.exe,New-Registry,12,1,0
+24/12/2025 15:03,user_10,powershell.exe,mshta.exe,Get-Job /tmp.txt Set-Proc,25,2,0
+17/12/2025 11:04,user_05,rundll32.exe,explorer.exe,Start-Process /usr/bin.py Stop-Job C:\Windo,43,2,0
+03/12/2025 10:56,user_03,cmd.exe,explorer.exe,Start-Process /tmp.py Start-Process,35,2,0
+09/12/2025 10:26,user_10,notepad.exe,explorer.exe,New-Registry C:\Users\Publ,26,1,0
+03/12/2025 22:40,user_07,rundll32.exe,explorer.exe,Start-Job /tmp.txt Start-Process /tmp.ps1 Sta,45,3,1
+03/12/2025 18:37,user_04,powershell.exe,python.exe,Get-Registry C:\Use,19,1,0
+24/12/2025 15:22,user_07,python.exe,rundll32.exe,Stop-Job /usr/bin.txt Stop-Job /usr/bin.txt,43,2,0
+18/12/2025 13:56,user_07,cmd.exe,explorer.exe,Remove-Process,14,1,0
+25/12/2025 16:22,user_03,notepad.exe,explorer.exe,Stop-File C:\Users\Public.log Start-Job /t,42,2,0
+30/12/2025 09:49,user_05,python.exe,services.exe,Remove-Job C:\Windows\Temp,26,1,0
+23/12/2025 16:13,user_02,cmd.exe,cmd.exe,Remove-Process /usr/bin.txt Remove-Process /u,45,2,0
+23/12/2025 10:35,user_09,rundll32.exe,powershell.exe,New-Registry /tmp.py New-Registry C:\Users\P,44,2,0
+24/12/2025 09:18,user_03,python.exe,explorer.exe,Remove-Job C:\Window,20,1,0
+08/12/2025 13:37,user_05,powershell.exe,explorer.exe,Stop-File /tmp.log Set-Service C:\Windows\Temp.,47,2,0
+22/12/2025 09:21,user_01,cmd.exe,explorer.exe,Start-Process C:\Users\Public.py,32,1,0
+30/12/2025 08:15,user_08,cmd.exe,explorer.exe,Get-Process C:\Users\Public.log Start-File,42,2,0
+03/12/2025 13:10,user_03,cmd.exe,rundll32.exe,Stop-Registry C:\Windows\Temp.ps1 Sto,37,2,0
+04/12/2025 09:02,user_07,cmd.exe,rundll32.exe,Get-File C:\Windows\Temp.ps1 New-,33,2,0
+15/12/2025 08:11,user_02,cmd.exe,wscript.exe,Stop-Service /tmp.lo,20,1,0
+12/12/2025 10:36,user_07,powershell.exe,taskeng.exe,Stop-Process C:\Users\Public.py Ge,34,2,0
+25/12/2025 16:56,user_04,mshta.exe,wscript.exe,Set-Process /tmp.log Remove-Serv,32,2,0
+14/12/2025 15:58,user_07,cmd.exe,explorer.exe,Get-File /tmp.log Get,21,2,0
+04/12/2025 15:55,user_07,notepad.exe,explorer.exe,Start-Registry /tmp.txt Set-Process C:\Windows\Te,49,2,0
+16/12/2025 09:00,user_05,cscript.exe,explorer.exe,Remove-Job C:,13,1,0
+18/12/2025 14:17,user_09,powershell.exe,cscript.exe,New-Service C:\Users\Public.lo,30,1,0
+08/12/2025 17:06,user_06,rundll32.exe,explorer.exe,Set-Service,11,1,0
+17/12/2025 15:18,user_05,notepad.exe,explorer.exe,New-File C:\Users\Public.,25,1,0
+22/12/2025 16:16,user_09,powershell.exe,regsvr32.exe,Start-Process C:\Users\,23,1,0
+30/12/2025 09:37,user_01,notepad.exe,explorer.exe,Set-Job /tmp.txt Get-Job C:\Users,33,2,0
+21/12/2025 15:17,user_02,cscript.exe,explorer.exe,Remove-Registry /tmp,20,1,0
+31/12/2025 08:20,user_03,python.exe,explorer.exe,Start-Job C:\Users\Public,25,1,0
+09/12/2025 15:38,user_03,powershell.exe,cmd.exe,New-Registry C:\Windows\Temp.txt S,34,2,0
+11/12/2025 11:22,user_09,cmd.exe,cmd.exe,New-Job /usr,12,1,0
+18/12/2025 11:38,user_08,rundll32.exe,cscript.exe,Stop-Service C:\Users\Public.log,32,1,0
+07/12/2025 18:24,user_10,notepad.exe,explorer.exe,Stop-Job C:\Windows\Temp.log Set-Proces,39,2,0
+02/12/2025 18:35,user_07,python.exe,python.exe,New-Job C:\Windows\Temp.txt Get-Process C:\Users,48,2,0
+23/12/2025 13:12,user_10,rundll32.exe,explorer.exe,Stop-Service /usr/bin.py New-File C:\Windows\Te,47,2,0
+01/12/2025 12:07,user_02,notepad.exe,explorer.exe,Start-Job C:\Us,15,1,0
+15/12/2025 13:37,user_06,notepad.exe,python.exe,New-Process C:\Users\Public.log Set-Service C:,46,2,1
+09/12/2025 13:20,user_01,python.exe,python.exe,Get-Service /usr/,17,1,0
+24/12/2025 16:24,user_04,rundll32.exe,winlogon.exe,Get-Job /tmp.ps1 Stop,21,2,0
+12/12/2025 08:49,user_05,cmd.exe,regsvr32.exe,Remove-Process C:\Users\Pub,27,1,0
+15/12/2025 14:32,user_05,notepad.exe,explorer.exe,Get-Service /usr/,17,1,0
+02/12/2025 08:21,user_04,notepad.exe,explorer.exe,Remove-Service,14,1,0
+15/12/2025 14:44,user_01,mshta.exe,wscript.exe,Get-File C:\Windows\Temp.py S,29,2,0
+19/12/2025 14:42,user_09,notepad.exe,explorer.exe,Start-Service C:\Users\,23,1,0
+18/12/2025 12:32,user_02,rundll32.exe,explorer.exe,Stop-Job C:\Windows\Temp.log New-File,37,2,0
+26/12/2025 12:25,user_04,mshta.exe,explorer.exe,New-Process C:\W,16,1,0
+16/12/2025 17:19,user_09,cmd.exe,regsvr32.exe,Start-Job C:\Windows\,21,1,0
+21/12/2025 23:42,user_02,notepad.exe,explorer.exe,Get-File C:\Users\Public.py Stop-Registry /usr/bin.txt Get-Registry C:\Windows\Temp.py Re,89,4,1
+17/12/2025 13:36,user_09,notepad.exe,explorer.exe,Stop-File /tmp.txt Get-Registry /tmp.txt Star,45,3,0
+28/12/2025 23:39,user_02,notepad.exe,explorer.exe,Set-Service /tmp.py New-Job C:\Users\Public.py Stop-Job /tmp.txt Star,69,4,1
+12/12/2025 14:00,user_01,rundll32.exe,winlogon.exe,Stop-Process /tmp.py Stop-Service C:\Wi,39,2,0
+29/12/2025 15:34,user_09,python.exe,explorer.exe,New-Process C:\Windows\Temp.ps1 Get-Job /tmp.tx,47,2,0
+15/12/2025 13:08,user_02,powershell.exe,cmd.exe,Start-File /tmp.py New-Registry C,33,2,0
+10/12/2025 12:03,user_08,python.exe,rundll32.exe,Stop-Process C:\Windows\Temp.log New-Fil,40,2,0
+12/12/2025 09:41,user_01,rundll32.exe,rundll32.exe,Set-Servic,10,1,0
+26/12/2025 08:58,user_06,notepad.exe,explorer.exe,Set-Registry C:\Window,22,1,0
+09/12/2025 12:30,user_02,cmd.exe,cscript.exe,Get-Service /usr/bin.ps1 Start-Process C:,41,2,0
+12/12/2025 08:32,user_07,cmd.exe,regsvr32.exe,Start-Process C:\Users\Public.log New-Re,40,2,0
+23/12/2025 12:00,user_08,notepad.exe,explorer.exe,Start-Process /tmp.log Start-,29,2,0
+24/12/2025 16:42,user_09,notepad.exe,explorer.exe,Stop-Job C:\Users\Pub,21,1,0
+07/12/2025 08:04,user_09,cmd.exe,cmd.exe,Get-Process /tmp.,17,1,0
+21/12/2025 08:10,user_10,rundll32.exe,explorer.exe,Stop-File /usr/bin.ps,21,1,0
+01/12/2025 09:38,user_01,notepad.exe,explorer.exe,New-Job C:\Users\Public.txt Stop-Registry C:\Windo,50,2,0
+18/12/2025 14:27,user_03,cmd.exe,regsvr32.exe,Stop-Job /,10,1,0
+01/12/2025 11:32,user_08,cmd.exe,explorer.exe,New-Job C:\User,15,1,0
+31/12/2025 13:57,user_08,cmd.exe,explorer.exe,Stop-Job C:\,12,1,0
+02/12/2025 14:43,user_06,wscript.exe,cmd.exe,Stop-File /usr/bin.py Get-File C:\Users\Publ,44,2,0
+11/12/2025 10:41,user_10,cmd.exe,wscript.exe,Stop-Registry C:\Windows\Temp.txt Set-Service C,47,2,0
+02/12/2025 11:36,user_09,notepad.exe,explorer.exe,Remove-Process C:\Users\Public.py New-Job /us,45,2,0
+17/12/2025 13:17,user_02,cmd.exe,cmd.exe,Stop-Process /tmp,17,1,0
+30/12/2025 18:11,user_10,notepad.exe,explorer.exe,Set-Registry C:\Windows\Te,26,1,0
+26/12/2025 14:50,user_06,cmd.exe,rundll32.exe,Stop-Process C:\Users\Public.py R,33,2,0
+02/12/2025 17:51,user_01,mshta.exe,rundll32.exe,Start-Service C:\Users\Public.log Remove-S,42,2,0
+04/12/2025 10:54,user_03,notepad.exe,explorer.exe,Get-Job C:\Windows\,19,1,0
+08/12/2025 09:52,user_05,cmd.exe,wscript.exe,Stop-Service C:\Users\Public.t,30,1,0
+14/12/2025 14:41,user_03,rundll32.exe,mshta.exe,Stop-Service /tmp.txt,21,1,0
+09/12/2025 14:23,user_09,cmd.exe,explorer.exe,Get-File C:\Win,15,1,0
+03/12/2025 11:38,user_01,cmd.exe,explorer.exe,Stop-Service /tmp.txt Get-Registry C:\,38,2,0
+21/12/2025 09:04,user_09,rundll32.exe,cscript.exe,Start-Regi,10,1,0
+19/12/2025 14:43,user_05,cmd.exe,cscript.exe,Get-Process C:\Windows,22,1,0
+16/12/2025 14:00,user_01,cmd.exe,explorer.exe,Get-Job /usr/bin.py Set,23,2,0
+16/12/2025 16:37,user_08,python.exe,explorer.exe,Start-Job C:\Users\Public.ps1 Get-Job /usr/bin,46,2,0
+01/12/2025 09:44,user_08,notepad.exe,explorer.exe,New-Registry C:\Windows\Temp.ps1 Start-J,40,2,0
+22/12/2025 14:54,user_02,notepad.exe,explorer.exe,Remove-Registry C:\Windows\Temp.log Stop-File C,47,2,0
+18/12/2025 12:06,user_07,regsvr32.exe,cmd.exe,Start-Service /usr/bin.ps1 Stop-Proc,36,2,0
+18/12/2025 16:43,user_01,rundll32.exe,explorer.exe,Set-Registry /usr/bin.txt Stop,30,2,0
+22/12/2025 11:47,user_01,cmd.exe,cmd.exe,Set-Process C:\Users\,21,1,0
+26/12/2025 12:52,user_09,notepad.exe,explorer.exe,Start-Registry C:\Use,21,1,0
+19/12/2025 13:53,user_03,python.exe,explorer.exe,Start-Process,13,1,0
+31/12/2025 09:44,user_03,regsvr32.exe,cmd.exe,New-File /us,12,1,0
+24/12/2025 16:52,user_04,cmd.exe,explorer.exe,Set-Process /usr/bin.log S,26,2,0
+02/12/2025 08:19,user_07,cmd.exe,explorer.exe,Stop-Process C:\Users,21,1,0
+29/12/2025 04:13,user_02,cmd.exe,rundll32.exe,Stop-Process C:\Windows\Temp.ps1 New-Registry /t,48,2,1
+24/12/2025 10:56,user_02,cmd.exe,rundll32.exe,New-Job C:\Windows\Temp.py Get-Fil,34,2,0
+07/12/2025 15:06,user_02,powershell.exe,cscript.exe,New-Registry C,14,1,0
+15/12/2025 11:29,user_02,cmd.exe,rundll32.exe,Stop-Registry /tmp.txt New-Proces,33,2,0
+09/12/2025 08:24,user_08,notepad.exe,explorer.exe,Get-Process /tmp.py New-Job /tmp.log New-Fil,44,3,0
+30/12/2025 13:12,user_07,cmd.exe,cmd.exe,New-File C:\Users\Pub,21,1,0
+25/12/2025 17:00,user_04,cscript.exe,explorer.exe,Stop-Servi,10,1,0
+16/12/2025 16:31,user_10,powershell.exe,svchost.exe,Stop-Registr,12,1,0
+29/12/2025 08:22,user_07,cmd.exe,explorer.exe,Set-Service /tmp.txt Stop-Job /tmp.log Remove-Pr,48,3,0
+10/12/2025 09:04,user_02,rundll32.exe,explorer.exe,New-File C:\Windows\,20,1,0
+30/12/2025 01:55,user_06,cmd.exe,wscript.exe,Start-File C:\Users\Public.txt Get-Job C:\Windows\Temp.ps1 New-Job C,68,3,1
+02/12/2025 04:07,user_03,rundll32.exe,explorer.exe,Get-Registry C:\Windows\Temp.log Set-File /tmp.log Start-Job /tmp.txt New-Se,76,4,1
+31/12/2025 12:12,user_03,notepad.exe,explorer.exe,New-Service C:\Wind,19,1,0
+31/12/2025 14:26,user_02,powershell.exe,cmd.exe,Set-File /usr/,14,1,0
+22/12/2025 11:51,user_09,cmd.exe,powershell.exe,Get-Service,11,1,0
+12/12/2025 09:54,user_06,python.exe,cmd.exe,Get-Job C:\Windows\Temp.py Star,31,2,0
+02/12/2025 14:22,user_06,rundll32.exe,wscript.exe,Stop-File C:\Windows\Temp.txt Set-Job /tmp.ps,45,2,0
+29/12/2025 14:53,user_08,powershell.exe,wscript.exe,Start-File /usr/bin.log Remo,28,2,0
+21/12/2025 15:06,user_06,cmd.exe,cmd.exe,Stop-File C:\Users\Publi,24,1,0
+02/12/2025 12:50,user_10,notepad.exe,explorer.exe,Get-Process /tmp.log,20,1,0
+02/12/2025 14:07,user_03,python.exe,cscript.exe,Start-Service /tmp.ps1 Remove,29,2,0
+25/12/2025 10:16,user_09,cmd.exe,mshta.exe,Set-Process /usr/bin.txt,24,1,0
+11/12/2025 15:19,user_08,cscript.exe,explorer.exe,Start-Job C:\Windows\T,22,1,0
+04/12/2025 08:02,user_10,rundll32.exe,explorer.exe,Start-File C:\Users\Public,26,1,0
+21/12/2025 12:41,user_01,cmd.exe,cscript.exe,Stop-Registry C:\Windows\Tem,28,1,0
+16/12/2025 15:49,user_01,rundll32.exe,cmd.exe,New-Registry /tmp.py Set-Job C:\Users\Public,44,2,0
+25/12/2025 11:24,user_02,cmd.exe,cmd.exe,New-Registry C:\U,17,1,0
