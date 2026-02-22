@@ -1,29 +1,77 @@
-# Agent-Designer agent
+# 🍳 Cooking Assistant
 
-## 1. Agent Name
-agent-designer.
+The Cooking Assistant is an AI agent designed to guide users through the complete cooking workflow, from recipe discovery to shopping list preparation. Its purpose is to provide a structured, user-friendly assistant that helps people plan meals efficiently while considering their preferences and available ingredients.
 
-## 2. Agent Purpose
-The purpose of this agent is to assist in designing and shaping the initial concept of the agent you intend to create.
+## 📝 Agent Purpose
 
-This agent is designed to:
+The agent’s system prompt is configured to act as a technical cooking assistant. Its responsibilities include:
 
-* Provide you with the initial structure for your idea.
-* Assist in brainstorming and refining your idea.
-* Explain how to evolve your idea and take it to the next level.
+**1.** Assisting the user in finding recipes that match their dietary preferences, allergies, and desired cuisine.
 
-## 3. Agent Tools
-This agent uses a single tool:
+**2.** Querying the user for ingredients they already possess.
 
-normalize_agent_name
+**3.** Generating a shopping list for missing ingredients.
 
-Purpose:
-To determine an appropriate agent name derived from the core idea.
+**4.** Presenting a fully formatted, structured response including the recipe and shopping list.
 
-Expected input:
-The user requests the design of a specific agent
+The agent’s role is to orchestrate multiple tools, ensuring a smooth and safe workflow strictly focused on cooking and food.
 
-Expected output:
-The output is not presented directly to the end user.
-The output is intended for use by the agent-designer agent during the creation of the requested agent design.
-The output consists of a name that reflects and fits the user's core idea.
+## 🛠️ Agent Tools
+
+The Cooking Assistant leverages three primary tools:
+
+### 1️⃣ recipe_finder
+
+* This tool locates recipes based on the user’s preferences and dietary restrictions.
+
+* Input: User preferences, dietary restrictions, or allergies.
+
+* Output: A Recipe object containing the title of the dish, a list of ingredients, and step-by-step steps to prepare it.
+
+### 2️⃣ shopping_list_generator
+
+* Compares the required recipe ingredients against what the user already has.
+
+* Input: A list of needed_ingredients and a string describing what the user already owns.
+
+* Output: A dictionary containing items as a comma-separated string of ingredients the user still needs. Returns "None" if all ingredients are already available.
+
+### 3️⃣ output_format
+
+* Formats the final response for the user in a structured way.
+
+* Input: response_text for user-facing messages, optional recipe object, and optional shopping_list.
+
+* Output: A CookingAssistantResponse object with response_text, the current_recipe, and a shopping_list.
+
+## 💬 Example Interaction
+
+**User:** "I want to cook chicken tonight. Can you suggest a recipe?"
+
+### Agent Workflow:
+
+**1.** The assistant uses recipe_finder to suggest a recipe and asks about allergies and preferences.
+
+**2.** Once a recipe is confirmed, the assistant asks what ingredients the user already has.
+
+**3.** Using shopping_list_generator, it identifies missing ingredients.
+
+**4.** Finally, output_format is used to generate a structured response.
+
+**User:** "I already have chicken, garlic, and olive oil."
+
+**Cooking Assistant Response:**
+---
+    {
+        "response_text": "Here's your recipe and shopping list!",
+        "current_recipe": {
+            "title": "Garlic Chicken Stir-Fry",
+            "ingredients": ["chicken", "garlic", "onions", "bell peppers", "olive oil", "spices"],
+            "steps": ["Step 1: Chop ingredients...", "Step 2: Heat oil...", "Step 3: Cook chicken..."]
+        },
+        "shopping_list": {
+            "items": "onions, bell peppers, spices"
+        }
+    }
+---
+The assistant ensures the user has a complete cooking plan, including both the recipe and a clear shopping list.
