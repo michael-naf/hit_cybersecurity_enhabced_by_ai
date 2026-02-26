@@ -28,12 +28,20 @@ class IsolationForestAgent(BaseAgent):
             random_state=random_state
         )
 
+
+    # =========================
+    # Training
+    # =========================
     def fit(self, X):
         """
         Train the Isolation Forest on numeric features only.
         """
         self.model.fit(X)
 
+
+    # =========================
+    # Scoring
+    # =========================
     def score(self, X):
         """
         Return anomaly scores.
@@ -47,3 +55,13 @@ class IsolationForestAgent(BaseAgent):
 
         # Flip sign: now higher = more anomalous
         return -scores
+
+
+    # =========================
+    # Prediction
+    # =========================
+    def predict(self, X, threshold=None):
+        scores = self.score(X)
+        n_outliers = int(len(scores) * self.model.contamination)
+        threshold = np.sort(scores)[-n_outliers]
+        return (scores > threshold).astype(int)

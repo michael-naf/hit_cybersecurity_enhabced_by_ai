@@ -1,25 +1,23 @@
 # autoencoder_agent.py
 import numpy as np
+import tensorflow as tf
+
 from tf_keras.models import Model
 from tf_keras.layers import Input, Dense
 from tf_keras.optimizers import Adam
 from tf_keras.callbacks import EarlyStopping
-from sklearn.metrics import (
-    confusion_matrix,
-    accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    roc_curve,
-    auc
-)
+
+from sklearn.preprocessing import StandardScaler
+
 from .base_agent import BaseAgent
 
 
 class AutoencoderAgent(BaseAgent):
     """
-    Autoencoder-based anomaly detection agent.
-    Anomaly score = reconstruction error.
+    Production-ready Autoencoder anomaly detector.
+    - Includes scaling
+    - Uses validation loss
+    - Stable random seed
     """
 
     def __init__(
@@ -29,8 +27,9 @@ class AutoencoderAgent(BaseAgent):
         hidden_dims=(64, 32),
         latent_dim=16,
         learning_rate=1e-3,
-        epochs=50,
-        batch_size=32
+        epochs=100,
+        batch_size=32,
+        seed=42
     ):
         super().__init__(name)
 
@@ -40,16 +39,22 @@ class AutoencoderAgent(BaseAgent):
         self.learning_rate = learning_rate
         self.epochs = epochs
         self.batch_size = batch_size
+        self.seed = seed
 
         self.model = None
+        self.scaler = StandardScaler()
 
+        # Reproducibility
+        np.random.seed(self.seed)
+        tf.random.set_seed(self.seed)
+
+    # =========================
+    # Model Building
+    # =========================
     def _build_model(self):
-        """
-        Build symmetric autoencoder.
-        """
         inputs = Input(shape=(self.input_dim,))
-
         x = inputs
+
         for dim in self.hidden_dims:
             x = Dense(dim, activation="relu")(x)
 
@@ -69,24 +74,34 @@ class AutoencoderAgent(BaseAgent):
 
         return model
 
-    def fit(self, X):
-        """
-        Train autoencoder on (mostly) normal data.
-        """
+    # =========================
+    # Training
+    # =========================
+    def fit(self, X_train, X_val=None):
+
         if self.input_dim is None:
-            self.input_dim = X.shape[1]
+            self.input_dim = X_train.shape[1]
+
+        # Fit scaler only on training data
+        X_train = self.scaler.fit_transform(X_train)
+
+        # apply same scaling to validation data
+        if X_val is not None:
+            X_val = self.scaler.transform(X_val)
 
         self.model = self._build_model()
 
+        #if there is validation data, early stop according to val_loss, else early stop according to loss
         early_stop = EarlyStopping(
-            monitor="loss",
-            patience=5,
+            monitor="val_loss" if X_val is not None else "loss",
+            patience=10,
             restore_best_weights=True
         )
 
         self.model.fit(
-            X,
-            X,
+            X_train,
+            X_train,
+            validation_data=(X_val, X_val) if X_val is not None else None,
             epochs=self.epochs,
             batch_size=self.batch_size,
             shuffle=True,
@@ -94,94 +109,35 @@ class AutoencoderAgent(BaseAgent):
             verbose=0
         )
 
+    # =========================
+    # Scoring
+    # =========================
     def score(self, X):
-        """
-        Return anomaly scores.
-        Higher = more anomalous.
-        """
+
         if self.model is None:
             raise ValueError("Model not trained. Call fit() first.")
-        
-        reconstructions = self.model.predict(X, verbose=0)
 
-        # Mean Squared Error per sample
+        X_scaled = self.scaler.transform(X)
+
+        reconstructions = self.model.predict(X_scaled, verbose=0)
+
+        # calculating MSE for each sample
         reconstruction_error = np.mean(
-            np.square(X - reconstructions),
+            np.square(X_scaled - reconstructions),
             axis=1
         )
 
         return reconstruction_error
 
+    # =========================
+    # Prediction
+    # =========================
+    def predict(self, X, threshold=None):
 
-    def predict(self, X, threshold):
-        """
-        Binary classification from anomaly scores.
-        0 = normal
-        1 = anomaly
-        """
+        if threshold is None:
+            raise ValueError(
+                "Threshold not provided. Decide threshold in MetaAgent."
+            )
+
         scores = self.score(X)
         return (scores > threshold).astype(int)
-
-
-    def evaluate(self, X, y_true, threshold):
-        """
-        Compute full evaluation metrics.
-        
-        Returns:
-            dict containing:
-                confusion_matrix
-                accuracy
-                precision
-                recall
-                f1
-        """
-        y_pred = self.predict(X, threshold)
-
-        cm = confusion_matrix(y_true, y_pred)
-
-        return {
-            "confusion_matrix": cm,
-            "accuracy": accuracy_score(y_true, y_pred),
-            "precision": precision_score(y_true, y_pred, zero_division=0),
-            "recall": recall_score(y_true, y_pred, zero_division=0),
-            "f1": f1_score(y_true, y_pred, zero_division=0),
-        }
-
-
-    def compute_roc(self, X, y_true):
-        """
-        Compute ROC curve and AUC.
-        
-        Returns:
-            fpr, tpr, thresholds, auc_score
-        """
-        scores = self.score(X)
-
-        fpr, tpr, thresholds = roc_curve(y_true, scores)
-        auc_score = auc(fpr, tpr)
-
-        return fpr, tpr, thresholds, auc_score
-
-
-    def find_best_threshold(self, X, y_true):
-        """
-        Automatically find best threshold based on F1 score.
-        
-        Returns:
-            best_threshold, best_f1
-        """
-        scores = self.score(X)
-        thresholds = np.unique(scores)
-
-        best_f1 = 0
-        best_threshold = thresholds[0]
-
-        for t in thresholds:
-            y_pred = (scores > t).astype(int)
-            f1 = f1_score(y_true, y_pred, zero_division=0)
-
-            if f1 > best_f1:
-                best_f1 = f1
-                best_threshold = t
-
-        return best_threshold, best_f1
