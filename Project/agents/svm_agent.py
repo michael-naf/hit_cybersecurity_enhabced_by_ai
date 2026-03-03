@@ -15,7 +15,7 @@ class SVMAgent(BaseAgent):
         name="OneClassSVM",
         kernel="rbf",
         nu=0.05,
-        gamma="scale"
+        gamma="auto"
     ):
         super().__init__(name)
 

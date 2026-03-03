@@ -3,23 +3,30 @@ import itertools
 import numpy as np
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 
-def evaluate_agent(agent, X, y_true, threshold):
+def evaluate_agent(agent, X, y_true, threshold=None):
     """
     Evaluate a single agent.
     Prints confusion matrix, precision, recall, f1_score.
+
+    If threshold is None:
+    - For MetaAgent or agents with automatic thresholding, it will compute it automatically.
     """
-    y_pred = agent.predict(X, threshold=threshold)
-    
+    # אם אין threshold, נסה להשתמש ב-predict עם threshold=None
+    if threshold is None:
+        y_pred = agent.predict(X, threshold=None)
+    else:
+        y_pred = agent.predict(X, threshold=threshold)
+
     cm = confusion_matrix(y_true, y_pred)
     precision = precision_score(y_true, y_pred, zero_division=0)
     recall = recall_score(y_true, y_pred, zero_division=0)
     f1 = f1_score(y_true, y_pred, zero_division=0)
-    
+
     print(f"===== Evaluation: {agent.get_name()} =====")
     print("Confusion Matrix:")
     print(cm)
     print(f"Precision: {precision:.4f}, Recall: {recall:.4f}, F1: {f1:.4f}\n")
-    
+
     return {"cm": cm, "precision": precision, "recall": recall, "f1": f1}
 
 

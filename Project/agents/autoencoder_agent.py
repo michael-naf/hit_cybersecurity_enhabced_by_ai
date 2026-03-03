@@ -1,7 +1,8 @@
 # autoencoder_agent.py
 import numpy as np
 import tensorflow as tf
-
+import os
+import random
 from tf_keras.models import Model
 from tf_keras.layers import Input, Dense
 from tf_keras.optimizers import Adam
@@ -44,7 +45,13 @@ class AutoencoderAgent(BaseAgent):
         self.model = None
         self.scaler = StandardScaler()
 
-        # Reproducibility
+        # =========================
+        # Full Reproducibility
+        # =========================
+        os.environ["PYTHONHASHSEED"] = str(self.seed)
+        os.environ["TF_DETERMINISTIC_OPS"] = "1"
+
+        random.seed(self.seed)
         np.random.seed(self.seed)
         tf.random.set_seed(self.seed)
 

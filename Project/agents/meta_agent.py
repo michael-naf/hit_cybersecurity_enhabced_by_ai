@@ -48,6 +48,7 @@ class MetaAgent(BaseAgent):
             else:
                 agent.fit(X_dict[agent_name])
 
+
     def score(self, X_dict):
         """
         Compute ensemble anomaly scores.

@@ -1,72 +1,44 @@
-from sentence_transformers import SentenceTransformer
+# preprocessing.py
 import pandas as pd
 import numpy as np
+import re
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # -----------------------------
 # Encode labels
 # -----------------------------
 def encode_labels(y, label_map={'benign':0, 'suspicious':1}):
-    """
-    Encode string labels to numeric
-    """
     return y.map(label_map)
 
+
 # -----------------------------
-# Timestamp processing (fully cyclic)
+# Timestamp processing (cyclic)
 # -----------------------------
 def process_timestamp(X, timestamp_col):
-    """
-    Convert timestamp to datetime and extract numeric + cyclic features.
-    Fully robust to ISO format (YYYY-MM-DD HH:MM:SS) and other formats.
-    """
     X = X.copy()
-    
-    # -----------------------------
-    # Convert to datetime
-    # -----------------------------
     X[timestamp_col] = pd.to_datetime(X[timestamp_col], dayfirst=True, errors='coerce')
-
-    # -----------------------------
-    # Basic numeric features
-    # -----------------------------
     X['year'] = X[timestamp_col].dt.year
     X['month'] = X[timestamp_col].dt.month
     X['day'] = X[timestamp_col].dt.day
     X['hour'] = X[timestamp_col].dt.hour
     X['minute'] = X[timestamp_col].dt.minute
-    X['dayofweek'] = X[timestamp_col].dt.dayofweek  # Monday=0, Sunday=6
-    # Shift to Sunday=0
-    X['dayofweek'] = (X['dayofweek'] + 1) % 7
-    X['is_weekend'] = X['dayofweek'].isin([0,6]).astype(int)
-
-    # -----------------------------
+    X['dow'] = (X[timestamp_col].dt.dayofweek + 1) % 7 #sunday=0 --> saturday=6
+    X['is_weekend'] = X['dow'].isin([5,6]).astype(int)
     # Cyclic encoding
-    # -----------------------------
-    # Hour
-    X['hour_sin'] = np.sin(2 * np.pi * X['hour']/24)
-    X['hour_cos'] = np.cos(2 * np.pi * X['hour']/24)
-    # Minute
-    X['minute_sin'] = np.sin(2 * np.pi * X['minute']/60)
-    X['minute_cos'] = np.cos(2 * np.pi * X['minute']/60)
-    # Day of month (manual month lengths)
-    month_days = {1:31,2:28,3:31,4:30,5:31,6:30,
-                  7:31,8:31,9:30,10:31,11:30,12:31}
+    X['hour_sin'] = np.sin(2*np.pi*X['hour']/24)
+    X['hour_cos'] = np.cos(2*np.pi*X['hour']/24)
+    X['minute_sin'] = np.sin(2*np.pi*X['minute']/60)
+    X['minute_cos'] = np.cos(2*np.pi*X['minute']/60)
+    month_days = {1:31,2:28,3:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
     days_in_month = X['month'].map(month_days)
-    X['day_sin'] = np.sin(2 * np.pi * X['day'] / days_in_month)
-    X['day_cos'] = np.cos(2 * np.pi * X['day'] / days_in_month)
-    # Day of week
-    X['dow_sin'] = np.sin(2 * np.pi * X['dayofweek']/7)
-    X['dow_cos'] = np.cos(2 * np.pi * X['dayofweek']/7)
-    # Month
-    X['month_sin'] = np.sin(2 * np.pi * X['month']/12)
-    X['month_cos'] = np.cos(2 * np.pi * X['month']/12)
-
-    # -----------------------------
-    # Drop raw columns
-    # -----------------------------
-    drop_cols = [timestamp_col, 'hour','minute','day','dayofweek','month']
-    X = X.drop(columns=drop_cols, errors='ignore')  # safer in case some columns missing
-
+    X['day_sin'] = np.sin(2*np.pi*X['day']/days_in_month)
+    X['day_cos'] = np.cos(2*np.pi*X['day']/days_in_month)
+    X['dow_sin'] = np.sin(2*np.pi*X['dow']/7)
+    X['dow_cos'] = np.cos(2*np.pi*X['dow']/7)
+    X['month_sin'] = np.sin(2*np.pi*X['month']/12)
+    X['month_cos'] = np.cos(2*np.pi*X['month']/12)
+    drop_cols = [timestamp_col,'hour','minute','day','dow','month']
+    X = X.drop(columns=drop_cols, errors='ignore')
     return X
 
 
@@ -74,127 +46,123 @@ def process_timestamp(X, timestamp_col):
 # Handle missing values
 # -----------------------------
 def handle_missing_values(X, numeric_cols, categorical_cols):
-    """
-    Fill missing values in numeric and categorical columns
-    """
     X = X.copy()
     X[numeric_cols] = X[numeric_cols].fillna(X[numeric_cols].median())
     X[categorical_cols] = X[categorical_cols].fillna('Unknown')
+    if 'command_line' in X.columns:
+        X['command_line'] = X['command_line'].fillna('').astype(str)
     return X
 
-# -----------------------------
-# Handle outliers
-# -----------------------------
-def handle_outliers(X, numeric_cols):
-    """
-    Clip numeric features to remove extreme outliers (IQR method)
-    """
-    X = X.copy()
-    Q1 = X[numeric_cols].quantile(0.25)
-    Q3 = X[numeric_cols].quantile(0.75)
-    IQR = Q3 - Q1
-    lower = Q1 - 1.5 * IQR
-    upper = Q3 + 1.5 * IQR
-    X[numeric_cols] = X[numeric_cols].clip(lower=lower, upper=upper, axis=1)
-    return X
+
 
 # -----------------------------
 # Remove highly correlated features
 # -----------------------------
-def remove_highly_correlated(X, numeric_cols, threshold=0.9):
-    """
-    Remove highly correlated numeric features
-    Returns: reduced X, updated numeric_cols, list of removed features
-    """
+def remove_highly_correlated(X, numeric_cols, threshold=0.95):
     X = X.copy()
     corr_matrix = X[numeric_cols].corr().abs()
     upper_tri = corr_matrix.where(~np.tril(np.ones(corr_matrix.shape)).astype(bool))
     to_drop = [col for col in upper_tri.columns if any(upper_tri[col] > threshold)]
     X = X.drop(columns=to_drop)
     numeric_cols = [col for col in numeric_cols if col not in to_drop]
-    return X, numeric_cols, to_drop
+    return X, numeric_cols
+
 
 # -----------------------------
-# Embed command_text semantically
+# Clean text column
 # -----------------------------
-def embed_command_text(X, text_col='command_text', model_name='all-MiniLM-L6-v2'):
-    """
-    Convert command_text into semantic embeddings using a pretrained sentence transformer
-    Returns a DataFrame of embeddings
-    """
-    X = X.copy()
-    model = SentenceTransformer(model_name, device="cpu")
-    embeddings = model.encode(X[text_col].tolist(), show_progress_bar=True)
-    X_emb = pd.DataFrame(embeddings, columns=[f"{text_col}_embed_{i}" for i in range(embeddings.shape[1])])
-    X_emb.index = X.index
-    return X_emb
+def clean_text_column(df, column):
+    df[column] = df[column].astype(str).str.lower()
+    df[column] = df[column].apply(lambda x: re.sub(r"[^\x20-\x7E]", " ", x))
+    df[column] = df[column].apply(lambda x: re.sub(r"\s+", " ", x).strip())
+    return df
+
 
 # -----------------------------
-# Full preprocessing pipeline
+# TF-IDF vectorization
 # -----------------------------
-def preprocess_data(
-    X,
-    timestamp_col=None,
-    text_col=None,
+def tfidf_vectorize(df, column='command_line', max_features=512):
+    df = clean_text_column(df, column)
+    vectorizer = TfidfVectorizer(max_features=max_features)
+    X_tfidf = vectorizer.fit_transform(df[column])
+    return pd.DataFrame(X_tfidf.toarray(), index=df.index,
+                        columns=[f"{column}_tfidf_{i}" for i in range(X_tfidf.shape[1])])
+
+
+# -----------------------------
+# Full preprocessing + prepare dict for MetaAgent
+# -----------------------------
+def preprocess_for_metaagent(
+    df,
+    text_col='command_line',
     label_col=None,
-    numeric_cols=None,
-    categorical_cols=None
+    timestamp_col=None,
+    tfidf_max_features=512
 ):
-    X = X.copy()
+    """
+    Returns: X_dict (dict of np.arrays), y_encoded (if label exists)
+    Each agent receives numeric + TF-IDF
+    """
+    df = df.copy()
 
-    # --------------------------
-    # Auto-detect numeric/categorical if not provided
-    # --------------------------
-    if numeric_cols is None:
-        numeric_cols = X.select_dtypes(include="number").columns.tolist()
-    if categorical_cols is None:
-        categorical_cols = X.select_dtypes(include="object").columns.tolist()
-        # remove label/text/timestamp if present
-        categorical_cols = [col for col in categorical_cols if col not in [label_col, text_col, timestamp_col]]
+    # Encode labels
+    y_encoded = None
+    if label_col and label_col in df.columns:
+        y_encoded = encode_labels(df[label_col])
+        df = df.drop(columns=[label_col])
 
-    # --------------------------
+    # Identify numeric/categorical
+    numeric_cols = df.select_dtypes(include="number").columns.tolist()
+    categorical_cols = df.select_dtypes(include="object").columns.tolist()
+    if text_col in categorical_cols:
+        categorical_cols.remove(text_col)
+
     # Process timestamp
-    # --------------------------
-    if timestamp_col and timestamp_col in X.columns:
-        X = process_timestamp(X, timestamp_col)
-        # Add new time features to numeric_cols
+    if timestamp_col and timestamp_col in df.columns:
+        df = process_timestamp(df, timestamp_col)
         new_time_features = [
-            'hour_sin','hour_cos',
-            'minute_sin','minute_cos',
-            'day_sin','day_cos',
-            'dow_sin','dow_cos',
+            'hour_sin','hour_cos','minute_sin','minute_cos',
+            'day_sin','day_cos','dow_sin','dow_cos',
             'month_sin','month_cos'
         ]
         numeric_cols += new_time_features
+        categorical_cols = [col for col in categorical_cols if col in df.columns]
 
-    # --------------------------
     # Handle missing values
-    # --------------------------
-    X = handle_missing_values(X, numeric_cols, categorical_cols)
+    df = handle_missing_values(df, numeric_cols, categorical_cols)
 
-    # --------------------------
-    # Handle outliers
-    # --------------------------
-    X = handle_outliers(X, numeric_cols)
+    # Frequency Encoding for categorical features
+    if categorical_cols:
+        for col in categorical_cols:
+            freq_map = df[col].value_counts()
+            df[col] = df[col].map(freq_map)
 
-    # --------------------------
-    # Remove highly correlated features
-    # --------------------------
-    X, numeric_cols, dropped = remove_highly_correlated(X, numeric_cols)
+        numeric_cols += categorical_cols
 
-    # --------------------------
-    # Encode labels
-    # --------------------------
-    y_encoded = None
-    if label_col and label_col in X.columns:
-        y_encoded = encode_labels(X[label_col])
-        X = X.drop(columns=[label_col])
+    # Remove highly correlated numeric features
+    df, numeric_cols = remove_highly_correlated(df, numeric_cols)
 
-    # --------------------------
-    # Embed command_text
-    # --------------------------
-    X_text_emb = None
-    if text_col and text_col in X.columns:
-        X_text_emb = embed_command_text(X, text_col=text_col)
+    # TF-IDF
+    X_tfidf = tfidf_vectorize(df, column=text_col, max_features=tfidf_max_features) if text_col in df.columns else None
 
-    return X, numeric_cols, y_encoded, X_text_emb
+    # Numeric array
+    X_numeric = df[numeric_cols].values if numeric_cols else None
+
+    # Combine numeric + TF-IDF
+    if X_numeric is not None and X_tfidf is not None:
+        X_full = np.hstack([X_numeric, X_tfidf.values])
+    elif X_numeric is not None:
+        X_full = X_numeric
+    elif X_tfidf is not None:
+        X_full = X_tfidf.values
+    else:
+        raise ValueError("No features available for preprocessing.")
+
+    # Prepare X_dict for MetaAgent
+    X_dict = {
+        "IsolationForest": X_full,
+        "Autoencoder": X_full,
+        "OneClassSVM": X_full
+    }
+
+    return X_dict, y_encoded
