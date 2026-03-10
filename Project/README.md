@@ -154,7 +154,7 @@ The project automatically generates:
 * **Isolation Forest** provides strong baseline performance across enterprises.
 * **One-Class SVM** often produces high recall but may introduce many false positives.
 * **Autoencoders** can detect subtle anomalies but may miss some attacks.
-* **Ensemble methods** (MetaAgent) generally achieve the best overall performance by combining multiple detection strategies.
+* **Ensemble methods** generally achieve the best overall performance by combining multiple detection strategies.
 
 ---
 
