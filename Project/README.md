@@ -40,9 +40,9 @@ Three enterprise profiles were modeled:
 
 * Continuous activity
 * Large number of users and commands
-* High behavioral variability
+* High behavioral variability<br><br>
 
-Each record includes features such as:
+**Each record includes features such as:**
 
 * Timestamp
 * Host ID
@@ -96,16 +96,16 @@ Large reconstruction errors indicate anomalies.
 
 ---
 
-# 🏆 Ensemble Detection (MetaAgent)
+# 🏆 Ensemble Detection
 
-A **MetaAgent** combines the predictions of multiple agents.
+The **MetaAgent** can combine the predictions of multiple agents.
 
 Supported strategies:
 
 * **Soft voting** – weighted combination of anomaly scores
 * **Hard voting** – majority vote based on agent predictions
 
-This ensemble approach improves detection robustness by leveraging the strengths of different algorithms.
+This ensemble approach improves detection by leveraging the strengths of different algorithms.
 
 ---
 
@@ -132,7 +132,9 @@ The main workflow includes:
 4. Training anomaly detection agents
 5. Validation and threshold tuning
 6. Ensemble evaluation using the MetaAgent
-7. Saving predictions and generating reports
+7. Saving predictions and generating reports  
+
+![Workflow Diagram](Visual_Abstract/Workflow.png)
 
 ---
 
@@ -194,9 +196,14 @@ project/
 │   ├── preprocessing.py
 │   └── report_generator.py
 │
+├── Visual_Abstract/
+│   └── Workflow.png
+│
 ├── Report/
 │   ├── Project_report.docx
-│   ├── Project_report.pdf
+│   └── Project_report.pdf
+│
+├── .gitignore
 ├── bootstrap.py
 ├── main.py
 ├── README.md
