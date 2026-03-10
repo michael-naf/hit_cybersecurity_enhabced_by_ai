@@ -194,10 +194,12 @@ project/
 │   ├── preprocessing.py
 │   └── report_generator.py
 │
+├── Report/
+│   ├── Project_report.docx
+│   ├── Project_report.pdf
 ├── bootstrap.py
 ├── main.py
 ├── README.md
-├── Project_report.docx
 └── requirements.txt
 
 ```
