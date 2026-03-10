@@ -138,6 +138,41 @@ The main workflow includes:
 
 ---
 
+# 📁 Results
+Holds results of the implementation of the workflow on the various Enterprise logs.
+We'll see now an explanation on the Results directory:
+EDA/ 🔎
+
+Holds exploratory data analysis before preprocessing for each enterprise:
+
+Enterprise_A_EDA/
+
+Enterprise_B_EDA/
+
+Enterprise_C_EDA/
+
+Includes graphs and summaries of the raw data.
+
+Enterprise_X/ 🏢
+
+Contains results for each enterprise after running the anomaly detection workflow:
+
+Enterprise_X_anomaly_results.csv → Classification for each sample (benign vs. anomaly)
+
+Enterprise_X_metrics_summary.csv → Summary of Recall 🔍, Precision ✅, F1 ⚖️ for each agent
+
+Enterprise_X_report.pdf → Detailed report including agent metrics, ensemble metrics, and confusion matrices 🧾
+
+Enterprise_Comparison/ 📊
+
+Stores comparison visualizations across all enterprises:
+
+Bar plots showing Recall 🔍, Precision ✅, F1 ⚖️ for each agent across enterprises
+
+Useful for benchmarking agent performance across different enterprise scenarios
+
+---
+
 # 🖨️ Reporting
 
 The project automatically generates:
