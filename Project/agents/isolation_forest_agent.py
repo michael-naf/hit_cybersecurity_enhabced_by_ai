@@ -62,6 +62,11 @@ class IsolationForestAgent(BaseAgent):
     # =========================
     def predict(self, X, threshold=None):
         scores = self.score(X)
-        n_outliers = int(len(scores) * self.model.contamination)
-        threshold = np.sort(scores)[-n_outliers]
-        return (scores > threshold).astype(int)
+
+        if threshold is None:
+            # אם לא נשלח threshold, השתמש ב-contamination default
+            n_outliers = max(1, int(len(scores) * self.model.contamination))
+            threshold = np.sort(scores)[-n_outliers]
+
+        # עכשיו כן משתמשים ב-threshold שנשלח
+        return (scores >= threshold).astype(int)

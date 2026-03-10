@@ -72,21 +72,4 @@ def evaluate_ensemble(agents_list, X_dict, y_true, weights=None, contamination=0
     print(cm)
     print(f"Precision: {precision:.4f}, Recall: {recall:.4f}, F1: {f1:.4f}\n")
     
-    return {"cm": cm, "precision": precision, "recall": recall, "f1": f1, "threshold": threshold}
-
-
-def evaluate_all_combinations(agents, X_dict, y_true, contamination=0.05):
-    """
-    Evaluate all single agents and all combinations of 2 or 3 agents.
-    Uses contamination-based thresholding automatically.
-    """
-    # Single agents
-    for agent in agents:
-        X_agent = X_dict[agent.get_name()]
-        evaluate_agent(agent, X_agent, y_true, 
-                       threshold=np.percentile(agent.score(X_agent), 100*(1-contamination)))
-    
-    # Combinations of 2 and 3
-    for r in [2, 3]:
-        for combo in itertools.combinations(agents, r):
-            evaluate_ensemble(combo, X_dict, y_true, contamination=contamination)
+    return {"cm": cm, "precision": precision, "recall": recall, "f1": f1, "threshold": threshold, "prediction": y_pred}

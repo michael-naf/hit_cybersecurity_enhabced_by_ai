@@ -15,10 +15,12 @@ class SVMAgent(BaseAgent):
         name="OneClassSVM",
         kernel="rbf",
         nu=0.05,
+        contamination=0.05,
         gamma="auto"
     ):
         super().__init__(name)
 
+        self.contamination=contamination
         self.model = OneClassSVM(
             kernel=kernel,
             nu=nu,
@@ -61,6 +63,11 @@ class SVMAgent(BaseAgent):
     # =========================
     def predict(self, X, threshold=None):
         scores = self.score(X)
-        n_outliers = max(1, int(len(scores) * self.model.nu))
-        threshold = np.sort(scores)[-n_outliers]
-        return (scores > threshold).astype(int)
+        
+        if threshold is None:
+            # אם לא נשלח threshold, השתמש ב-contamination default
+            n_outliers = max(1, int(len(scores) * self.contamination))
+            threshold = np.sort(scores)[-n_outliers]
+
+        # עכשיו כן משתמשים ב-threshold שנשלח
+        return (scores >= threshold).astype(int)

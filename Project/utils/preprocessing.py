@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import StandardScaler
 
 # -----------------------------
 # Encode labels
@@ -49,8 +50,8 @@ def handle_missing_values(X, numeric_cols, categorical_cols):
     X = X.copy()
     X[numeric_cols] = X[numeric_cols].fillna(X[numeric_cols].median())
     X[categorical_cols] = X[categorical_cols].fillna('Unknown')
-    if 'command_line' in X.columns:
-        X['command_line'] = X['command_line'].fillna('').astype(str)
+    if 'command_text' in X.columns:
+        X['command_text'] = X['command_text'].fillna('').astype(str)
     return X
 
 
@@ -81,7 +82,7 @@ def clean_text_column(df, column):
 # -----------------------------
 # TF-IDF vectorization
 # -----------------------------
-def tfidf_vectorize(df, column='command_line', max_features=512):
+def tfidf_vectorize(df, column='command_text', max_features=512):
     df = clean_text_column(df, column)
     vectorizer = TfidfVectorizer(max_features=max_features)
     X_tfidf = vectorizer.fit_transform(df[column])
@@ -94,7 +95,7 @@ def tfidf_vectorize(df, column='command_line', max_features=512):
 # -----------------------------
 def preprocess_for_metaagent(
     df,
-    text_col='command_line',
+    text_col='command_text',
     label_col=None,
     timestamp_col=None,
     tfidf_max_features=512
@@ -147,6 +148,13 @@ def preprocess_for_metaagent(
 
     # Numeric array
     X_numeric = df[numeric_cols].values if numeric_cols else None
+
+    # ==========================
+    # SCALING
+    # ==========================
+    if X_numeric is not None:
+        scaler = StandardScaler()
+        X_numeric = scaler.fit_transform(X_numeric)
 
     # Combine numeric + TF-IDF
     if X_numeric is not None and X_tfidf is not None:

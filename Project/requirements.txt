@@ -1,0 +1,10 @@
+#Required python=3.11
+#To install all the required packages, type "pip install -r requirements.txt"
+reportlab
+tqdm
+pandas
+scikit-learn
+matplotlib
+tensorflow
+tf-keras
+seaborn

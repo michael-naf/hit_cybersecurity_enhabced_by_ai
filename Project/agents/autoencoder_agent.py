@@ -25,7 +25,7 @@ class AutoencoderAgent(BaseAgent):
         self,
         name="Autoencoder",
         input_dim=None,
-        hidden_dims=(64, 32),
+        hidden_dims=(512, 256, 128, 64, 32),
         latent_dim=16,
         learning_rate=1e-3,
         epochs=100,

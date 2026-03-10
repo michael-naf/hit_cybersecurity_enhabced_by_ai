@@ -43,7 +43,7 @@ class MetaAgent(BaseAgent):
             if agent_name not in X_dict:
                 raise ValueError(f"X_dict missing data for agent '{agent_name}'")
 
-            if X_val_dict is not None and agent_name in X_val_dict:
+            if agent_name == "Autoencoder" and X_val_dict is not None and agent_name in X_val_dict:
                 agent.fit(X_dict[agent_name], X_val=X_val_dict[agent_name])
             else:
                 agent.fit(X_dict[agent_name])
