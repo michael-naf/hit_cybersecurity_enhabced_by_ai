@@ -19,7 +19,7 @@ For more materials, visit the course's repository - [GitHub](https://github.com/
     - [Lab4](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Lab4---LLM_Agent)
     - [Lab4-assignment](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Lab4---LLM_Agent/app/cooking_assistant/agent.py)
 
-- **lab5---LLM_Agent_Workflow**
+- **Lab5---LLM_Agent_Workflow**
     - [Lab5](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/lab5---LLM_Agent_Workflow)
     - [Lab5-assignment](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/lab5---LLM_Agent_Workflow/app/llm_defense/workflow.py)
 
