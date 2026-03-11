@@ -6,6 +6,8 @@ Here you will find our Labs resources and final project.
 
 For more materials, visit the course's repository - [GitHub](https://github.com/melofon/HIT-ai-cybersecurity-labs)  
 
+## 🔬 **[Project](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Project)**
+
 ## 📝 **_Labs:_**
 - **Lab1---Cyber_Threat_Intellignece**
     - [Lab1](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Lab1---Cyber_Threat_Intellignece)
@@ -22,7 +24,3 @@ For more materials, visit the course's repository - [GitHub](https://github.com/
 - **Lab5---LLM_Agent_Workflow**
     - [Lab5](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/lab5---LLM_Agent_Workflow)
     - [Lab5-assignment](https://github.com/melofon/HIT-ai-cybersecurity-labs/tree/main/labs/lab5%20LLM%20Agent%20Workflow)
-
-## 🔬 **_Project:_**
-- [Project](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Project)
-- [Project's main.py](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Project/main.py)
