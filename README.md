@@ -8,7 +8,7 @@ For more materials, visit the course's repository - [GitHub](https://github.com/
 
 ## 🔬 **Project**
 - **[Project](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Project)**
-- **[Project Report](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Project/Report/Project_report.pdf)**
+- **[Report](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Project/Report/Project_report.pdf)**
 
 ## 📝 **_Labs:_**
 - **Lab1---Cyber_Threat_Intellignece**
