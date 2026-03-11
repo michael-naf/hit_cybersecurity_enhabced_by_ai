@@ -6,7 +6,8 @@ Here you will find our Labs resources and final project.
 
 For more materials, visit the course's repository - [GitHub](https://github.com/melofon/HIT-ai-cybersecurity-labs)  
 
-## 🔬 **[Project](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Project)**
+## 🔬 **[Final Project](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/tree/main/Project)**
+- [Report](https://github.com/michael-naf/hit_cybersecurity_enhabced_by_ai/blob/main/Project/Report/Project_report.pdf)
 
 ## 📝 **_Labs:_**
 - **Lab1---Cyber_Threat_Intellignece**
