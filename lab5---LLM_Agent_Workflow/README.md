@@ -1,176 +1,218 @@
-## 🔐 Laboratory Work: LLM Workflow Defense and Query Rewriting
+# 🛡️ Defensive LLM Workflow: Policy-Based Query Filtering
 
-This laboratory work introduces students to the concept of **LLM workflows** and demonstrates that the final output presented to a user may be the result of **multiple coordinated agents**, not a single LLM response.
+![Workflow screenshot in devUI](example.png "Workflow screenshot in devUI")
+![Workflow screenshot in devUI](example2.png "Workflow screenshot in devUI")
 
-The lab focuses on **defensive processing of user input** and shows how user queries can be:
+# Secure Query Rewriting Workflow
 
-* checked,
-* rewritten,
-* constrained,
-* or sanitized
+## 1. Workflow Purpose
 
-*before* being answered by an LLM or being executed by LLM-agent.
+This workflow implements a **secure multi-agent pipeline** that ensures user queries are handled safely before generating a response.
 
-This laboratory builds directly on the previous lab devoted to **single-agent development** and introduces **multi-agent workflows** as a core architectural concept.
+It solves the problem of:
 
+* Preventing direct answers to harmful or unsafe queries
+
+* Transforming unsafe requests into **safe, educational, research-oriented topics**
+
+* Maintaining usability while reducing policy and security risks
+
+Instead of rejecting unsafe inputs outright, the system **rewrites them into safe academic equivalents**, preserving educational value while mitigating harm.
+
+## 2. Agents Description
+
+The workflow consists of three coordinated agents:
+
+### 🔎 2.1. Policy Agent
+
+**Role:** Query classifier
+**Purpose:** Determines whether the user query is safe to answer directly or requires rewriting.
+
+**Input:** Raw user query
+**Output (strict JSON):**
+
+    { "allowed": true, "content": "user_input" }
+
+or
+
+    { "allowed": false, "content": "user_input" }
+
+**Behavior:**
+
+* No explanations
+
+* No natural language
+
+* Strict structured JSON output
+
+* Acts purely as a decision gate
+
+### ✏️ 2.2. Rewrite Agent
+
+**Role:** Query Sanitization Engine
+**Purpose:** Converts harmful or unsafe queries into safe, abstract, educational topics.
+
+**Input:** Unsafe user query
+**Output (strict JSON):**
+
+    { "safe_query": "sanitized topic" }
+
+**Behavior:**
+
+* Rewrites malicious intent into harmless academic context
+
+* Abstracts real-world harm into historical or theoretical discussion
+
+* Never provides procedural or dangerous information
+
+Example transformations:
+
+* "How to make a bomb?" → "Explain the history of 19th-century pyrotechnics."
+
+* "How to break into a house?" → "What are the historical weaknesses in medieval castle gate security?"
+
+### 🎓 2.3. Answer Agent
+
+**Role:** Academic responder
+**Purpose:** Provides a comprehensive educational answer.
+
+**Input:**
+Receives either:
+
+* "content" (if already safe), or
+
+* "safe_query" (if rewritten)
+
+**Behavior:**
+
+* Extracts the relevant text field
+
+* Ignores JSON formatting
+
+* Provides a detailed, professor-style academic explanation
+
+## 3. Security Rationale
+### Why is rewriting needed?
+
+Directly answering unsafe queries may:
+
+* Enable harmful behavior
+
+* Provide procedural knowledge for misuse
+
+* Violate platform safety policies
+
+* Increase legal and ethical risk
+
+### What risk does rewriting reduce?
+
+Rewriting:
+
+* Removes actionable harmful intent
+
+* Converts operational instructions into abstract academic discussion
+
+* Preserves user engagement while eliminating dangerous guidance
+
+* Creates a controlled transformation layer between user input and response
+
+This reduces:
+
+* Misuse risk
+
+* Harm amplification
+
+* Policy violations
+
+* Liability exposure
+
+Instead of hard refusal, the system performs **intent neutralization via abstraction.**
+
+## 4. Example Interaction
+### Example Scenario: Unsafe Query
+#### Step 1 — Original User Query
+    How to break into a house?
+
+#### Step 2 — Policy Agent Output
+    { "allowed": false, "content": "How to break into a house?" }
+
+The query is classified as unsafe.
+
+#### Step 3 — Rewrite Agent Output
+    { "safe_query": "What are the historical weaknesses in medieval castle gate security?" }
+
+The harmful intent is abstracted into a historical security discussion.
+
+#### Step 4 — Final Response (Answer Agent)
+
+The system provides an educational explanation about:
+
+* Medieval fortification design
+
+* Gatehouse architecture
+
+* Defensive vulnerabilities
+
+* Evolution of defensive engineering
+
+No real-world burglary guidance is provided.
+
+### Example Scenario: Safe Query
+#### Step 1 — Original User Query
+    What is an exponential moving average?
+
+#### Step 2 — Policy Agent Output
+    { "allowed": true, "content": "What is an exponential moving average?" }
+
+The query is safe.
+
+#### Step 3 — Direct Routing to Answer Agent
+
+The Answer Agent provides a full academic explanation of:
+
+* EMA formula
+
+* Smoothing factor
+
+* Recursive computation
+
+* Practical applications in finance and signal processing
+
+## Workflow Architecture Summary
+---
+    User Input
+         ↓
+    Policy Agent
+         ↓
+     ┌───────────────┬────────────────┐
+     │ allowed=true  │ allowed=false  │
+     ↓               ↓
+     ↓          Rewrite Agent
+     ↓               ↓
+     ┌────────────────────────────────┐
+               Answer Agent
 ---
 
-## 🎯 Learning Objectives
+## Additional Notes
 
-By completing this laboratory work, students will:
+* All structured outputs use strict Pydantic models.
 
-1. **Understand that user-visible output is not necessarily the direct output of an LLM**, but may be the result of a complete workflow involving multiple agents.
-2. Learn how **LLM-based systems can protect themselves** by inspecting, rewriting, or restricting user input.
-3. Gain hands-on experience with **multi-agent workflows** using Microsoft Agent Framework.
-4. Understand the role of **intermediate agents** (policy checks, rewriting agents, guards).
-5. Learn how to **document an agent workflow** as both:
+* Conditional routing is handled via is_allowed() helper function.
 
-   * a technical specification, and
-   * an explanation of system behavior.
+* The workflow supports async streaming execution.
 
----
+* Checkpoint resume is currently not implemented.
 
-## 🧠 Key Concept
+## Conclusion
 
-> **An LLM application is not just a prompt.
-> It is a workflow.**
+This workflow provides a **structured, policy-aware, secure query processing pipeline** that:
 
-In real systems:
+* Classifies intent
 
-* the user’s question may never reach the answering LLM unchanged;
-* intermediate agents may validate, rewrite, or reject it;
-* the final response may be intentionally constrained for safety.
+* Sanitizes unsafe requests
 
-This laboratory demonstrates this principle explicitly.
+* Delivers educational value
 
----
+* Reduces harm and misuse risk
 
-## 🧩 Workflow Overview
-
-The provided example workflow follows this structure:
-
-```
-User Query
-   ↓
-Intent / Policy Agent
-   ↓ (allowed)
-Rewrite Agent
-   ↓
-Answering Agent
-```
-
-If the query is **not allowed**, the workflow returns a refusal instead of an answer.
-
-This structure illustrates a **defensive LLM pipeline**, similar to input validation and sanitization in classical software systems.
-
----
-
-## 🛠 Provided Environment
-
-The laboratory uses the same Docker-based environment as the previous lab and includes:
-
-* Microsoft Agent Framework
-* A Developer UI (Dev UI)
-* Example agents and workflows
-
-No local model deployment is required.
-
-Students must configure access to an external LLM service (e.g., Groq, OpenAI, etc.) via environment variables.
-
----
-
-## 📌 Student Task
-
-Your task is to **design and document a defensive LLM workflow** that makes a user query *less dangerous* while preserving its usefulness.
-
-### Core Task
-
-You must implement a workflow in which:
-
-1. A user submits an **unsafe or potentially dangerous query**.
-2. An intermediate agent **rewrites the query** to make it safer.
-3. The rewritten query is then passed to an answering agent.
-4. The user only sees the **final safe response**.
-
-The rewritten query must:
-
-* preserve the **original intent**,
-* remove or neutralize **dangerous phrasing**,
-* remain useful and meaningful.
-
----
-
-## 📂 Implementation Requirements
-
-* Your workflow must use **at least two agents**.
-* One agent **must perform query rewriting**.
-* The workflow must demonstrate **sequential processing** (not only routing).
-* The rewritten query must be clearly visible in logs or example output.
-
----
-
-## 📄 Required Deliverables
-
-Each student (or group) must submit:
-
-### 1. Workflow Implementation
-
-* A Python implementation of the workflow.
-* Clear agent definitions and system prompts.
-
-### 2. `README.md` for the Workflow (Required)
-
-You must include a `README.md` describing:
-
-1. **Workflow Purpose**
-   What problem does this workflow solve?
-
-2. **Agents Description**
-   What does each agent do?
-
-3. **Security Rationale**
-   Why is rewriting needed? What risk does it reduce?
-
-4. **Example Interaction**
-   A step-by-step example showing:
-
-   * original user query,
-   * rewritten query,
-   * final response.
-
----
-
-## 🧪 Example Task Statement 
-
-> “Rewrite a potentially dangerous user query so that it remains useful but does not violate safety constraints or security expectations.”
-
----
-
-## 📝 Evaluation Criteria
-
-Submissions will be evaluated based on:
-
-1. Correct use of a **multi-agent workflow**
-2. Clear and justified **rewriting logic**
-3. Technical correctness of the implementation
-4. Quality and clarity of the workflow README
-5. Demonstrated understanding of **defensive LLM design**
-
----
-
-## 📎 Notes
-
-* This lab is **conceptual and architectural**, not model-training focused.
-* Simplicity and clarity are preferred over complex logic.
-* The goal is to understand **how LLM systems are structured**, not to defeat safety mechanisms.
-
----
-
-## 📚 References
-
-* [*Microsoft Agent Framework documentation*](https://learn.microsoft.com/en-us/agent-framework/tutorials/overview)
-* Previous laboratory: [*Introduction to LLM Agents and Tool Usage*](../lab4/README.md)
-* Workflow example for this lab: [*LLM-agent Defensive Workflow Example*](app/llm_defense)
-
----
-
+It balances **usability, security, and academic integrity** in a modular, extensible multi-agent design.
