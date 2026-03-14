@@ -34,7 +34,7 @@ def find_best_n_estimators_if(X, y, n_start=50, n_end=300, step=10, contaminatio
 
 
 
-def find_best_nu(svm_agent_class, X, y_true, nu_options=None):
+def find_best_nu(svm_agent_class, X_train, X_val, y_val, nu_options=None):
     """
     מוצא את ערך ה-nu האידיאלי עבור SVM Agent לפי F1.
     מתאים ל-One-Class SVM (fit מקבל רק X).
@@ -52,12 +52,12 @@ def find_best_nu(svm_agent_class, X, y_true, nu_options=None):
         agent = svm_agent_class(nu=nu)
 
         # 🔥 fit רק על X
-        agent.fit(X)
+        agent.fit(X_train)
 
-        scores = agent.score(X)
+        scores = agent.score(X_val)
 
         # threshold דיפולטי (כמו שאתה עושה כבר)
-        _, f1 = find_best_threshold(scores, y_true, n_thresholds=50)
+        _, f1 = find_best_threshold(scores, y_val, n_thresholds=50)
 
         print(f"nu={nu:.2f} -> F1={f1:.4f}")
 

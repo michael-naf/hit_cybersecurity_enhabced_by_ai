@@ -1,451 +1,451 @@
 timestamp,host_id,user_id,user_role,process_name,parent_process,command_text,script_type,command_length,num_arguments,execution_result,is_anomaly,anomaly_score,predicted_anomaly
-03/12/2025 14:45:09,host_03,user_14,Admin,mshta.exe,cscript.exe,Remove-Registry C:\Wind,mshta,23,1,success,benign,0.00303005282761587,0
-08/12/2025 08:57:17,host_04,user_02,Standard,notepad.exe,powershell.exe,Start-File C:\Users\Public.py Stop-J,notepad,36,2,success,benign,-0.020421507285543872,0
-04/12/2025 09:15:22,host_06,user_20,Service,powershell.exe,powershell.exe,Set-File /tmp.txt Remove,powershell,24,2,success,benign,-0.01748467196168907,0
-10/12/2025 08:05:43,host_01,user_10,Standard,powershell.exe,explorer.exe,Remove-Process /usr/bin.ps1 Get-Process,powershell,39,2,success,benign,-0.013769039366999525,0
-16/12/2025 09:56:14,host_03,user_08,Standard,mshta.exe,regsvr32.exe,Stop-File,mshta,9,1,success,benign,-0.03873118771689654,0
-02/12/2025 14:09:53,host_07,user_08,Standard,notepad.exe,explorer.exe,Start-Service C:,notepad,16,1,success,benign,-0.02643424907511238,0
-03/12/2025 11:46:51,host_05,user_18,Standard,rundll32.exe,powershell.exe,Remove-Registry C:\Users\Public.ps1 Get-J,rundll32,41,2,success,benign,-0.02929338712464946,0
-04/12/2025 10:24:15,host_05,user_15,Admin,python.exe,python.exe,Get-Process /usr/bin.ps1 Remove-File C:\Win,python,43,2,success,benign,-0.034859628455005676,0
-08/12/2025 15:32:20,host_05,user_01,Service,powershell.exe,powershell.exe,Remove-Process C:\Users\Pu,powershell,26,1,success,benign,-0.016897790503536625,0
-26/12/2025 12:01:22,host_08,user_06,Standard,cscript.exe,explorer.exe,Start-File /usr/b,cscript,17,1,success,benign,-0.03984150642488321,0
-03/12/2025 04:04:49,host_02,user_08,Admin,cscript.exe,cmd.exe,Get-Service C:\Users\Public.py Remove-Registry C,cscript,48,2,success,benign,-0.02768247201165097,0
-04/12/2025 18:59:10,host_02,user_20,Standard,cmd.exe,rundll32.exe,Get-Service /usr/bin.ps1 Remove-,cmd,32,2,success,benign,-0.035519831843775496,0
-03/12/2025 10:09:07,host_06,user_04,Standard,notepad.exe,powershell.exe,Set-Process C:\Windows\Temp,notepad,27,1,success,benign,-0.02514800777248344,0
-28/12/2025 16:45:58,host_01,user_09,Standard,rundll32.exe,explorer.exe,Stop-Proces,rundll32,11,1,success,benign,-0.02274537120288095,0
-29/12/2025 17:14:57,host_06,user_05,Standard,cmd.exe,explorer.exe,New-Job C:\Window,cmd,17,1,success,benign,-0.03746170287473388,0
-18/12/2025 17:44:54,host_05,user_15,Standard,python.exe,explorer.exe,Stop-Servic,python,11,1,success,benign,-0.052506875923705676,0
-04/12/2025 16:48:38,host_04,user_08,Standard,python.exe,powershell.exe,Remove-Registry C:\Users\Public.log Stop-Pr,python,43,2,success,benign,-0.03765830209783144,0
-29/12/2025 15:00:38,host_02,user_17,Standard,cmd.exe,mshta.exe,Stop-Job /usr/bin.py Get,cmd,24,2,success,benign,-0.0431985370558825,0
-23/12/2025 09:35:15,host_04,user_18,Standard,rundll32.exe,cmd.exe,Get-Job C:\Users\Public.t,rundll32,25,1,success,benign,-0.025864932400658014,0
-29/12/2025 17:46:18,host_05,user_16,Standard,notepad.exe,explorer.exe,Remove-File /tmp.log Sto,notepad,24,2,success,benign,-0.022628207131970945,0
-12/12/2025 03:43:35,host_04,user_12,Admin,powershell.exe,wscript.exe,Set-File C:\Windows\Temp.py Set-Registry /usr/bin.txt New-Job /usr/bin.log Set-Regi,powershell,83,4,success,suspicious,-0.025772634125835137,0
-12/12/2025 10:06:50,host_08,user_20,Standard,cmd.exe,python.exe,Get-Service C:\Users\Public.py Stop-Reg,cmd,39,2,success,benign,-0.030495132802424052,0
-23/12/2025 14:57:15,host_05,user_16,Standard,python.exe,rundll32.exe,Get-Process C:\Users\Publi,python,26,1,success,benign,-0.04458007822652743,0
-31/12/2025 11:57:01,host_01,user_08,Standard,cmd.exe,explorer.exe,Remove-Process /usr/bin.ps1 Start-Registry /tm,cmd,46,2,success,benign,-0.009727260990304798,0
-04/12/2025 09:57:05,host_03,user_16,Standard,notepad.exe,python.exe,Remove-File C:\Windows\Temp.ps1 N,notepad,33,2,success,benign,-0.028773602555209,0
-26/12/2025 12:04:21,host_05,user_10,Standard,python.exe,cmd.exe,Start-Service C:,python,16,1,success,benign,-0.017735833801654832,0
-08/12/2025 17:21:29,host_01,user_19,Standard,cscript.exe,python.exe,Get-File /tmp.ps1,cscript,17,1,success,benign,-0.035620649622974065,0
-08/12/2025 10:52:25,host_08,user_05,Standard,mshta.exe,regsvr32.exe,Stop-Registry /tmp.t,mshta,20,1,success,benign,-0.023571980904925793,0
-23/12/2025 10:05:50,host_06,user_17,Standard,rundll32.exe,powershell.exe,New-Job /tmp.l,rundll32,14,1,success,benign,-0.03490374394760376,0
-05/12/2025 19:20:28,host_08,user_02,Standard,notepad.exe,explorer.exe,Stop-Process /tmp.ps1 Set-File /tmp.ps1 Start-Service C:\Windows\Temp.log Ne,notepad,76,4,success,suspicious,-0.03896706279847978,0
-23/12/2025 10:35:23,host_02,user_09,Standard,powershell.exe,explorer.exe,New-Service C:,powershell,14,1,success,benign,-0.035228947836506985,0
-26/12/2025 09:34:59,host_01,user_09,Standard,regsvr32.exe,powershell.exe,Get-Registry /tmp.ps1 Set-Registry /usr/,regsvr32,40,2,success,benign,-0.022133541262338075,0
-05/12/2025 11:20:42,host_05,user_12,Standard,rundll32.exe,python.exe,Set-Process,rundll32,11,1,success,benign,-0.028062650852785975,0
-02/12/2025 11:12:14,host_02,user_05,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.log Start-Process C:,cmd,45,2,success,benign,-0.013175226699485287,0
-11/12/2025 15:26:22,host_02,user_19,Standard,rundll32.exe,cscript.exe,Start-Job C:\Windows\Temp.py New-Service C:\W,rundll32,45,2,success,benign,-0.007829224974819027,0
-31/12/2025 11:19:02,host_01,user_12,Standard,cscript.exe,powershell.exe,Set-Registry C:\Windows\Temp.log Stop-Process C:\,cscript,49,2,success,benign,-0.024859360811855913,0
-19/12/2025 12:09:30,host_03,user_02,Standard,notepad.exe,explorer.exe,Start-Service C:\Windows\Temp.log Remove-Pr,notepad,43,2,success,benign,-0.010878792816741256,0
-30/12/2025 15:28:26,host_05,user_13,Standard,cmd.exe,python.exe,New-Servic,cmd,10,1,failure,benign,-0.0329413895998778,0
-24/12/2025 10:02:08,host_08,user_17,Standard,rundll32.exe,winlogon.exe,Remove-Process C:\Windows\Temp.log New-File /t,rundll32,46,2,success,benign,-0.03587810351827714,0
-11/12/2025 11:45:39,host_08,user_16,Standard,powershell.exe,powershell.exe,Set-Job C:\Users\Public.log Get-Job C,powershell,37,2,success,benign,-0.012604029305872233,0
-12/12/2025 14:28:43,host_06,user_16,Standard,python.exe,python.exe,Set-Service /tmp.ps1 Set-File C:\Win,python,36,2,success,benign,-0.028188450137194843,0
-29/12/2025 13:52:13,host_02,user_05,Standard,rundll32.exe,powershell.exe,New-Service /tmp.log Start-,rundll32,27,2,success,benign,-0.026050713127976244,0
-30/12/2025 01:22:59,host_02,user_02,Admin,powershell.exe,winlogon.exe,Stop-Registry /tmp.ps1 Remove-Job /usr/bin.txt Get-Job C:\Users\Public.log Get-File,powershell,83,4,success,suspicious,-0.011856497543628719,0
-17/12/2025 12:40:32,host_04,user_18,Standard,notepad.exe,python.exe,New-Job C:\Users\Public.ps1 New-Proce,notepad,37,2,success,benign,-0.030439401859279347,0
-23/12/2025 18:24:29,host_06,user_07,Standard,powershell.exe,python.exe,Remove-Service C:\Users\Public.txt,powershell,34,1,success,benign,-0.027496771808942166,0
-07/12/2025 17:45:02,host_03,user_02,Standard,notepad.exe,explorer.exe,Stop-Job C:\Us,notepad,14,1,success,benign,-0.019009506202577464,0
-05/12/2025 11:05:45,host_04,user_03,Standard,python.exe,python.exe,Remove-File /tmp.txt,python,20,1,success,benign,-0.020801609423682865,0
-15/12/2025 15:04:02,host_01,user_20,Admin,powershell.exe,powershell.exe,Set-Job C:\Users\Public.ps1 Set-Registry /tmp,powershell,45,2,success,benign,0.005391992760093001,1
-17/12/2025 12:41:34,host_07,user_12,Standard,cmd.exe,powershell.exe,Set-Service /usr/bin.txt Stop-Service,cmd,37,2,success,benign,-0.027485301750453717,0
-01/12/2025 16:49:42,host_06,user_10,Standard,powershell.exe,wscript.exe,New-Job C:\Users\Public.py New-Proce,powershell,36,2,failure,benign,-0.017625753514616593,0
-11/12/2025 09:36:13,host_08,user_06,Standard,python.exe,rundll32.exe,Set-Regist,python,10,1,success,benign,0.04044550089831883,1
-14/12/2025 11:22:12,host_08,user_03,Standard,powershell.exe,powershell.exe,Set-Process,powershell,11,1,success,benign,-0.013759747577465009,0
-31/12/2025 12:33:56,host_03,user_14,Standard,cmd.exe,cmd.exe,Remove-Registry /usr/bin.ps1 New-Service C:\Us,cmd,46,2,success,benign,-0.04388399404236931,0
-25/12/2025 09:27:04,host_05,user_05,Standard,notepad.exe,explorer.exe,Set-File C:\Users\Public.log R,notepad,30,2,failure,benign,-0.009144677118754108,0
-26/12/2025 09:18:06,host_07,user_01,Standard,rundll32.exe,wscript.exe,Get-Registry,rundll32,12,1,success,benign,-0.034796422246410164,0
-25/12/2025 01:33:39,host_08,user_09,Standard,cmd.exe,cmd.exe,Start-Job C:\Users\Public.py Start-File /tmp.txt Stop-Service C:\Users\Pub,cmd,74,3,success,suspicious,-0.0205659304225827,0
-15/12/2025 14:18:04,host_06,user_03,Admin,notepad.exe,cmd.exe,Get-Job C:\Users\Public.py Set-Re,notepad,33,2,success,benign,-0.02045823463862312,0
-30/12/2025 17:06:55,host_04,user_03,Standard,notepad.exe,powershell.exe,Start-Process /tmp.log Remove-Registry /tmp.log,notepad,47,2,success,benign,-0.04667320777826173,0
-28/12/2025 17:31:49,host_04,user_07,Standard,powershell.exe,wscript.exe,Remove-Registry C:\Use,powershell,22,1,success,benign,-0.031620526600297294,0
-17/12/2025 08:34:47,host_02,user_13,Standard,regsvr32.exe,explorer.exe,Get-Registry /tmp,regsvr32,17,1,success,benign,-0.026091758250402053,0
-23/12/2025 21:57:07,host_05,user_04,Standard,wscript.exe,python.exe,New-Registry /usr/bin.txt Start-Job /usr/bin.py Start-Registry C:\Users\Public.,wscript,79,3,success,suspicious,-0.035387436932044436,0
-25/12/2025 18:39:26,host_08,user_13,Service,rundll32.exe,explorer.exe,Remove-Job /usr/bin.txt New-Jo,rundll32,30,2,success,benign,-0.03762211754668249,0
-23/12/2025 11:58:44,host_05,user_09,Standard,python.exe,wscript.exe,Stop-File /tmp.py Set,python,21,2,success,benign,-0.014587283181675736,0
-11/12/2025 18:57:10,host_08,user_18,Standard,notepad.exe,explorer.exe,Get-Registry /,notepad,14,1,success,benign,-0.03786300880203147,0
-24/12/2025 13:27:10,host_02,user_14,Standard,python.exe,rundll32.exe,Stop-Job C:\Windows\Temp.ps1 Set-Process /tmp.txt,python,49,2,success,benign,-0.03017375935441191,0
-01/12/2025 17:46:30,host_05,user_03,Admin,powershell.exe,explorer.exe,Remove-Registry /tmp.ps1 Stop-Proces,powershell,36,2,success,benign,-0.03189639745988132,0
-02/12/2025 14:51:20,host_01,user_03,Standard,powershell.exe,regsvr32.exe,Get-Registry /tmp.py Set-Serv,powershell,29,2,success,benign,-0.028975486491552627,0
-21/12/2025 17:30:49,host_07,user_07,Service,python.exe,services.exe,Set-File C:\Windows\Temp.log Start,python,34,2,success,benign,-0.036444382652439045,0
-07/12/2025 15:26:04,host_07,user_06,Standard,cmd.exe,explorer.exe,Stop-Service C:\Windows\Temp.txt Get-Job,cmd,40,2,success,benign,-0.022414835130212474,0
-10/12/2025 04:08:20,host_08,user_15,Standard,powershell.exe,taskeng.exe,New-Registry /usr/bin.txt Start-Process C:\Users\Public.txt Remove-Registry C:\Win,powershell,82,3,success,suspicious,-0.03439039153672091,0
-09/12/2025 10:33:21,host_07,user_01,Standard,cmd.exe,python.exe,Start-Regi,cmd,10,1,success,benign,-0.017823434146401695,0
-26/12/2025 14:37:38,host_02,user_02,Standard,notepad.exe,explorer.exe,Get-Registry /usr/bin,notepad,21,1,success,benign,-0.03170887914790815,0
-24/12/2025 15:09:51,host_08,user_11,Standard,powershell.exe,powershell.exe,Start-Registry /tmp.log Remove-J,powershell,32,2,success,benign,-0.027997269882754305,0
-04/12/2025 22:12:32,host_06,user_12,Service,powershell.exe,powershell.exe,Remove-Registr,powershell,14,1,success,benign,-0.03274687730389225,0
-05/12/2025 11:23:01,host_07,user_05,Standard,cmd.exe,explorer.exe,Start-File /usr/bin.ps1 Sta,cmd,27,2,success,benign,-0.035485487458821685,0
-08/12/2025 10:00:24,host_02,user_01,Standard,notepad.exe,explorer.exe,Start-Service /tmp.ps1 Stop-Service,notepad,35,2,success,benign,-0.04058634358711716,0
-18/12/2025 21:51:24,host_01,user_11,Standard,python.exe,rundll32.exe,Set-Job C:\User,python,15,1,success,benign,-0.014852544915570753,0
-17/12/2025 14:04:25,host_02,user_18,Standard,powershell.exe,powershell.exe,Remove-Pro,powershell,10,1,success,benign,-0.030642992650858847,0
-19/12/2025 13:23:34,host_06,user_11,Admin,notepad.exe,explorer.exe,New-Service /usr/bin.txt New-Process C:\Wi,notepad,42,2,success,benign,-0.010649582992091067,0
-01/12/2025 08:36:42,host_08,user_06,Standard,notepad.exe,explorer.exe,Get-Service /tmp.py,notepad,19,1,success,benign,-0.039383755824358546,0
-17/12/2025 11:56:41,host_03,user_19,Standard,rundll32.exe,taskeng.exe,New-Service C:\Users\Public.ps1 New-Process C:,rundll32,46,2,success,benign,-0.043518172316553305,0
-21/12/2025 11:14:23,host_05,user_17,Standard,notepad.exe,explorer.exe,Stop-Service /usr/b,notepad,19,1,success,benign,-0.011829062840997218,0
-17/12/2025 10:06:47,host_05,user_09,Standard,cmd.exe,cmd.exe,Get-Process C:\Users\Public.py Set-File,cmd,39,2,success,benign,-0.05454226354892833,0
-03/12/2025 09:25:12,host_06,user_19,Standard,powershell.exe,rundll32.exe,Remove-File /tmp.ps1 Set-Registry /,powershell,35,2,success,benign,-0.029741054518572896,0
-21/12/2025 16:35:14,host_06,user_02,Standard,python.exe,powershell.exe,Set-Service /tmp.txt Start-File C:\Users\Publi,python,46,2,success,benign,-0.01755338803587586,0
-10/12/2025 09:31:39,host_01,user_02,Standard,notepad.exe,cmd.exe,Start-Job C:\,notepad,13,1,success,benign,-0.007057283012479598,0
-09/12/2025 02:04:17,host_02,user_17,Standard,cmd.exe,cmd.exe,Stop-Job /usr/bin.txt Start-Process C:\Windo,cmd,44,2,success,suspicious,-0.0471761839860525,0
-03/12/2025 19:32:42,host_08,user_18,Admin,wscript.exe,python.exe,Set-Service C:\Users\Public.log Remove-Service C:\Users\Public.py Set,wscript,69,3,success,suspicious,-0.03403588067108715,0
-23/12/2025 14:56:53,host_04,user_06,Standard,notepad.exe,explorer.exe,Start-File /tmp.txt Set-Process /tmp.ps1 Get-,notepad,45,3,success,benign,-0.02923799392351001,0
-25/12/2025 12:58:02,host_01,user_20,Admin,powershell.exe,cmd.exe,Set-File C:\Windows\Temp.log Re,powershell,31,2,success,benign,-0.040419402486725264,0
-12/12/2025 11:35:01,host_06,user_16,Standard,regsvr32.exe,cmd.exe,Set-Registry,regsvr32,12,1,success,benign,-0.0057473351502665415,0
-21/12/2025 13:27:16,host_06,user_19,Standard,powershell.exe,taskeng.exe,Set-File C,powershell,10,1,success,benign,-0.0362550432873846,0
-07/12/2025 09:13:58,host_02,user_02,Standard,cmd.exe,cscript.exe,Remove-Service C,cmd,16,1,success,benign,-0.04533727367471424,0
-04/12/2025 12:03:46,host_07,user_16,Admin,mshta.exe,explorer.exe,Set-Registry /usr/bin.py Remove-Registry C:\Wi,mshta,46,2,success,benign,-0.04012112584954952,0
-16/12/2025 11:14:02,host_02,user_13,Standard,powershell.exe,mshta.exe,Set-Service /usr,powershell,16,1,success,benign,-0.04746052578921317,0
-14/12/2025 18:53:38,host_05,user_12,Standard,cmd.exe,wscript.exe,Get-Registry /tmp.txt Set-Proc,cmd,30,2,success,benign,-0.027934164774634784,0
-23/12/2025 17:03:10,host_01,user_16,Standard,powershell.exe,powershell.exe,Remove-Reg,powershell,10,1,success,benign,-0.03192257082609096,0
-01/12/2025 13:30:05,host_02,user_04,Standard,rundll32.exe,python.exe,Start-Process /t,rundll32,16,1,success,benign,-0.025151457023330936,0
-31/12/2025 10:33:10,host_02,user_04,Standard,notepad.exe,explorer.exe,Stop-Registry C:\User,notepad,21,1,success,benign,-0.04201688282061078,0
-12/12/2025 09:10:50,host_08,user_18,Admin,cmd.exe,explorer.exe,Set-Process C:\U,cmd,16,1,success,benign,-0.02297165078079716,0
-10/12/2025 12:47:32,host_07,user_04,Standard,notepad.exe,explorer.exe,Set-Service C:\Users\Publ,notepad,25,1,success,benign,-0.03236887165573332,0
-11/12/2025 16:53:18,host_01,user_11,Standard,notepad.exe,explorer.exe,Stop-Job C:\,notepad,12,1,success,benign,-0.03424659699889854,0
-05/12/2025 09:58:33,host_02,user_18,Standard,notepad.exe,cmd.exe,Get-Job /usr/bin.ps1 Get-File C:\Users\Publi,notepad,44,2,success,benign,-0.046613195857223344,0
-10/12/2025 14:43:13,host_05,user_01,Standard,powershell.exe,powershell.exe,Remove-File C:\Users\Public.l,powershell,29,1,success,benign,-0.04268222717849285,0
-21/12/2025 18:30:56,host_07,user_19,Standard,cmd.exe,python.exe,Remove-File /,cmd,13,1,success,benign,-0.027117363081861856,0
-28/12/2025 04:53:32,host_02,user_19,Standard,notepad.exe,explorer.exe,New-Registry /tmp.ps1 Set-Service /tmp.txt Start-Registry C:\Users\Public.log Set-File,notepad,86,4,success,suspicious,0.012477982715295932,1
-29/12/2025 15:03:16,host_01,user_16,Standard,rundll32.exe,cmd.exe,Get-Service /usr/bin,rundll32,20,1,success,benign,-0.04222852257098769,0
-18/12/2025 11:50:16,host_05,user_10,Standard,powershell.exe,cmd.exe,Remove-File /usr/bin.txt Start-Job /usr/bin.,powershell,44,2,success,benign,-0.04013573470924159,0
-30/12/2025 19:40:20,host_07,user_06,Standard,rundll32.exe,wscript.exe,New-Registry /tmp.py Remove-Registry /usr/bin.log Stop-Regi,rundll32,59,3,success,suspicious,-0.027620712937681702,0
-29/12/2025 15:14:04,host_06,user_04,Admin,python.exe,python.exe,Get-File C:\Users\Public.l,python,26,1,success,benign,-0.04834242233856434,0
-02/12/2025 10:42:18,host_04,user_15,Standard,rundll32.exe,powershell.exe,Stop-File C:\Windows\Temp.log Remove-Process,rundll32,44,2,success,benign,-0.022793461453596453,0
-19/12/2025 08:31:12,host_02,user_03,Standard,cscript.exe,explorer.exe,New-Process /usr/bin.,cscript,21,1,success,benign,-0.04405639185908977,0
-12/12/2025 11:02:43,host_02,user_02,Standard,python.exe,explorer.exe,Remove-Process /us,python,18,1,success,benign,-0.021681991866366213,0
-30/12/2025 17:03:39,host_01,user_12,Standard,notepad.exe,explorer.exe,Stop-Job C:\Windows\Temp.log,notepad,28,1,success,benign,-0.032340888745775176,0
-07/12/2025 13:49:07,host_03,user_12,Standard,cmd.exe,python.exe,Stop-Job /tmp.py Remove-,cmd,24,2,success,benign,-0.005137387608271815,0
-14/12/2025 08:13:35,host_05,user_15,Standard,regsvr32.exe,powershell.exe,Get-Registry /tmp.log Re,regsvr32,24,2,success,benign,-0.03438105977354339,0
-25/12/2025 17:54:31,host_08,user_08,Admin,powershell.exe,regsvr32.exe,Stop-Servi,powershell,10,1,success,benign,-0.018894618109176364,0
-02/12/2025 08:46:39,host_04,user_15,Standard,powershell.exe,powershell.exe,Start-Process /usr/bin.,powershell,23,1,success,benign,-0.03184809562215385,0
-14/12/2025 17:14:36,host_08,user_11,Standard,notepad.exe,explorer.exe,Remove-Process C:\Windows\Temp.py S,notepad,35,2,success,benign,0.008449286632358832,1
-18/12/2025 09:27:20,host_05,user_12,Standard,powershell.exe,python.exe,Get-File /tmp.log Set-File C:\Window,powershell,36,2,success,benign,0.0049721304344799155,1
-05/12/2025 12:07:06,host_04,user_15,Admin,powershell.exe,explorer.exe,Remove-Job /usr/bin.ps1 Start-Pro,powershell,33,2,success,benign,-0.015596316130900734,0
-28/12/2025 12:07:31,host_06,user_18,Standard,python.exe,python.exe,Remove-Regi,python,11,1,success,benign,-0.048744083773102076,0
-30/12/2025 14:36:33,host_01,user_13,Standard,python.exe,explorer.exe,Stop-Registry /usr/bin.py New-Process /tmp.lo,python,45,2,success,benign,-0.043415436400531526,0
-24/12/2025 10:34:39,host_03,user_07,Admin,cmd.exe,explorer.exe,Get-Registry C:\Windows\Temp.py Set-Service C:\Us,cmd,49,2,success,benign,-0.016608623227449548,0
-28/12/2025 16:21:35,host_01,user_10,Standard,python.exe,rundll32.exe,Stop-Registry /usr/bin.txt Remov,python,32,2,success,benign,-0.03827399578088908,0
-08/12/2025 09:11:58,host_06,user_17,Standard,cmd.exe,regsvr32.exe,Start-Job /tmp.ps1 Start-Registry /tmp.txt R,cmd,44,3,success,benign,-0.027764668871076426,0
-11/12/2025 09:44:51,host_01,user_14,Standard,wscript.exe,powershell.exe,New-Service C:\Us,wscript,17,1,success,benign,-0.026584142067041405,0
-09/12/2025 10:07:47,host_04,user_14,Standard,cscript.exe,python.exe,Get-Registry /tmp.ps1 Set-Registry C:\Windows\,cscript,46,2,success,benign,-0.020896726752785477,0
-26/12/2025 11:35:22,host_08,user_04,Standard,mshta.exe,winlogon.exe,Set-Job C:\Users\Public.ps1 Get-Job C:,mshta,38,2,success,benign,-0.018065419450508324,0
-23/12/2025 08:01:30,host_07,user_03,Standard,cmd.exe,cmd.exe,Get-Process /usr/bin.txt Remove-Proc,cmd,36,2,success,benign,-0.027373003785639616,0
-12/12/2025 12:05:32,host_05,user_11,Standard,powershell.exe,powershell.exe,Set-Service /,powershell,13,1,success,benign,-0.00811405727425657,0
-03/12/2025 16:54:30,host_03,user_04,Standard,powershell.exe,rundll32.exe,Remove-Service C:\User,powershell,22,1,success,benign,-0.04221251922267316,0
-29/12/2025 13:47:25,host_03,user_18,Service,cmd.exe,explorer.exe,Get-Job /usr/b,cmd,14,1,success,benign,-0.009251288049248574,0
-28/12/2025 17:47:00,host_03,user_02,Standard,powershell.exe,cmd.exe,Get-Job /tmp.ps1 Start-Service C:\Users\Public.log,powershell,50,2,success,benign,-0.03973217845499438,0
-11/12/2025 10:26:02,host_01,user_04,Standard,cmd.exe,wscript.exe,Remove-Process,cmd,14,1,success,benign,-0.01859969758489005,0
-31/12/2025 12:37:07,host_03,user_05,Standard,python.exe,rundll32.exe,Stop-Registry,python,13,1,success,benign,-0.029719253931292988,0
-18/12/2025 15:39:44,host_01,user_02,Standard,rundll32.exe,explorer.exe,Stop-Registry /tmp.ps1 Set-File C:\Use,rundll32,38,2,success,benign,-0.013941914131954836,0
-04/12/2025 16:37:34,host_08,user_08,Standard,python.exe,explorer.exe,Get-Process,python,11,1,success,benign,-0.03621277767314229,0
-01/12/2025 16:56:38,host_04,user_09,Standard,rundll32.exe,explorer.exe,Get-Process C:,rundll32,14,1,success,benign,-0.038507427657116566,0
-24/12/2025 11:05:11,host_01,user_02,Standard,powershell.exe,explorer.exe,Get-File /tmp.py Set-Job,powershell,24,2,success,benign,-0.037740016556745526,0
-04/12/2025 14:31:35,host_07,user_09,Standard,rundll32.exe,cscript.exe,Start-Registry /usr/b,rundll32,21,1,success,benign,-0.02327663214768133,0
-31/12/2025 23:09:08,host_08,user_10,Standard,mshta.exe,winlogon.exe,Set-Service C:\U,mshta,16,1,success,benign,-0.038210830124393635,0
-05/12/2025 09:50:12,host_04,user_05,Standard,powershell.exe,explorer.exe,Stop-File /tmp.txt Remove-Job /usr/bin.py Start-,powershell,48,3,success,benign,-0.04153359603008977,0
-30/12/2025 12:25:00,host_07,user_10,Standard,python.exe,python.exe,Start-Service /tmp.,python,19,1,success,benign,-0.020889041792900354,0
-24/12/2025 16:13:14,host_01,user_20,Standard,cmd.exe,powershell.exe,Remove-Service,cmd,14,1,success,benign,-0.03881056485192791,0
-05/12/2025 14:13:53,host_04,user_03,Standard,notepad.exe,explorer.exe,Stop-Service /usr/bin.py Remove-File,notepad,36,2,success,benign,-0.022694865914747786,0
-12/12/2025 12:59:04,host_03,user_08,Admin,powershell.exe,cmd.exe,Set-Job C:\Windows\Temp.ps1,powershell,27,1,success,benign,-0.04695632002517469,0
-29/12/2025 18:51:46,host_05,user_18,Standard,notepad.exe,explorer.exe,Start-Process C:\Windows\Temp,notepad,29,1,success,benign,-0.029416222216659682,0
-17/12/2025 18:14:52,host_07,user_08,Standard,powershell.exe,explorer.exe,New-Registry C:\Users\Public.ps1 Start-File C,powershell,45,2,success,benign,-0.020017720042235787,0
-29/12/2025 14:59:43,host_06,user_12,Standard,notepad.exe,explorer.exe,Remove-Service /usr/bin.py St,notepad,29,2,success,benign,-0.023124570055775118,0
-03/12/2025 14:26:18,host_04,user_13,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.ps1 New-R,cmd,34,2,success,benign,-0.041399488999144196,0
-10/12/2025 18:12:15,host_02,user_13,Standard,powershell.exe,cscript.exe,Stop-Proce,powershell,10,1,success,benign,-0.020039352969493662,0
-24/12/2025 09:37:34,host_05,user_07,Standard,python.exe,python.exe,Remove-Ser,python,10,1,success,benign,0.04723043025409768,1
-26/12/2025 11:49:48,host_03,user_14,Standard,cmd.exe,explorer.exe,Get-Service /usr/bin.py R,cmd,25,2,success,benign,-0.03151946042845599,0
-12/12/2025 13:16:46,host_01,user_06,Standard,regsvr32.exe,explorer.exe,Start-Registry C:\Windows\Temp.,regsvr32,31,1,success,benign,-0.004468921693706329,0
-25/12/2025 16:37:16,host_04,user_12,Service,cmd.exe,rundll32.exe,Set-File C:\Windows\Te,cmd,22,1,success,benign,-0.023642123356011957,0
-15/12/2025 03:31:53,host_01,user_05,Standard,python.exe,python.exe,Remove-Service /usr/bin.py Start-Process C:\Users\,python,50,2,success,benign,-0.028761969096550988,0
-02/12/2025 18:41:37,host_03,user_12,Standard,powershell.exe,explorer.exe,Stop-File /u,powershell,12,1,success,benign,-0.022806018713428466,0
-02/12/2025 17:52:52,host_07,user_06,Admin,powershell.exe,mshta.exe,Remove-Process C:\Users\Pub,powershell,27,1,success,benign,-0.018339114464189232,0
-25/12/2025 08:23:39,host_04,user_12,Standard,python.exe,rundll32.exe,Stop-Job /usr/bin.log Start-R,python,29,2,success,benign,-0.04008262162622023,0
-18/12/2025 18:44:41,host_05,user_20,Standard,rundll32.exe,powershell.exe,Get-Service C:,rundll32,14,1,failure,benign,-0.034910386945944505,0
-31/12/2025 10:19:26,host_01,user_01,Standard,notepad.exe,cmd.exe,Get-File /tmp.py Stop-Service C:\User,notepad,37,2,success,benign,-0.030667642649465254,0
-01/12/2025 21:29:54,host_07,user_05,Standard,powershell.exe,rundll32.exe,New-Service /tmp.t,powershell,18,1,failure,benign,-0.01755557230116661,0
-02/12/2025 17:08:51,host_06,user_11,Standard,cmd.exe,cscript.exe,Set-Process /,cmd,13,1,success,benign,-0.016336948503946958,0
-24/12/2025 08:49:23,host_05,user_06,Standard,rundll32.exe,explorer.exe,Start-File /tmp.log Se,rundll32,22,2,success,benign,-0.018280216003765837,0
-07/12/2025 15:59:47,host_06,user_16,Standard,cmd.exe,cmd.exe,Stop-File C:\Win,cmd,16,1,success,benign,-0.014201701604036554,0
-03/12/2025 18:31:47,host_08,user_07,Standard,python.exe,powershell.exe,Remove-Process C:\Windows\Tem,python,29,1,success,benign,-0.03574859363756322,0
-09/12/2025 09:34:31,host_01,user_10,Service,cmd.exe,rundll32.exe,New-Job /usr/bin.py Set-Registry C:\Users\Public.,cmd,49,2,success,benign,0.006126829311724036,1
-10/12/2025 12:57:19,host_05,user_17,Standard,notepad.exe,explorer.exe,New-Registry,notepad,12,1,success,benign,-0.03772910812367142,0
-21/12/2025 10:45:34,host_05,user_18,Standard,python.exe,cmd.exe,Start-File /tmp.py Start-File /tmp.log Start-Reg,python,48,3,success,benign,-0.03910468554188723,0
-17/12/2025 18:51:03,host_07,user_06,Standard,python.exe,python.exe,Start-File C:\Wi,python,16,1,success,benign,-0.01243997658949858,0
-04/12/2025 18:57:27,host_08,user_03,Standard,python.exe,cmd.exe,Remove-Fil,python,10,1,success,benign,-0.040371979029354965,0
-19/12/2025 12:28:18,host_03,user_14,Standard,mshta.exe,wscript.exe,Get-Process /usr/bin.txt R,mshta,26,2,success,benign,-0.03873422032407764,0
-26/12/2025 13:22:56,host_02,user_09,Standard,powershell.exe,regsvr32.exe,New-Service /usr/bin.log Start-Process C:\Wi,powershell,44,2,success,benign,-0.029192265850881027,0
-17/12/2025 11:04:43,host_03,user_15,Standard,notepad.exe,powershell.exe,Get-File /usr/bin.py Start-Registry C:\Windo,notepad,44,2,success,benign,-0.04404000588626067,0
-16/12/2025 13:42:16,host_02,user_01,Admin,python.exe,python.exe,New-Registry C:\Wind,python,20,1,success,benign,-0.046531117777554254,0
-22/12/2025 10:49:45,host_01,user_12,Admin,powershell.exe,explorer.exe,Start-Job C:,powershell,12,1,success,benign,-0.025924888916131206,0
-22/12/2025 17:39:54,host_08,user_02,Standard,powershell.exe,powershell.exe,Remove-Process C:\Windows\Temp.py New-Pro,powershell,41,2,success,benign,-0.02572937348466653,0
-04/12/2025 16:26:06,host_08,user_04,Standard,powershell.exe,rundll32.exe,New-Service /tmp.txt New-Registry /usr/bin,powershell,42,2,success,benign,-0.03387216888200245,0
-22/12/2025 17:35:05,host_03,user_01,Standard,rundll32.exe,python.exe,Get-Job C:\Window,rundll32,17,1,success,benign,-0.039358382944837345,0
-19/12/2025 09:09:20,host_01,user_19,Admin,wscript.exe,powershell.exe,Set-Registry C:\Windows\Temp.ps1 Start-Registry,wscript,47,2,success,benign,-0.023506929205752702,0
-14/12/2025 12:09:39,host_01,user_05,Standard,powershell.exe,powershell.exe,Get-Job /tmp.ps1 Get-Registry /usr/bin.log Ge,powershell,45,3,success,benign,-0.02829309251745049,0
-16/12/2025 15:13:07,host_08,user_17,Standard,cmd.exe,python.exe,Stop-Process C:\Windows\Temp.txt Stop-File C:\U,cmd,47,2,success,benign,-0.032541631127383286,0
-03/12/2025 16:40:39,host_05,user_08,Standard,cmd.exe,powershell.exe,Stop-File /tmp.log Get-File C:\Windows\T,cmd,40,2,success,benign,-0.026251389156680738,0
-15/12/2025 16:11:16,host_07,user_13,Standard,notepad.exe,explorer.exe,New-Service /usr/bin.ps1 Get-Registry C:\Users\P,notepad,48,2,success,benign,-0.024187116060093772,0
-29/12/2025 15:48:05,host_03,user_11,Standard,powershell.exe,powershell.exe,New-Job /tmp.txt New-,powershell,21,2,success,benign,-0.0005102151909328057,0
-21/12/2025 00:10:14,host_02,user_03,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.ps1 New-Registry C:\Users\,cmd,51,2,success,suspicious,-0.026513533879133244,0
-30/12/2025 14:21:18,host_05,user_19,Service,rundll32.exe,rundll32.exe,Set-File /tmp.log Get-Job /tmp.py Get-Job,rundll32,41,3,success,benign,-0.03379260658480843,0
-02/12/2025 16:11:15,host_05,user_16,Standard,powershell.exe,python.exe,Start-Job C:\Users\Public.txt Start,powershell,35,2,success,benign,-0.026114146137502736,0
-05/12/2025 13:47:12,host_02,user_14,Standard,powershell.exe,svchost.exe,Get-Service,powershell,11,1,success,benign,-0.021850147051989233,0
-12/12/2025 12:22:29,host_04,user_20,Standard,powershell.exe,cmd.exe,Remove-Process /usr/bin.txt Remove-Job C:,powershell,41,2,success,benign,-0.038091588975661395,0
-28/12/2025 18:07:33,host_02,user_15,Standard,cmd.exe,cmd.exe,Stop-Registry /tmp.txt,cmd,22,1,success,benign,-0.02664752721038055,0
-03/12/2025 17:30:17,host_03,user_08,Standard,powershell.exe,python.exe,Start-File C:\Users\Public.txt Remove-Proces,powershell,44,2,success,benign,-0.02960327091860926,0
-04/12/2025 18:33:48,host_03,user_12,Service,rundll32.exe,cmd.exe,Start-Job C:\Windows\Temp.log Set-Serv,rundll32,38,2,success,benign,-0.04095717093422341,0
-31/12/2025 16:12:38,host_07,user_13,Standard,python.exe,python.exe,Set-Job /tmp.log Start-Process C:\Users\P,python,41,2,success,benign,-0.0277522698708334,0
-26/12/2025 12:09:57,host_08,user_14,Standard,notepad.exe,explorer.exe,Remove-Service C:\Windows\,notepad,26,1,success,benign,-0.046509091012995385,0
-02/12/2025 15:25:50,host_04,user_19,Standard,powershell.exe,regsvr32.exe,Remove-Service /tmp.py N,powershell,24,2,success,benign,-0.04732666688291243,0
-26/12/2025 09:06:49,host_06,user_08,Standard,rundll32.exe,explorer.exe,Stop-Job /,rundll32,10,1,success,benign,-0.028498288891264767,0
-09/12/2025 11:39:05,host_07,user_05,Standard,powershell.exe,cmd.exe,New-Registry /tmp.log New-Registry C:,powershell,37,2,success,benign,-0.027971162582872133,0
-17/12/2025 08:12:56,host_03,user_12,Service,powershell.exe,explorer.exe,Remove-Registr,powershell,14,1,success,benign,-0.019784390065612778,0
-07/12/2025 10:26:02,host_07,user_02,Standard,cmd.exe,python.exe,Stop-Process /tmp.log Start-File C:\Windows,cmd,43,2,failure,benign,-0.01567878943195894,0
-16/12/2025 16:30:28,host_02,user_04,Admin,python.exe,cscript.exe,Get-Process C:\Windows\T,python,24,1,success,benign,-0.04060358116378354,0
-12/12/2025 13:12:16,host_06,user_09,Admin,powershell.exe,rundll32.exe,Get-File C:\Windows\Temp.py Start-Registry /usr,powershell,47,2,success,benign,-0.044671958965974534,0
-11/12/2025 08:41:37,host_07,user_03,Admin,cmd.exe,taskeng.exe,Get-File /usr/bin.py New-Service C:\,cmd,36,2,success,benign,-0.03447938503009934,0
-08/12/2025 13:19:59,host_01,user_07,Standard,powershell.exe,explorer.exe,Set-Service C:\Users\Public.txt New-Process C,powershell,45,2,success,benign,-0.045933788326584846,0
-11/12/2025 11:15:52,host_03,user_05,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.py Get-Job /tmp.py,notepad,35,2,success,benign,-0.016605568260216252,0
-18/12/2025 19:24:55,host_03,user_19,Standard,python.exe,explorer.exe,Start-Service /usr/bin.ps1 Stop-Service /us,python,43,2,success,suspicious,-0.020080882931197308,0
-24/12/2025 17:51:17,host_08,user_18,Standard,cscript.exe,python.exe,New-File C:\Windows\Temp.txt New-Serv,cscript,37,2,success,benign,-0.041306098340953945,0
-12/12/2025 14:30:59,host_05,user_05,Standard,python.exe,powershell.exe,Stop-Registry /tmp.log New-File /usr/bin.txt Stop,python,49,3,success,benign,-0.017797620246745083,0
-28/12/2025 12:59:29,host_05,user_20,Standard,powershell.exe,explorer.exe,Get-File /tmp.txt Stop-File /usr/bin.txt Start-Jo,powershell,49,3,success,benign,-0.0301627006331045,0
-17/12/2025 13:18:10,host_01,user_05,Standard,rundll32.exe,cmd.exe,Get-Job /usr/bin.ps1 Se,rundll32,23,2,success,benign,-0.018759235946513297,0
-11/12/2025 02:46:58,host_08,user_12,Standard,python.exe,taskeng.exe,Set-Registry /usr/bin.ps1 New-Registry /tmp.log Get-Job,python,55,3,success,suspicious,-0.0030980031344363113,0
-23/12/2025 11:54:06,host_03,user_04,Standard,python.exe,mshta.exe,Get-File C:\Users\Public.log Set-Job /u,python,39,2,success,benign,-0.007760962863959886,0
-09/12/2025 12:54:37,host_04,user_16,Standard,cmd.exe,powershell.exe,Remove-File C:\Windows\Temp.txt Get-File C:\W,cmd,45,2,success,benign,-0.04681606336411609,0
-12/12/2025 08:30:27,host_03,user_12,Standard,cmd.exe,cmd.exe,Start-Job C:\Windows\Te,cmd,23,1,success,benign,-0.015128406930783489,0
-12/12/2025 12:07:51,host_07,user_16,Standard,powershell.exe,taskeng.exe,Get-File /usr/bin.log Stop-Registry,powershell,35,2,success,benign,-0.01663615562670112,0
-10/12/2025 08:00:51,host_04,user_06,Standard,python.exe,explorer.exe,New-Job C:\Users\Public.ps1 Start-Serv,python,38,2,success,benign,-0.008211214576537063,0
-03/12/2025 09:57:48,host_06,user_10,Standard,cmd.exe,python.exe,New-File C:\Us,cmd,14,1,success,benign,-0.03299471452999181,0
-11/12/2025 00:23:14,host_04,user_19,Standard,cscript.exe,explorer.exe,Stop-Registry /tmp.py New-Job /tmp.txt Start-,cscript,45,3,success,benign,-0.027755217398532928,0
-22/12/2025 11:21:46,host_05,user_13,Standard,powershell.exe,cmd.exe,Set-File /tmp.txt Remove-P,powershell,26,2,success,benign,-0.031422274965522023,0
-22/12/2025 05:41:30,host_04,user_04,Standard,cmd.exe,wscript.exe,Set-Service /tmp.py Remove-Job C:,cmd,33,2,success,benign,-0.028674158476743317,0
-31/12/2025 09:26:20,host_02,user_11,Standard,mshta.exe,rundll32.exe,Remove-File C:\Users\,mshta,21,1,success,benign,-0.018811164966370808,0
-11/12/2025 16:53:01,host_08,user_05,Standard,rundll32.exe,cscript.exe,Start-Job C:\Window,rundll32,19,1,success,benign,-0.03809813158193154,0
-04/12/2025 08:03:23,host_04,user_18,Standard,powershell.exe,mshta.exe,Remove-Job C:\Win,powershell,17,1,success,benign,-0.044035729200453955,0
-05/12/2025 13:22:41,host_04,user_11,Standard,notepad.exe,explorer.exe,New-Proces,notepad,10,1,success,benign,-0.012548530880145292,0
-24/12/2025 17:51:10,host_04,user_18,Standard,powershell.exe,rundll32.exe,Start-Process C:\Users\Public.txt,powershell,33,1,success,benign,-0.014834789477524923,0
-26/12/2025 09:04:50,host_04,user_16,Standard,powershell.exe,regsvr32.exe,Get-File C:\Windows\Temp.log Stop,powershell,33,2,success,benign,0.004773855462133991,1
-17/12/2025 10:52:39,host_01,user_07,Admin,python.exe,python.exe,Set-Job C:\Users\Public.log Get-Proce,python,37,2,success,benign,-0.005924496014822811,0
-02/12/2025 13:51:01,host_02,user_14,Standard,python.exe,wscript.exe,Remove-Job C:\Users\Public.log Stop,python,35,2,success,benign,-0.035284047169212074,0
-15/12/2025 18:40:26,host_03,user_03,Standard,rundll32.exe,wscript.exe,New-Registry /tmp.ps1 New-File C:\Windows\Temp,rundll32,46,2,success,benign,-0.03366923578319769,0
-05/12/2025 23:33:30,host_03,user_20,Standard,cmd.exe,regsvr32.exe,Set-Service C:\Windows\Temp.py G,cmd,32,2,success,benign,-0.027955106870113433,0
-14/12/2025 18:35:18,host_02,user_04,Standard,cmd.exe,wscript.exe,Stop-Job C:\Wind,cmd,16,1,success,benign,-0.0031806473929586465,0
-07/12/2025 18:52:58,host_06,user_12,Standard,cmd.exe,python.exe,New-Service C:\Users\Public.log Remove-Registry C:\Users\Public.py,cmd,66,2,success,suspicious,-0.03790384068111241,0
-23/12/2025 12:54:11,host_06,user_13,Standard,rundll32.exe,explorer.exe,Remove-Job /tmp.log Stop-Servic,rundll32,31,2,success,benign,-0.044150760638651254,0
-30/12/2025 09:54:07,host_05,user_17,Standard,cmd.exe,cmd.exe,Remove-Service C:\Windo,cmd,23,1,success,benign,-0.010764008679931825,0
-22/12/2025 08:39:51,host_07,user_04,Standard,python.exe,services.exe,Get-Job /usr/bin.txt New-Service C:\,python,36,2,success,benign,-0.020987953630526857,0
-25/12/2025 08:18:34,host_02,user_04,Standard,cmd.exe,wscript.exe,Start-Registry C:\Windows\,cmd,26,1,success,benign,-0.014206368269548741,0
-19/12/2025 08:18:39,host_07,user_02,Standard,rundll32.exe,explorer.exe,Set-Process C:\Wi,rundll32,17,1,success,benign,-0.0331819003183938,0
-17/12/2025 15:43:27,host_05,user_10,Standard,notepad.exe,explorer.exe,Get-Service C:\Windows,notepad,22,1,success,benign,0.003341062962386565,0
-22/12/2025 15:42:59,host_08,user_09,Standard,cmd.exe,explorer.exe,Set-Service C:\Users\Public.ps1,cmd,31,1,success,benign,-0.012143428673735857,0
-02/12/2025 09:29:40,host_06,user_02,Standard,cmd.exe,explorer.exe,Get-Service /tmp.txt G,cmd,22,2,success,benign,-0.02656634321012752,0
-09/12/2025 09:51:16,host_06,user_12,Standard,python.exe,powershell.exe,Start-Process /tmp.py Get-File C:\Windo,python,39,2,success,benign,-0.014777845895680597,0
-30/12/2025 10:12:06,host_04,user_18,Standard,notepad.exe,explorer.exe,Start-File /usr/bin.ps1,notepad,23,1,success,benign,-0.0334001218317414,0
-16/12/2025 09:07:12,host_05,user_13,Standard,powershell.exe,explorer.exe,Start-Job C:\Users\Public,powershell,25,1,success,benign,-0.01885014058785489,0
-17/12/2025 11:39:32,host_04,user_18,Standard,cscript.exe,explorer.exe,Stop-Registry C:\Windows\Temp,cscript,29,1,success,benign,-0.026024921036629844,0
-22/12/2025 11:18:45,host_05,user_18,Admin,cscript.exe,explorer.exe,Remove-Registry C:\Wind,cscript,23,1,success,benign,-0.03892160083993196,0
-31/12/2025 10:56:40,host_08,user_20,Standard,cmd.exe,wscript.exe,Get-Registry C:\Users\Public.log Get-Service /us,cmd,48,2,success,benign,-0.014645306548615067,0
-28/12/2025 13:44:12,host_05,user_04,Standard,powershell.exe,regsvr32.exe,New-Process,powershell,11,1,success,benign,0.014329443091907312,1
-26/12/2025 11:38:19,host_01,user_09,Standard,cmd.exe,explorer.exe,Stop-Registry C:\Windows\Temp.p,cmd,31,1,success,benign,-0.029956801131153232,0
-17/12/2025 13:02:24,host_08,user_18,Standard,powershell.exe,regsvr32.exe,New-Process C:\Wind,powershell,19,1,success,benign,-0.001529575920058146,0
-08/12/2025 10:01:25,host_07,user_04,Standard,powershell.exe,explorer.exe,Remove-Process /usr/bin.log New-File C:\Users\P,powershell,47,2,success,benign,-0.022568381478579924,0
-25/12/2025 15:08:18,host_06,user_13,Standard,python.exe,python.exe,Start-Service /u,python,16,1,success,benign,-0.043573483952721315,0
-14/12/2025 13:51:29,host_05,user_13,Standard,python.exe,rundll32.exe,Start-Process,python,13,1,success,benign,-0.03973855524827791,0
-04/12/2025 23:28:20,host_07,user_17,Admin,rundll32.exe,explorer.exe,Set-Service C:\Windows\Temp.lo,rundll32,30,1,success,benign,-0.026945509265768885,0
-02/12/2025 11:22:12,host_05,user_05,Standard,notepad.exe,explorer.exe,Get-Service C:\Wind,notepad,19,1,success,benign,-0.03884017936209505,0
-07/12/2025 09:29:38,host_08,user_20,Standard,python.exe,cmd.exe,Stop-File /tmp.tx,python,17,1,success,benign,-0.015942486666996325,0
-25/12/2025 13:23:01,host_02,user_18,Service,cmd.exe,svchost.exe,Set-File /usr/bin.,cmd,18,1,success,benign,-0.010982044791781664,0
-14/12/2025 11:07:55,host_07,user_04,Admin,mshta.exe,explorer.exe,Set-Job /tmp.ps1 Stop-File C:\Windows\Temp,mshta,42,2,success,benign,-0.012348520182296041,0
-31/12/2025 18:31:41,host_01,user_13,Standard,cmd.exe,rundll32.exe,Get-Registry C:\Windows\Temp.log N,cmd,34,2,success,benign,-0.028232542800637028,0
-05/12/2025 19:02:54,host_08,user_05,Admin,python.exe,cmd.exe,Start-Registry C:\Windows\Temp.txt Start-File C:\Wind,python,53,2,success,suspicious,-0.04534463507046943,0
-30/12/2025 08:46:21,host_05,user_05,Standard,rundll32.exe,explorer.exe,Start-Job /tm,rundll32,13,1,success,benign,-0.018587930267172648,0
-11/12/2025 19:04:20,host_01,user_18,Standard,python.exe,cmd.exe,Stop-File C:\Windows\Temp.ps1 Set-Service C:\Windows\Temp.log New-File /u,python,73,3,success,suspicious,-0.007745004392694432,0
-23/12/2025 14:21:24,host_04,user_17,Standard,cmd.exe,cmd.exe,New-Job /tmp.py Start-Fil,cmd,25,2,success,benign,-0.018905179359333724,0
-18/12/2025 11:27:20,host_07,user_20,Service,wscript.exe,powershell.exe,Remove-Regis,wscript,12,1,success,benign,-0.035498342704569585,0
-09/12/2025 22:54:12,host_07,user_05,Standard,python.exe,powershell.exe,Stop-Job /tmp.py Stop-Service /tmp.py Set-Registry /usr/bin.ps1 New-Process C:\Windows\T,python,88,4,success,suspicious,-0.03568096891306033,0
-22/12/2025 18:26:04,host_04,user_10,Admin,rundll32.exe,cmd.exe,Remove-Process /tmp.py Get,rundll32,26,2,success,benign,0.0007112553245534059,0
-21/12/2025 18:16:29,host_03,user_06,Standard,notepad.exe,explorer.exe,Start-File C:\Windo,notepad,19,1,success,benign,-0.03927169546519271,0
-28/12/2025 11:17:16,host_03,user_16,Standard,rundll32.exe,python.exe,Get-Service /usr/bin.log Set-Job C:\User,rundll32,40,2,success,benign,-0.03627023929594525,0
-08/12/2025 15:07:25,host_06,user_07,Standard,powershell.exe,rundll32.exe,New-File C:\User,powershell,16,1,success,benign,-0.024946358010377867,0
-23/12/2025 20:24:17,host_01,user_15,Standard,cmd.exe,wscript.exe,Set-Service C:\Windows\Temp.ps1 Rem,cmd,35,2,success,benign,-0.03648928035066368,0
-19/12/2025 10:08:16,host_08,user_17,Standard,cmd.exe,python.exe,Remove-Service /usr,cmd,19,1,success,benign,-0.00437192331595615,0
-14/12/2025 11:32:00,host_02,user_02,Standard,notepad.exe,explorer.exe,Stop-Service /tmp.txt Set-Registry C:\Users\P,notepad,45,2,success,benign,-0.021494864611450948,0
-16/12/2025 10:46:15,host_03,user_15,Standard,python.exe,powershell.exe,New-Process C:\Windows\Temp.py Get-Job,python,38,2,success,benign,-0.03286722517638546,0
-12/12/2025 09:07:44,host_07,user_11,Admin,cmd.exe,explorer.exe,Stop-Process C:\Windows\Temp.py Remove-File,cmd,43,2,success,benign,-0.05638165509692933,0
-16/12/2025 11:25:22,host_04,user_02,Standard,python.exe,rundll32.exe,Get-Registry C:\Windows\Temp.log Set-File,python,41,2,success,benign,-0.011876304912425473,0
-24/12/2025 16:27:13,host_04,user_07,Standard,cscript.exe,explorer.exe,Start-Process C:\Windows\Temp.txt Start-Pro,cscript,43,2,success,benign,-0.015246597587867783,0
-09/12/2025 09:25:56,host_01,user_18,Standard,python.exe,explorer.exe,New-File C:\Windows\Temp.log Start-Job /u,python,41,2,success,benign,0.019833913248813007,1
-23/12/2025 17:00:17,host_05,user_01,Standard,cmd.exe,python.exe,Remove-Registry /usr/bin.py Get-Serv,cmd,36,2,success,benign,-0.018927441302768133,0
-02/12/2025 09:05:05,host_05,user_02,Standard,cmd.exe,python.exe,Stop-Process /tmp.log Start-Regist,cmd,34,2,success,benign,-0.03262678340572861,0
-28/12/2025 10:35:00,host_05,user_08,Standard,notepad.exe,explorer.exe,Stop-File /tmp.log Start-Job C:\Windows\Temp,notepad,44,2,success,benign,-0.04779228612100073,0
-17/12/2025 08:59:23,host_08,user_14,Standard,cmd.exe,powershell.exe,Start-File C:\Users\Public.t,cmd,28,1,success,benign,-0.03538056732748873,0
-24/12/2025 11:03:06,host_06,user_03,Standard,powershell.exe,powershell.exe,Get-Registry /us,powershell,16,1,success,benign,-0.03671799847824819,0
-28/12/2025 12:23:51,host_04,user_19,Standard,powershell.exe,svchost.exe,Set-Job C:\Users\Public.log Set-Process /u,powershell,42,2,failure,benign,-0.01478339275603291,0
-12/12/2025 10:33:50,host_05,user_16,Standard,powershell.exe,python.exe,Remove-Process /usr/bin.log Start-File,powershell,38,2,success,benign,-0.02312517918199697,0
-25/12/2025 10:27:24,host_01,user_10,Standard,python.exe,python.exe,Start-File /usr/bin.ps1 Start-Process /tmp.lo,python,45,2,success,benign,-0.034947549381893483,0
-11/12/2025 18:28:10,host_02,user_18,Standard,notepad.exe,explorer.exe,Start-Service /usr/bin.txt Stop-Job C:\User,notepad,43,2,success,benign,-0.029779338103361752,0
-19/12/2025 10:20:31,host_02,user_04,Standard,powershell.exe,regsvr32.exe,Stop-Process C:\Users\Publi,powershell,27,1,success,benign,-0.00241278559351199,0
-31/12/2025 14:30:56,host_08,user_16,Standard,cmd.exe,mshta.exe,Stop-File /tmp.,cmd,15,1,success,benign,-0.010514624834604358,0
-18/12/2025 16:07:15,host_02,user_12,Standard,powershell.exe,mshta.exe,New-File C:\Windows\Temp.,powershell,25,1,success,benign,-0.017860314137447597,0
-17/12/2025 19:13:05,host_02,user_13,Admin,cmd.exe,cscript.exe,Start-File C:\Win,cmd,17,1,success,benign,0.019303057713618788,1
-25/12/2025 18:30:29,host_05,user_16,Standard,python.exe,python.exe,Stop-Job C:\Win,python,15,1,success,benign,0.0022031435518630182,0
-05/12/2025 14:33:30,host_06,user_18,Admin,notepad.exe,explorer.exe,New-Registry C:\Windows\Temp,notepad,28,1,success,benign,-0.012186742961820596,0
-12/12/2025 13:51:20,host_01,user_01,Standard,notepad.exe,python.exe,Start-Process /tmp.ps1 Remove-Process C,notepad,39,2,success,benign,0.035928334910414694,1
-23/12/2025 11:14:48,host_02,user_04,Standard,notepad.exe,explorer.exe,Get-Job C:\Window,notepad,17,1,success,benign,-0.033400821468744846,0
-25/12/2025 08:25:11,host_04,user_15,Standard,cscript.exe,cmd.exe,Remove-Registry /usr/bin.txt Get-Process /usr/,cscript,46,2,success,benign,-0.014680610569624886,0
-19/12/2025 09:24:58,host_02,user_13,Standard,powershell.exe,explorer.exe,Stop-Registry /tm,powershell,17,1,success,benign,0.003553544991023838,0
-24/12/2025 08:05:38,host_05,user_17,Standard,notepad.exe,explorer.exe,Get-Registry C:\Users\Public.py New-Process /usr/,notepad,49,2,success,benign,-0.024918258953654737,0
-25/12/2025 07:01:34,host_03,user_16,Standard,rundll32.exe,python.exe,Set-Job /usr/bin.ps1,rundll32,20,1,success,benign,-0.03282809210431337,0
-19/12/2025 12:40:22,host_07,user_07,Admin,rundll32.exe,cscript.exe,Get-Service C,rundll32,13,1,success,benign,-0.04011691832252412,0
-01/12/2025 18:27:41,host_02,user_11,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.log Remove-Process /tm,notepad,39,2,success,benign,-0.040911236257110906,0
-02/12/2025 13:18:04,host_06,user_05,Standard,powershell.exe,cmd.exe,Set-Service C:\Users\Public.ps1 New-Process /tm,powershell,47,2,success,benign,-0.029878836226639727,0
-16/12/2025 15:50:44,host_07,user_13,Admin,rundll32.exe,python.exe,Start-Job C:\Windows\Temp.log Sto,rundll32,33,2,success,benign,-0.027305336238457212,0
-11/12/2025 18:49:27,host_07,user_03,Standard,cscript.exe,explorer.exe,Set-Service C:\,cscript,15,1,success,benign,-0.003063468696907823,0
-10/12/2025 14:29:04,host_05,user_14,Standard,cmd.exe,regsvr32.exe,Start-File /tmp.log Remove-Jo,cmd,29,2,success,benign,-0.03328704391316939,0
-14/12/2025 17:19:04,host_03,user_07,Standard,cscript.exe,explorer.exe,Set-Job /usr/bin.py Stop-File /usr/bin.,cscript,39,2,success,benign,-0.012619044099317633,0
-17/12/2025 13:31:31,host_04,user_18,Standard,rundll32.exe,cscript.exe,Stop-Job C:\Windows\,rundll32,20,1,success,benign,-0.023767850388792255,0
-14/12/2025 14:38:44,host_04,user_15,Standard,python.exe,cscript.exe,Remove-Proc,python,11,1,success,benign,0.010997258034834867,1
-02/12/2025 10:01:48,host_02,user_10,Standard,cmd.exe,cscript.exe,Get-Service C:\Users\Public.ps,cmd,30,1,success,benign,-0.026795926760973365,0
-26/12/2025 11:36:17,host_04,user_12,Standard,wscript.exe,powershell.exe,Remove-File C:\Windows\Temp.ps1,wscript,31,1,success,benign,-0.02902351663785052,0
-08/12/2025 18:16:23,host_05,user_01,Standard,python.exe,explorer.exe,Start-Service /usr/bin.p,python,24,1,success,benign,-0.011951832053123723,0
-22/12/2025 14:09:59,host_01,user_12,Admin,wscript.exe,python.exe,Start-Registry /tmp.ps1 Set-Service /usr/bin.log S,wscript,50,3,success,benign,-0.034944739641441736,0
-23/12/2025 14:08:20,host_03,user_12,Standard,python.exe,rundll32.exe,Set-File /tmp.log Set-File,python,26,2,success,benign,0.027331660840515415,1
-02/12/2025 15:08:02,host_03,user_16,Standard,powershell.exe,powershell.exe,New-Job C:,powershell,10,1,success,benign,-0.01798090800522001,0
-01/12/2025 14:02:22,host_06,user_10,Standard,cmd.exe,wscript.exe,New-Process C:\Users\Public.ps1 Get-Registry C:,cmd,47,2,success,benign,-0.02277766277815413,0
-30/12/2025 17:18:05,host_08,user_06,Standard,python.exe,taskeng.exe,Set-Service /tmp.l,python,18,1,success,benign,-0.04837847102848214,0
-14/12/2025 13:47:10,host_08,user_05,Admin,powershell.exe,cmd.exe,Set-Service,powershell,11,1,success,benign,-0.03752190007210815,0
-30/12/2025 13:22:55,host_02,user_14,Standard,powershell.exe,powershell.exe,New-File C:\Win,powershell,15,1,success,benign,-0.04864596520047881,0
-25/12/2025 17:00:39,host_01,user_06,Standard,rundll32.exe,explorer.exe,Start-File /tmp,rundll32,15,1,success,benign,-0.034525718098678104,0
-10/12/2025 13:46:16,host_08,user_12,Standard,mshta.exe,regsvr32.exe,Get-Job C:\Windows\Temp.txt Get-Job /usr/,mshta,41,2,success,benign,-0.014553181581737407,0
-12/12/2025 08:14:38,host_03,user_11,Standard,cmd.exe,taskeng.exe,Start-Process /tmp.ps1 Get-Job /usr/bin.txt,cmd,43,2,success,benign,-0.04111577122653942,0
-09/12/2025 18:51:11,host_05,user_06,Standard,rundll32.exe,wscript.exe,New-Job C:\,rundll32,11,1,success,benign,-0.030869693882684734,0
-15/12/2025 12:19:55,host_01,user_15,Standard,notepad.exe,explorer.exe,Remove-Serv,notepad,11,1,success,benign,-0.009386366630471432,0
-30/12/2025 10:57:46,host_04,user_06,Admin,rundll32.exe,explorer.exe,Get-Process C:\Windows\Temp.py Get-Regi,rundll32,39,2,success,benign,-0.019518291943148525,0
-31/12/2025 09:15:36,host_06,user_10,Standard,cmd.exe,explorer.exe,Set-Job C:\Windows\Temp.log N,cmd,29,2,success,benign,-0.011384585684056148,0
-05/12/2025 08:09:16,host_02,user_12,Standard,notepad.exe,explorer.exe,Get-Process C:\Wind,notepad,19,1,success,benign,-0.0248066846110932,0
-14/12/2025 13:25:37,host_03,user_12,Admin,rundll32.exe,explorer.exe,Set-Registry /tmp.ps1 Stop-Regis,rundll32,32,2,success,benign,0.0008766952228556057,0
-01/12/2025 15:57:14,host_01,user_06,Standard,python.exe,explorer.exe,Set-File C:\Users\Public.py,python,27,1,success,benign,-0.0342716530694564,0
-17/12/2025 12:26:35,host_02,user_09,Standard,notepad.exe,explorer.exe,New-Service /usr/bin.txt New-Service /usr/bin.,notepad,46,2,success,benign,-0.036932545910674686,0
-10/12/2025 16:28:59,host_03,user_07,Standard,cmd.exe,cscript.exe,Get-File /usr/bin.log New-Process /usr/bin.log,cmd,46,2,success,benign,-0.026019743377653837,0
-31/12/2025 08:30:25,host_07,user_12,Standard,python.exe,cscript.exe,Start-Service C:\Users\P,python,24,1,success,benign,-0.03590984572413386,0
-03/12/2025 08:37:39,host_03,user_14,Standard,notepad.exe,explorer.exe,Start-Job C:\Us,notepad,15,1,success,benign,-0.030809426380530136,0
-03/12/2025 18:02:34,host_04,user_03,Standard,python.exe,regsvr32.exe,Set-File /tmp.ps1 Remove-Process /tmp.log,python,41,2,success,benign,-0.017685669311231222,0
-23/12/2025 17:48:52,host_02,user_06,Standard,notepad.exe,explorer.exe,Get-Job C:\Users\Public,notepad,23,1,success,benign,-0.0021682709302659475,0
-02/12/2025 16:02:17,host_02,user_10,Standard,python.exe,explorer.exe,Stop-Job C:\Windows\Temp.txt Start-Servic,python,41,2,failure,benign,-0.0386013903953093,0
-30/12/2025 09:11:29,host_03,user_14,Admin,notepad.exe,explorer.exe,Start-File /tmp.log S,notepad,21,2,success,benign,-0.01717325372646461,0
-04/12/2025 09:03:44,host_08,user_05,Standard,rundll32.exe,wscript.exe,Start-File /tmp.ps1 Stop-File /tmp.ps1 Se,rundll32,41,3,success,benign,-0.010964867410951928,0
-01/12/2025 18:56:49,host_07,user_06,Standard,cscript.exe,explorer.exe,New-Registry /usr/bin.log Get-Jo,cscript,32,2,success,benign,0.027596656730965563,1
-29/12/2025 02:44:46,host_03,user_17,Admin,cmd.exe,wscript.exe,Start-Service C:\Wi,cmd,19,1,success,benign,-0.03099683911588691,0
-16/12/2025 17:25:54,host_07,user_01,Standard,cmd.exe,explorer.exe,Stop-Registry /tmp.log Set,cmd,26,2,success,benign,-0.016354606507520353,0
-09/12/2025 08:43:19,host_01,user_13,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.log Start-F,notepad,28,2,success,benign,-0.002086832345012002,0
-22/12/2025 11:08:26,host_04,user_06,Admin,notepad.exe,explorer.exe,Get-Registry /usr/bin.log New-Process /tmp.tx,notepad,45,2,success,benign,-0.03282468795165705,0
-04/12/2025 19:35:55,host_08,user_16,Standard,python.exe,python.exe,Stop-File C:\Windows\T,python,22,1,success,benign,-0.01134693808733045,0
-04/12/2025 16:04:06,host_01,user_10,Standard,cmd.exe,explorer.exe,Remove-File /tmp.py Remov,cmd,25,2,success,benign,-0.013470765153300812,0
-02/12/2025 11:49:32,host_02,user_04,Standard,cmd.exe,powershell.exe,Start-File C:\Users\Public.log Stop-File /usr/,cmd,46,2,success,benign,-0.037964129373418476,0
-02/12/2025 15:20:44,host_03,user_12,Standard,cmd.exe,wscript.exe,Get-File C:\Windows\Temp.ps1,cmd,28,1,success,benign,-0.03193290196116638,0
-05/12/2025 12:03:23,host_03,user_07,Standard,notepad.exe,explorer.exe,Set-Process /usr/bin.log Remove-Registry,notepad,40,2,success,benign,-0.03297298601023285,0
-17/12/2025 09:06:32,host_07,user_12,Admin,powershell.exe,python.exe,New-Registry C:\Users\Pu,powershell,24,1,success,benign,-0.022406208425008012,0
-12/12/2025 08:00:01,host_02,user_10,Standard,cmd.exe,wscript.exe,Stop-Process C:\Users\Public,cmd,28,1,success,benign,-0.04168659829601673,0
-05/12/2025 10:16:47,host_07,user_15,Standard,rundll32.exe,python.exe,Get-Job /usr/bin.ps1 Start-Job,rundll32,30,2,success,benign,-0.027692326409216483,0
-31/12/2025 11:08:07,host_02,user_07,Standard,cmd.exe,cscript.exe,Remove-Process /tmp.txt Remove-Regis,cmd,36,2,failure,benign,-0.02598994334121557,0
-05/12/2025 11:29:15,host_03,user_20,Standard,rundll32.exe,explorer.exe,Stop-File C:\Windows\T,rundll32,22,1,success,benign,-0.0019727565374070277,0
-16/12/2025 13:43:15,host_07,user_20,Standard,mshta.exe,wscript.exe,Get-Registry,mshta,12,1,success,benign,-0.014014849670927865,0
-31/12/2025 10:30:52,host_08,user_15,Standard,python.exe,taskeng.exe,Get-File /usr/bin.ps1 Stop-Process /,python,36,2,failure,benign,-0.03285954468350938,0
-05/12/2025 11:34:13,host_04,user_05,Standard,notepad.exe,cmd.exe,Stop-Process C:\Users\Public.txt Stop-J,notepad,39,2,success,benign,-0.017364547367464178,0
-03/12/2025 14:39:21,host_04,user_17,Standard,rundll32.exe,cscript.exe,New-Process C:\Users\Public.log Stop-Job C:\Us,rundll32,46,2,success,benign,-0.030246445689097068,0
-21/12/2025 13:05:31,host_06,user_13,Standard,cmd.exe,wscript.exe,Stop-Service /usr/bin.ps1 Stop-Process /tm,cmd,42,2,success,benign,-0.03079660258241501,0
-05/12/2025 12:53:01,host_07,user_05,Standard,cscript.exe,powershell.exe,Start-Process C:\Windows\Temp,cscript,29,1,success,benign,-0.021395381460236063,0
-28/12/2025 10:03:32,host_07,user_12,Standard,powershell.exe,explorer.exe,Get-Registry /usr/bin.ps1,powershell,25,1,success,benign,-0.020608682567007985,0
-22/12/2025 09:42:48,host_02,user_08,Service,cmd.exe,explorer.exe,Set-Process,cmd,11,1,success,benign,0.025290033780578258,1
-18/12/2025 11:55:00,host_07,user_17,Admin,rundll32.exe,python.exe,Get-Process /tmp.ps1 New-File /tmp.,rundll32,35,2,success,benign,-0.040427750859883316,0
-08/12/2025 09:43:28,host_08,user_02,Standard,python.exe,python.exe,Remove-File C:\Users\Public.ps1,python,31,1,success,benign,-0.03166643701068084,0
-09/12/2025 15:40:57,host_06,user_09,Standard,regsvr32.exe,explorer.exe,New-Service,regsvr32,11,1,success,benign,-0.05358029996881547,0
-26/12/2025 08:28:40,host_08,user_10,Standard,cmd.exe,powershell.exe,Start-Job C:\Users\Public.log Remove-Fi,cmd,39,2,success,benign,-0.022912697687525463,0
-04/12/2025 01:43:24,host_02,user_14,Standard,powershell.exe,explorer.exe,Set-Job C:\Users\Public.txt New-Job C:\Windows\Temp.log Remove,powershell,62,3,success,suspicious,-0.022872087482037284,0
-22/12/2025 11:42:19,host_07,user_15,Standard,notepad.exe,python.exe,Set-File C:\Users\Public.py Remove,notepad,34,2,success,benign,-0.026388607986295443,0
-11/12/2025 15:32:51,host_08,user_15,Standard,cmd.exe,winlogon.exe,Set-Process,cmd,11,1,success,benign,-0.02819698389626013,0
-23/12/2025 15:38:27,host_01,user_04,Standard,cscript.exe,powershell.exe,Get-Job C:\Users\Public.py Remove-Fi,cscript,36,2,success,benign,-0.039706912341647804,0
-31/12/2025 18:28:45,host_03,user_03,Service,powershell.exe,cscript.exe,Set-Service C:\Users\,powershell,21,1,success,benign,-0.020173240224174827,0
-25/12/2025 18:29:38,host_06,user_19,Standard,cmd.exe,wscript.exe,Get-File /usr/bin.ps1 New-Job C:\Windows\Temp,cmd,45,2,success,suspicious,-0.02326870402397252,0
-08/12/2025 10:58:23,host_07,user_12,Standard,cmd.exe,python.exe,Set-Service C:\Users\Public.log Remove-File C:\W,cmd,48,2,success,benign,-0.04109455404911294,0
-17/12/2025 08:19:38,host_07,user_14,Standard,powershell.exe,powershell.exe,Get-Job /usr/bin.txt Set-File C:,powershell,32,2,success,benign,-0.03027993700129078,0
-21/12/2025 17:03:03,host_07,user_15,Standard,rundll32.exe,explorer.exe,Start-Job /tmp.txt Set-,rundll32,23,2,success,benign,-0.016072393916581607,0
-10/12/2025 09:23:16,host_01,user_20,Standard,powershell.exe,powershell.exe,Start-Service C:\Windows\Temp.txt,powershell,33,1,success,benign,-0.031182505659332727,0
-03/12/2025 10:30:53,host_02,user_16,Service,python.exe,regsvr32.exe,Stop-File C:\Users\Pu,python,21,1,success,benign,-0.017535714211202036,0
-23/12/2025 14:53:01,host_06,user_15,Standard,python.exe,regsvr32.exe,Start-File,python,10,1,success,benign,-0.03081856473526917,0
-07/12/2025 10:33:35,host_03,user_10,Standard,cscript.exe,explorer.exe,Start-Service /tmp,cscript,18,1,success,benign,-0.023299154768387398,0
-15/12/2025 08:26:53,host_08,user_13,Service,python.exe,python.exe,Set-Registry C:\Users\Pu,python,24,1,success,benign,0.041172707154395694,1
-24/12/2025 09:58:27,host_03,user_10,Standard,python.exe,python.exe,Stop-File /tmp.log Start-Job /usr,python,33,2,success,benign,-0.027220217400830804,0
-08/12/2025 14:12:58,host_02,user_10,Admin,python.exe,rundll32.exe,New-Registry C:\Users\,python,22,1,success,benign,-0.036315967815666816,0
-07/12/2025 08:16:32,host_07,user_05,Standard,powershell.exe,cmd.exe,Start-Process /tmp.py Remove-File /t,powershell,36,2,success,benign,-0.031600717349722085,0
-19/12/2025 09:12:19,host_06,user_14,Standard,wscript.exe,cmd.exe,Start-File /usr/bin.py Remove-Process C:\Windows\,wscript,49,2,failure,benign,-0.03336097148993811,0
-30/12/2025 16:39:11,host_01,user_20,Standard,rundll32.exe,cmd.exe,Get-Process C:\Windows\Temp.,rundll32,28,1,success,benign,-0.013199901270596948,0
-09/12/2025 18:58:16,host_04,user_18,Standard,notepad.exe,cmd.exe,Stop-File C:\Users\Pub,notepad,22,1,success,benign,0.002408069453138262,0
-22/12/2025 12:37:56,host_05,user_15,Standard,powershell.exe,wscript.exe,Start-Registry C:\Users\Public.py New-Job C:\,powershell,45,2,success,benign,-0.03667108358969118,0
-15/12/2025 10:42:53,host_04,user_15,Standard,python.exe,rundll32.exe,Get-Job /usr/bin.txt Star,python,25,2,success,benign,-0.032418725154785666,0
-30/12/2025 15:17:48,host_08,user_17,Standard,cmd.exe,wscript.exe,Start-Registry /tmp.txt Set-Registry C,cmd,38,2,success,benign,-0.006471164207663971,0
-30/12/2025 09:01:21,host_03,user_03,Standard,python.exe,powershell.exe,Stop-Job C:\Users\Public.py New-S,python,33,2,success,benign,-0.03228145070206023,0
-21/12/2025 11:56:47,host_08,user_15,Standard,powershell.exe,python.exe,Get-Job C:\Users\Public.py Set-Serv,powershell,35,2,success,benign,-0.034992470826886446,0
-22/12/2025 11:53:22,host_06,user_17,Admin,cscript.exe,explorer.exe,Stop-Regis,cscript,10,1,success,benign,-0.032239857017031026,0
-04/12/2025 16:05:50,host_05,user_02,Admin,notepad.exe,explorer.exe,Remove-Job /,notepad,12,1,success,benign,-0.014038773747639677,0
-17/12/2025 12:58:24,host_05,user_09,Admin,rundll32.exe,cscript.exe,Set-Job /tmp.txt New-File C:\Users\Pub,rundll32,38,2,success,benign,-0.016327917388562374,0
-18/12/2025 18:34:25,host_04,user_17,Standard,cmd.exe,cscript.exe,Set-Registry /tmp.ps1 Stop-Job C:\Users\Pub,cmd,43,2,success,benign,-0.04645358898390567,0
-05/12/2025 12:28:35,host_01,user_13,Standard,python.exe,cscript.exe,Start-Service C:\Wind,python,21,1,success,benign,-0.020587475078671702,0
-03/12/2025 08:00:09,host_06,user_10,Standard,notepad.exe,explorer.exe,New-Service,notepad,11,1,success,benign,-0.04013167307203358,0
-08/12/2025 17:49:09,host_04,user_13,Standard,powershell.exe,explorer.exe,New-Job /tmp.ps1 Get-File /usr/b,powershell,32,2,success,benign,-0.021667606472785816,0
-12/12/2025 08:51:15,host_02,user_09,Standard,notepad.exe,python.exe,Get-File /tmp.log Get-Registry C:\Windows\Temp.tx,notepad,49,2,success,benign,-0.05098955475602096,0
-14/12/2025 17:46:17,host_04,user_04,Standard,cscript.exe,explorer.exe,Start-File C:\Users\Publi,cscript,25,1,success,benign,-0.015192529993063086,0
-10/12/2025 16:42:22,host_03,user_08,Standard,python.exe,explorer.exe,Remove-Service C:\Users\Public.log Get-Process C,python,48,2,success,benign,-0.03125609596758838,0
-24/12/2025 09:36:41,host_03,user_08,Admin,mshta.exe,powershell.exe,Stop-Registr,mshta,12,1,success,benign,-0.017303062266712965,0
-14/12/2025 14:53:41,host_04,user_13,Standard,wscript.exe,explorer.exe,Start-File C:\Users\Public,wscript,26,1,success,benign,-0.02918990551268441,0
-11/12/2025 13:42:49,host_06,user_02,Service,python.exe,python.exe,New-Job /usr/bi,python,15,1,success,benign,-0.013381633008223592,0
-08/12/2025 18:35:52,host_07,user_06,Standard,rundll32.exe,powershell.exe,Remove-Registry /tmp.ps1 Sta,rundll32,28,2,success,benign,-0.04864272438293987,0
-01/12/2025 16:07:56,host_02,user_15,Standard,cmd.exe,cmd.exe,New-File /,cmd,10,1,success,benign,-0.029265674273661946,0
-08/12/2025 16:57:42,host_06,user_16,Standard,cmd.exe,cmd.exe,Set-File /tmp.py New-File /usr,cmd,30,2,success,benign,-0.046236802772049945,0
-21/12/2025 16:18:34,host_07,user_03,Standard,python.exe,regsvr32.exe,New-Process /usr/bin.log Remove-File /usr/bin.txt,python,49,2,success,benign,-0.02027568961927001,0
-16/12/2025 14:15:13,host_07,user_12,Standard,notepad.exe,explorer.exe,Stop-Proce,notepad,10,1,success,benign,-0.024844090426770216,0
-16/12/2025 15:20:00,host_07,user_14,Standard,python.exe,python.exe,Start-File C:\Users\Public.txt Set-File /tmp.log,python,48,2,success,benign,-0.03619648955450927,0
-28/12/2025 19:06:10,host_01,user_13,Standard,cmd.exe,rundll32.exe,Set-Service /tmp.py Start-Registry C:\Users\P,cmd,45,2,success,benign,0.0037340797266352532,0
-02/12/2025 16:12:56,host_07,user_01,Standard,powershell.exe,powershell.exe,Start-Process C:\Users\Public.txt Remove-Registry,powershell,49,2,success,benign,-0.015925912794135688,0
-21/12/2025 08:12:46,host_02,user_15,Admin,rundll32.exe,rundll32.exe,Start-Service /usr/bin,rundll32,22,1,success,benign,-0.018393078654035555,0
-11/12/2025 16:07:48,host_05,user_16,Admin,cmd.exe,cmd.exe,Stop-File /tmp.ps1 Stop-Service C:\Use,cmd,38,2,success,benign,-0.0254430759321696,0
-03/12/2025 18:56:59,host_02,user_15,Standard,powershell.exe,explorer.exe,Set-Job /usr/bin.log Remove-,powershell,28,2,success,benign,-0.015383682778790042,0
-29/12/2025 15:34:37,host_03,user_04,Standard,cmd.exe,rundll32.exe,Set-Registry C,cmd,14,1,success,benign,-0.023465701241128956,0
-14/12/2025 17:19:27,host_06,user_09,Standard,cscript.exe,explorer.exe,New-Registry C,cscript,14,1,success,benign,-0.016320131553812955,0
-26/12/2025 14:43:49,host_08,user_13,Standard,wscript.exe,powershell.exe,New-Process C:\User,wscript,19,1,success,benign,-0.016405255930190987,0
-17/12/2025 18:19:52,host_05,user_13,Standard,python.exe,explorer.exe,New-Job /usr/bin.py Get-Job C:\Users\Public.log Ge,python,50,3,success,benign,-0.012609977121266491,0
-09/12/2025 09:24:49,host_08,user_04,Standard,rundll32.exe,explorer.exe,New-Job /tmp.txt New-Registry C:\Windows\Temp.,rundll32,46,2,success,benign,0.025020073065798454,1
-31/12/2025 14:17:06,host_03,user_20,Standard,mshta.exe,cscript.exe,Get-Service C:\Users\Public.py Remove-Service,mshta,45,2,success,benign,-0.052859766148765086,0
-29/12/2025 13:32:45,host_04,user_18,Standard,powershell.exe,explorer.exe,Start-File /tmp.log Get-,powershell,24,2,success,benign,-0.02465622407855661,0
-01/12/2025 09:46:18,host_01,user_11,Standard,notepad.exe,explorer.exe,Set-Process C:\Windows\Temp.py Get-File /tmp.txt,notepad,48,2,success,benign,-0.026686489095350818,0
-18/12/2025 17:49:58,host_01,user_05,Standard,rundll32.exe,explorer.exe,Stop-Job C:\Users\Public.txt Get-Service /tmp,rundll32,45,2,success,benign,-0.023400177050227844,0
-15/12/2025 05:23:35,host_04,user_05,Standard,python.exe,explorer.exe,Start-Registry /tmp.txt Get-File /usr/bin.txt R,python,47,3,success,benign,-0.02344076457498917,0
-11/12/2025 11:56:50,host_01,user_19,Standard,cmd.exe,cscript.exe,Set-Process C:\Window,cmd,21,1,success,benign,-0.010476226758203089,0
-22/12/2025 20:49:14,host_05,user_13,Standard,notepad.exe,explorer.exe,Get-File /tmp.log New-Process /usr/,notepad,35,2,success,benign,-0.011484264003639721,0
-26/12/2025 09:41:39,host_06,user_07,Standard,powershell.exe,python.exe,Start-File /tmp.log Set-,powershell,24,2,success,benign,-0.043885453328175617,0
-03/12/2025 15:58:00,host_04,user_12,Service,regsvr32.exe,powershell.exe,Set-Service C:\Users\Public.py Get-Job C:\Windows,regsvr32,49,2,success,benign,-0.02866115316943968,0
-07/12/2025 08:58:44,host_03,user_15,Admin,python.exe,python.exe,New-Process /tmp.txt Get-,python,25,2,success,benign,-0.036696317122923094,0
-12/12/2025 06:01:34,host_01,user_11,Standard,cmd.exe,wscript.exe,Set-Job /us,cmd,11,1,success,benign,-0.023684323972285093,0
-18/12/2025 18:01:25,host_08,user_01,Admin,powershell.exe,mshta.exe,Stop-Registry,powershell,13,1,success,benign,-0.021149959792322703,0
-21/12/2025 11:57:31,host_08,user_17,Standard,notepad.exe,explorer.exe,Stop-Process C:\Windows\Te,notepad,26,1,success,benign,-0.03578696151693961,0
-08/12/2025 10:23:46,host_03,user_12,Standard,python.exe,python.exe,Set-File /usr/bin.lo,python,20,1,success,benign,0.020996728188280966,1
-07/12/2025 10:23:50,host_08,user_11,Standard,cmd.exe,explorer.exe,New-Service C:\Windows\Temp.log New,cmd,35,2,success,benign,-0.03995457161281207,0
-21/12/2025 11:12:10,host_06,user_11,Standard,rundll32.exe,rundll32.exe,Stop-Registry /tmp.py G,rundll32,23,2,success,benign,-0.03605012789593137,0
-14/12/2025 17:44:05,host_05,user_15,Standard,cmd.exe,powershell.exe,Stop-File C:\Users\Public.ps1 Stop-Job,cmd,38,2,success,benign,-0.016123849509917465,0
-24/12/2025 10:01:16,host_08,user_01,Standard,cmd.exe,powershell.exe,Remove-Job C:\Users\Public.py Remove-J,cmd,38,2,failure,benign,-0.0427747367017029,0
-25/12/2025 18:56:57,host_08,user_11,Standard,notepad.exe,explorer.exe,Get-Job /usr/bin.py Get-Service /usr/bin,notepad,40,2,success,benign,-0.008842018781157035,0
-14/12/2025 13:51:43,host_03,user_18,Standard,cmd.exe,python.exe,New-Process C:\Users\Public.py Remove-Job /,cmd,43,2,success,benign,-0.021042222029788837,0
-21/12/2025 10:08:15,host_07,user_02,Admin,notepad.exe,explorer.exe,Set-Servic,notepad,10,1,success,benign,-0.033521469829720985,0
-08/12/2025 17:41:52,host_02,user_06,Standard,python.exe,python.exe,New-File C:\Users\Public.log Set-Service /tmp.p,python,47,2,success,benign,-0.0156291843226255,0
-04/12/2025 14:08:26,host_02,user_06,Admin,regsvr32.exe,explorer.exe,Set-Registry C:\Users\Public.py,regsvr32,31,1,success,benign,-0.022406420077186684,0
-03/12/2025 08:50:15,host_02,user_04,Standard,cscript.exe,powershell.exe,New-File /usr/bin.log Start-Proc,cscript,32,2,success,benign,-0.023673272356848518,0
-22/12/2025 17:08:00,host_05,user_07,Standard,python.exe,python.exe,Get-Service /usr/bin.l,python,22,1,success,benign,-0.012688555634422727,0
-22/12/2025 12:57:11,host_08,user_17,Standard,rundll32.exe,cmd.exe,Remove-Job C:\Users\Public.txt,rundll32,30,1,success,benign,-0.03135376459990713,0
-01/12/2025 09:26:05,host_08,user_12,Admin,python.exe,svchost.exe,Set-Process C:\Windows\Tem,python,26,1,success,benign,-0.04700791576451274,0
-01/12/2025 13:38:51,host_08,user_04,Service,powershell.exe,powershell.exe,Set-Service /tmp.log,powershell,20,1,success,benign,-0.02611887472513591,0
-01/12/2025 11:08:31,host_08,user_12,Standard,mshta.exe,rundll32.exe,New-Job C:\Windows\Temp.py Remove-Registry C:\Us,mshta,48,2,success,benign,-0.051247691278818175,0
-10/12/2025 17:45:20,host_05,user_16,Standard,cscript.exe,explorer.exe,Remove-Job /tmp.,cscript,16,1,success,benign,-0.014552278739154767,0
-25/12/2025 15:44:15,host_06,user_06,Standard,notepad.exe,explorer.exe,Set-Service /usr/bin.ps1 Sta,notepad,28,2,success,benign,-0.03605601167793576,0
-26/12/2025 08:19:32,host_08,user_19,Standard,python.exe,python.exe,Remove-Service C:\Users\Public.py New-File /tmp.,python,48,2,success,benign,-0.028169814276921223,0
-10/12/2025 10:19:26,host_01,user_08,Standard,python.exe,explorer.exe,New-Process C:\Win,python,18,1,success,benign,-0.03450959707870921,0
+03/12/2025 14:45:09,host_03,user_14,Admin,mshta.exe,cscript.exe,Remove-Registry C:\Wind,mshta,23,1,success,benign,-0.23329010786384624,0
+08/12/2025 08:57:17,host_04,user_02,Standard,notepad.exe,powershell.exe,Start-File C:\Users\Public.py Stop-J,notepad,36,2,success,benign,-1.2373643693477019,0
+04/12/2025 09:15:22,host_06,user_20,Service,powershell.exe,powershell.exe,Set-File /tmp.txt Remove,powershell,24,2,success,benign,-0.9781573658659393,0
+10/12/2025 08:05:43,host_01,user_10,Standard,powershell.exe,explorer.exe,Remove-Process /usr/bin.ps1 Get-Process,powershell,39,2,success,benign,-0.06820352067667271,0
+16/12/2025 09:56:14,host_03,user_08,Standard,mshta.exe,regsvr32.exe,Stop-File,mshta,9,1,success,benign,-0.9726218187776738,0
+02/12/2025 14:09:53,host_07,user_08,Standard,notepad.exe,explorer.exe,Start-Service C:,notepad,16,1,success,benign,-1.2467885268932026,0
+03/12/2025 11:46:51,host_05,user_18,Standard,rundll32.exe,powershell.exe,Remove-Registry C:\Users\Public.ps1 Get-J,rundll32,41,2,success,benign,-0.7791950302002281,0
+04/12/2025 10:24:15,host_05,user_15,Admin,python.exe,python.exe,Get-Process /usr/bin.ps1 Remove-File C:\Win,python,43,2,success,benign,0.027453974367013474,0
+08/12/2025 15:32:20,host_05,user_01,Service,powershell.exe,powershell.exe,Remove-Process C:\Users\Pu,powershell,26,1,success,benign,-0.18355869490229498,0
+26/12/2025 12:01:22,host_08,user_06,Standard,cscript.exe,explorer.exe,Start-File /usr/b,cscript,17,1,success,benign,-1.0396649110718719,0
+03/12/2025 04:04:49,host_02,user_08,Admin,cscript.exe,cmd.exe,Get-Service C:\Users\Public.py Remove-Registry C,cscript,48,2,success,benign,-0.2928847903711075,0
+04/12/2025 18:59:10,host_02,user_20,Standard,cmd.exe,rundll32.exe,Get-Service /usr/bin.ps1 Remove-,cmd,32,2,success,benign,-0.3186514810926449,0
+03/12/2025 10:09:07,host_06,user_04,Standard,notepad.exe,powershell.exe,Set-Process C:\Windows\Temp,notepad,27,1,success,benign,-1.5384894649558836,0
+28/12/2025 16:45:58,host_01,user_09,Standard,rundll32.exe,explorer.exe,Stop-Proces,rundll32,11,1,success,benign,-1.4282913302349134,0
+29/12/2025 17:14:57,host_06,user_05,Standard,cmd.exe,explorer.exe,New-Job C:\Window,cmd,17,1,success,benign,-0.5936228877327774,0
+18/12/2025 17:44:54,host_05,user_15,Standard,python.exe,explorer.exe,Stop-Servic,python,11,1,success,benign,-1.3462278638573018,0
+04/12/2025 16:48:38,host_04,user_08,Standard,python.exe,powershell.exe,Remove-Registry C:\Users\Public.log Stop-Pr,python,43,2,success,benign,-1.0402057371683004,0
+29/12/2025 15:00:38,host_02,user_17,Standard,cmd.exe,mshta.exe,Stop-Job /usr/bin.py Get,cmd,24,2,success,benign,-1.6216643856524162,0
+23/12/2025 09:35:15,host_04,user_18,Standard,rundll32.exe,cmd.exe,Get-Job C:\Users\Public.t,rundll32,25,1,success,benign,-0.7573216400764251,0
+29/12/2025 17:46:18,host_05,user_16,Standard,notepad.exe,explorer.exe,Remove-File /tmp.log Sto,notepad,24,2,success,benign,-0.4727833321763578,0
+12/12/2025 03:43:35,host_04,user_12,Admin,powershell.exe,wscript.exe,Set-File C:\Windows\Temp.py Set-Registry /usr/bin.txt New-Job /usr/bin.log Set-Regi,powershell,83,4,success,suspicious,-1.1157790847658742,0
+12/12/2025 10:06:50,host_08,user_20,Standard,cmd.exe,python.exe,Get-Service C:\Users\Public.py Stop-Reg,cmd,39,2,success,benign,-0.8304333900415561,0
+23/12/2025 14:57:15,host_05,user_16,Standard,python.exe,rundll32.exe,Get-Process C:\Users\Publi,python,26,1,success,benign,-0.8220575304764539,0
+31/12/2025 11:57:01,host_01,user_08,Standard,cmd.exe,explorer.exe,Remove-Process /usr/bin.ps1 Start-Registry /tm,cmd,46,2,success,benign,-0.8358734461193704,0
+04/12/2025 09:57:05,host_03,user_16,Standard,notepad.exe,python.exe,Remove-File C:\Windows\Temp.ps1 N,notepad,33,2,success,benign,-1.508878747117422,0
+26/12/2025 12:04:21,host_05,user_10,Standard,python.exe,cmd.exe,Start-Service C:,python,16,1,success,benign,-0.6566973206000724,0
+08/12/2025 17:21:29,host_01,user_19,Standard,cscript.exe,python.exe,Get-File /tmp.ps1,cscript,17,1,success,benign,-1.2720132391587087,0
+08/12/2025 10:52:25,host_08,user_05,Standard,mshta.exe,regsvr32.exe,Stop-Registry /tmp.t,mshta,20,1,success,benign,-1.1535765919527732,0
+23/12/2025 10:05:50,host_06,user_17,Standard,rundll32.exe,powershell.exe,New-Job /tmp.l,rundll32,14,1,success,benign,-1.5921056992006315,0
+05/12/2025 19:20:28,host_08,user_02,Standard,notepad.exe,explorer.exe,Stop-Process /tmp.ps1 Set-File /tmp.ps1 Start-Service C:\Windows\Temp.log Ne,notepad,76,4,success,suspicious,-0.3032447073287862,0
+23/12/2025 10:35:23,host_02,user_09,Standard,powershell.exe,explorer.exe,New-Service C:,powershell,14,1,success,benign,-0.4404458199564292,0
+26/12/2025 09:34:59,host_01,user_09,Standard,regsvr32.exe,powershell.exe,Get-Registry /tmp.ps1 Set-Registry /usr/,regsvr32,40,2,success,benign,-1.6500700502626726,0
+05/12/2025 11:20:42,host_05,user_12,Standard,rundll32.exe,python.exe,Set-Process,rundll32,11,1,success,benign,-0.9382364365499305,0
+02/12/2025 11:12:14,host_02,user_05,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.log Start-Process C:,cmd,45,2,success,benign,-0.9001478736566306,0
+11/12/2025 15:26:22,host_02,user_19,Standard,rundll32.exe,cscript.exe,Start-Job C:\Windows\Temp.py New-Service C:\W,rundll32,45,2,success,benign,-0.544429913417233,0
+31/12/2025 11:19:02,host_01,user_12,Standard,cscript.exe,powershell.exe,Set-Registry C:\Windows\Temp.log Stop-Process C:\,cscript,49,2,success,benign,-1.1760216385145987,0
+19/12/2025 12:09:30,host_03,user_02,Standard,notepad.exe,explorer.exe,Start-Service C:\Windows\Temp.log Remove-Pr,notepad,43,2,success,benign,-1.209268143095247,0
+30/12/2025 15:28:26,host_05,user_13,Standard,cmd.exe,python.exe,New-Servic,cmd,10,1,failure,benign,-0.5859198126777105,0
+24/12/2025 10:02:08,host_08,user_17,Standard,rundll32.exe,winlogon.exe,Remove-Process C:\Windows\Temp.log New-File /t,rundll32,46,2,success,benign,-1.1256649694639784,0
+11/12/2025 11:45:39,host_08,user_16,Standard,powershell.exe,powershell.exe,Set-Job C:\Users\Public.log Get-Job C,powershell,37,2,success,benign,-0.554083859302023,0
+12/12/2025 14:28:43,host_06,user_16,Standard,python.exe,python.exe,Set-Service /tmp.ps1 Set-File C:\Win,python,36,2,success,benign,-1.236841067111659,0
+29/12/2025 13:52:13,host_02,user_05,Standard,rundll32.exe,powershell.exe,New-Service /tmp.log Start-,rundll32,27,2,success,benign,-0.9959047899919484,0
+30/12/2025 01:22:59,host_02,user_02,Admin,powershell.exe,winlogon.exe,Stop-Registry /tmp.ps1 Remove-Job /usr/bin.txt Get-Job C:\Users\Public.log Get-File,powershell,83,4,success,suspicious,-0.25678608417228393,0
+17/12/2025 12:40:32,host_04,user_18,Standard,notepad.exe,python.exe,New-Job C:\Users\Public.ps1 New-Proce,notepad,37,2,success,benign,-1.2240589318535884,0
+23/12/2025 18:24:29,host_06,user_07,Standard,powershell.exe,python.exe,Remove-Service C:\Users\Public.txt,powershell,34,1,success,benign,-0.9036971963025019,0
+07/12/2025 17:45:02,host_03,user_02,Standard,notepad.exe,explorer.exe,Stop-Job C:\Us,notepad,14,1,success,benign,-0.5471064747879965,0
+05/12/2025 11:05:45,host_04,user_03,Standard,python.exe,python.exe,Remove-File /tmp.txt,python,20,1,success,benign,-1.0977269180140012,0
+15/12/2025 15:04:02,host_01,user_20,Admin,powershell.exe,powershell.exe,Set-Job C:\Users\Public.ps1 Set-Registry /tmp,powershell,45,2,success,benign,2.09963311394124,1
+17/12/2025 12:41:34,host_07,user_12,Standard,cmd.exe,powershell.exe,Set-Service /usr/bin.txt Stop-Service,cmd,37,2,success,benign,-1.0925066690780119,0
+01/12/2025 16:49:42,host_06,user_10,Standard,powershell.exe,wscript.exe,New-Job C:\Users\Public.py New-Proce,powershell,36,2,failure,benign,-0.7765620759435056,0
+11/12/2025 09:36:13,host_08,user_06,Standard,python.exe,rundll32.exe,Set-Regist,python,10,1,success,benign,4.2999666134673715,1
+14/12/2025 11:22:12,host_08,user_03,Standard,powershell.exe,powershell.exe,Set-Process,powershell,11,1,success,benign,-0.1514468260223238,0
+31/12/2025 12:33:56,host_03,user_14,Standard,cmd.exe,cmd.exe,Remove-Registry /usr/bin.ps1 New-Service C:\Us,cmd,46,2,success,benign,-1.0852687530859808,0
+25/12/2025 09:27:04,host_05,user_05,Standard,notepad.exe,explorer.exe,Set-File C:\Users\Public.log R,notepad,30,2,failure,benign,-1.1669093415209109,0
+26/12/2025 09:18:06,host_07,user_01,Standard,rundll32.exe,wscript.exe,Get-Registry,rundll32,12,1,success,benign,-0.6572703222680781,0
+25/12/2025 01:33:39,host_08,user_09,Standard,cmd.exe,cmd.exe,Start-Job C:\Users\Public.py Start-File /tmp.txt Stop-Service C:\Users\Pub,cmd,74,3,success,suspicious,-1.1985435623463472,0
+15/12/2025 14:18:04,host_06,user_03,Admin,notepad.exe,cmd.exe,Get-Job C:\Users\Public.py Set-Re,notepad,33,2,success,benign,-1.0433244090400753,0
+30/12/2025 17:06:55,host_04,user_03,Standard,notepad.exe,powershell.exe,Start-Process /tmp.log Remove-Registry /tmp.log,notepad,47,2,success,benign,-0.83831518451763,0
+28/12/2025 17:31:49,host_04,user_07,Standard,powershell.exe,wscript.exe,Remove-Registry C:\Use,powershell,22,1,success,benign,-0.7380518942624023,0
+17/12/2025 08:34:47,host_02,user_13,Standard,regsvr32.exe,explorer.exe,Get-Registry /tmp,regsvr32,17,1,success,benign,-0.6099952454641444,0
+23/12/2025 21:57:07,host_05,user_04,Standard,wscript.exe,python.exe,New-Registry /usr/bin.txt Start-Job /usr/bin.py Start-Registry C:\Users\Public.,wscript,79,3,success,suspicious,-0.9715205447954175,0
+25/12/2025 18:39:26,host_08,user_13,Service,rundll32.exe,explorer.exe,Remove-Job /usr/bin.txt New-Jo,rundll32,30,2,success,benign,-0.4705759782807115,0
+23/12/2025 11:58:44,host_05,user_09,Standard,python.exe,wscript.exe,Stop-File /tmp.py Set,python,21,2,success,benign,-1.3602707103357696,0
+11/12/2025 18:57:10,host_08,user_18,Standard,notepad.exe,explorer.exe,Get-Registry /,notepad,14,1,success,benign,-0.48164634199297124,0
+24/12/2025 13:27:10,host_02,user_14,Standard,python.exe,rundll32.exe,Stop-Job C:\Windows\Temp.ps1 Set-Process /tmp.txt,python,49,2,success,benign,-0.906759016583851,0
+01/12/2025 17:46:30,host_05,user_03,Admin,powershell.exe,explorer.exe,Remove-Registry /tmp.ps1 Stop-Proces,powershell,36,2,success,benign,-1.6909679815387615,0
+02/12/2025 14:51:20,host_01,user_03,Standard,powershell.exe,regsvr32.exe,Get-Registry /tmp.py Set-Serv,powershell,29,2,success,benign,-0.2851392826751375,0
+21/12/2025 17:30:49,host_07,user_07,Service,python.exe,services.exe,Set-File C:\Windows\Temp.log Start,python,34,2,success,benign,-0.7477461500928493,0
+07/12/2025 15:26:04,host_07,user_06,Standard,cmd.exe,explorer.exe,Stop-Service C:\Windows\Temp.txt Get-Job,cmd,40,2,success,benign,-1.0761251331377404,0
+10/12/2025 04:08:20,host_08,user_15,Standard,powershell.exe,taskeng.exe,New-Registry /usr/bin.txt Start-Process C:\Users\Public.txt Remove-Registry C:\Win,powershell,82,3,success,suspicious,-1.2993825832313428,0
+09/12/2025 10:33:21,host_07,user_01,Standard,cmd.exe,python.exe,Start-Regi,cmd,10,1,success,benign,-0.7312344219558261,0
+26/12/2025 14:37:38,host_02,user_02,Standard,notepad.exe,explorer.exe,Get-Registry /usr/bin,notepad,21,1,success,benign,-1.6053262637889085,0
+24/12/2025 15:09:51,host_08,user_11,Standard,powershell.exe,powershell.exe,Start-Registry /tmp.log Remove-J,powershell,32,2,success,benign,-1.2212625814637081,0
+04/12/2025 22:12:32,host_06,user_12,Service,powershell.exe,powershell.exe,Remove-Registr,powershell,14,1,success,benign,-1.610450171275417,0
+05/12/2025 11:23:01,host_07,user_05,Standard,cmd.exe,explorer.exe,Start-File /usr/bin.ps1 Sta,cmd,27,2,success,benign,-0.772942641184623,0
+08/12/2025 10:00:24,host_02,user_01,Standard,notepad.exe,explorer.exe,Start-Service /tmp.ps1 Stop-Service,notepad,35,2,success,benign,-1.32995394386357,0
+18/12/2025 21:51:24,host_01,user_11,Standard,python.exe,rundll32.exe,Set-Job C:\User,python,15,1,success,benign,-0.4922648099018772,0
+17/12/2025 14:04:25,host_02,user_18,Standard,powershell.exe,powershell.exe,Remove-Pro,powershell,10,1,success,benign,-0.6887822828657476,0
+19/12/2025 13:23:34,host_06,user_11,Admin,notepad.exe,explorer.exe,New-Service /usr/bin.txt New-Process C:\Wi,notepad,42,2,success,benign,-0.38805790199015866,0
+01/12/2025 08:36:42,host_08,user_06,Standard,notepad.exe,explorer.exe,Get-Service /tmp.py,notepad,19,1,success,benign,-0.9444990626685167,0
+17/12/2025 11:56:41,host_03,user_19,Standard,rundll32.exe,taskeng.exe,New-Service C:\Users\Public.ps1 New-Process C:,rundll32,46,2,success,benign,-0.9979549247219601,0
+21/12/2025 11:14:23,host_05,user_17,Standard,notepad.exe,explorer.exe,Stop-Service /usr/b,notepad,19,1,success,benign,-0.8051930019500722,0
+17/12/2025 10:06:47,host_05,user_09,Standard,cmd.exe,cmd.exe,Get-Process C:\Users\Public.py Set-File,cmd,39,2,success,benign,-1.0349795518191962,0
+03/12/2025 09:25:12,host_06,user_19,Standard,powershell.exe,rundll32.exe,Remove-File /tmp.ps1 Set-Registry /,powershell,35,2,success,benign,-1.3196428901706994,0
+21/12/2025 16:35:14,host_06,user_02,Standard,python.exe,powershell.exe,Set-Service /tmp.txt Start-File C:\Users\Publi,python,46,2,success,benign,-1.0061666404711211,0
+10/12/2025 09:31:39,host_01,user_02,Standard,notepad.exe,cmd.exe,Start-Job C:\,notepad,13,1,success,benign,-0.6090771391183536,0
+09/12/2025 02:04:17,host_02,user_17,Standard,cmd.exe,cmd.exe,Stop-Job /usr/bin.txt Start-Process C:\Windo,cmd,44,2,success,suspicious,-1.0786159044325245,0
+03/12/2025 19:32:42,host_08,user_18,Admin,wscript.exe,python.exe,Set-Service C:\Users\Public.log Remove-Service C:\Users\Public.py Set,wscript,69,3,success,suspicious,-0.6669290820099805,0
+23/12/2025 14:56:53,host_04,user_06,Standard,notepad.exe,explorer.exe,Start-File /tmp.txt Set-Process /tmp.ps1 Get-,notepad,45,3,success,benign,-0.5554955031765516,0
+25/12/2025 12:58:02,host_01,user_20,Admin,powershell.exe,cmd.exe,Set-File C:\Windows\Temp.log Re,powershell,31,2,success,benign,-1.4574651804573677,0
+12/12/2025 11:35:01,host_06,user_16,Standard,regsvr32.exe,cmd.exe,Set-Registry,regsvr32,12,1,success,benign,-0.7632618397596366,0
+21/12/2025 13:27:16,host_06,user_19,Standard,powershell.exe,taskeng.exe,Set-File C,powershell,10,1,success,benign,-0.5945491415027008,0
+07/12/2025 09:13:58,host_02,user_02,Standard,cmd.exe,cscript.exe,Remove-Service C,cmd,16,1,success,benign,-0.8751920662998802,0
+04/12/2025 12:03:46,host_07,user_16,Admin,mshta.exe,explorer.exe,Set-Registry /usr/bin.py Remove-Registry C:\Wi,mshta,46,2,success,benign,-0.8943155383559606,0
+16/12/2025 11:14:02,host_02,user_13,Standard,powershell.exe,mshta.exe,Set-Service /usr,powershell,16,1,success,benign,-0.7686028075674918,0
+14/12/2025 18:53:38,host_05,user_12,Standard,cmd.exe,wscript.exe,Get-Registry /tmp.txt Set-Proc,cmd,30,2,success,benign,-0.7835488861979061,0
+23/12/2025 17:03:10,host_01,user_16,Standard,powershell.exe,powershell.exe,Remove-Reg,powershell,10,1,success,benign,-1.2923172249790016,0
+01/12/2025 13:30:05,host_02,user_04,Standard,rundll32.exe,python.exe,Start-Process /t,rundll32,16,1,success,benign,-1.2328961312344293,0
+31/12/2025 10:33:10,host_02,user_04,Standard,notepad.exe,explorer.exe,Stop-Registry C:\User,notepad,21,1,success,benign,-1.0436044394410315,0
+12/12/2025 09:10:50,host_08,user_18,Admin,cmd.exe,explorer.exe,Set-Process C:\U,cmd,16,1,success,benign,-1.0243436804603132,0
+10/12/2025 12:47:32,host_07,user_04,Standard,notepad.exe,explorer.exe,Set-Service C:\Users\Publ,notepad,25,1,success,benign,-0.7102094852937206,0
+11/12/2025 16:53:18,host_01,user_11,Standard,notepad.exe,explorer.exe,Stop-Job C:\,notepad,12,1,success,benign,-0.6525983153563801,0
+05/12/2025 09:58:33,host_02,user_18,Standard,notepad.exe,cmd.exe,Get-Job /usr/bin.ps1 Get-File C:\Users\Publi,notepad,44,2,success,benign,-0.9789568130661167,0
+10/12/2025 14:43:13,host_05,user_01,Standard,powershell.exe,powershell.exe,Remove-File C:\Users\Public.l,powershell,29,1,success,benign,-1.2967717607350595,0
+21/12/2025 18:30:56,host_07,user_19,Standard,cmd.exe,python.exe,Remove-File /,cmd,13,1,success,benign,-0.9712008900894894,0
+28/12/2025 04:53:32,host_02,user_19,Standard,notepad.exe,explorer.exe,New-Registry /tmp.ps1 Set-Service /tmp.txt Start-Registry C:\Users\Public.log Set-File,notepad,86,4,success,suspicious,0.7962768231996304,0
+29/12/2025 15:03:16,host_01,user_16,Standard,rundll32.exe,cmd.exe,Get-Service /usr/bin,rundll32,20,1,success,benign,-0.4718310936699052,0
+18/12/2025 11:50:16,host_05,user_10,Standard,powershell.exe,cmd.exe,Remove-File /usr/bin.txt Start-Job /usr/bin.,powershell,44,2,success,benign,-0.9720754231603085,0
+30/12/2025 19:40:20,host_07,user_06,Standard,rundll32.exe,wscript.exe,New-Registry /tmp.py Remove-Registry /usr/bin.log Stop-Regi,rundll32,59,3,success,suspicious,-1.3174742065408618,0
+29/12/2025 15:14:04,host_06,user_04,Admin,python.exe,python.exe,Get-File C:\Users\Public.l,python,26,1,success,benign,-0.7061043745571802,0
+02/12/2025 10:42:18,host_04,user_15,Standard,rundll32.exe,powershell.exe,Stop-File C:\Windows\Temp.log Remove-Process,rundll32,44,2,success,benign,-0.27808563779834977,0
+19/12/2025 08:31:12,host_02,user_03,Standard,cscript.exe,explorer.exe,New-Process /usr/bin.,cscript,21,1,success,benign,-0.9189855372503013,0
+12/12/2025 11:02:43,host_02,user_02,Standard,python.exe,explorer.exe,Remove-Process /us,python,18,1,success,benign,-0.7870153656023924,0
+30/12/2025 17:03:39,host_01,user_12,Standard,notepad.exe,explorer.exe,Stop-Job C:\Windows\Temp.log,notepad,28,1,success,benign,-0.9126458392395762,0
+07/12/2025 13:49:07,host_03,user_12,Standard,cmd.exe,python.exe,Stop-Job /tmp.py Remove-,cmd,24,2,success,benign,-0.49211754355884024,0
+14/12/2025 08:13:35,host_05,user_15,Standard,regsvr32.exe,powershell.exe,Get-Registry /tmp.log Re,regsvr32,24,2,success,benign,-0.9071866960725048,0
+25/12/2025 17:54:31,host_08,user_08,Admin,powershell.exe,regsvr32.exe,Stop-Servi,powershell,10,1,success,benign,-0.7789344400424457,0
+02/12/2025 08:46:39,host_04,user_15,Standard,powershell.exe,powershell.exe,Start-Process /usr/bin.,powershell,23,1,success,benign,-1.1855361983815291,0
+14/12/2025 17:14:36,host_08,user_11,Standard,notepad.exe,explorer.exe,Remove-Process C:\Windows\Temp.py S,notepad,35,2,success,benign,1.9973743874395313,1
+18/12/2025 09:27:20,host_05,user_12,Standard,powershell.exe,python.exe,Get-File /tmp.log Set-File C:\Window,powershell,36,2,success,benign,-0.015975183487461214,0
+05/12/2025 12:07:06,host_04,user_15,Admin,powershell.exe,explorer.exe,Remove-Job /usr/bin.ps1 Start-Pro,powershell,33,2,success,benign,-1.0396129119747333,0
+28/12/2025 12:07:31,host_06,user_18,Standard,python.exe,python.exe,Remove-Regi,python,11,1,success,benign,-0.9918797254033765,0
+30/12/2025 14:36:33,host_01,user_13,Standard,python.exe,explorer.exe,Stop-Registry /usr/bin.py New-Process /tmp.lo,python,45,2,success,benign,-0.7672046700965628,0
+24/12/2025 10:34:39,host_03,user_07,Admin,cmd.exe,explorer.exe,Get-Registry C:\Windows\Temp.py Set-Service C:\Us,cmd,49,2,success,benign,0.15469560603864366,0
+28/12/2025 16:21:35,host_01,user_10,Standard,python.exe,rundll32.exe,Stop-Registry /usr/bin.txt Remov,python,32,2,success,benign,-1.1078280117241464,0
+08/12/2025 09:11:58,host_06,user_17,Standard,cmd.exe,regsvr32.exe,Start-Job /tmp.ps1 Start-Registry /tmp.txt R,cmd,44,3,success,benign,-1.1839483636735768,0
+11/12/2025 09:44:51,host_01,user_14,Standard,wscript.exe,powershell.exe,New-Service C:\Us,wscript,17,1,success,benign,-0.8818077663348945,0
+09/12/2025 10:07:47,host_04,user_14,Standard,cscript.exe,python.exe,Get-Registry /tmp.ps1 Set-Registry C:\Windows\,cscript,46,2,success,benign,-0.9098733775051656,0
+26/12/2025 11:35:22,host_08,user_04,Standard,mshta.exe,winlogon.exe,Set-Job C:\Users\Public.ps1 Get-Job C:,mshta,38,2,success,benign,-0.9716268669605261,0
+23/12/2025 08:01:30,host_07,user_03,Standard,cmd.exe,cmd.exe,Get-Process /usr/bin.txt Remove-Proc,cmd,36,2,success,benign,-1.0315033002969607,0
+12/12/2025 12:05:32,host_05,user_11,Standard,powershell.exe,powershell.exe,Set-Service /,powershell,13,1,success,benign,0.03873510240114641,0
+03/12/2025 16:54:30,host_03,user_04,Standard,powershell.exe,rundll32.exe,Remove-Service C:\User,powershell,22,1,success,benign,-0.8182830479116942,0
+29/12/2025 13:47:25,host_03,user_18,Service,cmd.exe,explorer.exe,Get-Job /usr/b,cmd,14,1,success,benign,-0.8334801024806695,0
+28/12/2025 17:47:00,host_03,user_02,Standard,powershell.exe,cmd.exe,Get-Job /tmp.ps1 Start-Service C:\Users\Public.log,powershell,50,2,success,benign,-1.5321213385016,0
+11/12/2025 10:26:02,host_01,user_04,Standard,cmd.exe,wscript.exe,Remove-Process,cmd,14,1,success,benign,-0.9003673559531075,0
+31/12/2025 12:37:07,host_03,user_05,Standard,python.exe,rundll32.exe,Stop-Registry,python,13,1,success,benign,-0.7910093291513641,0
+18/12/2025 15:39:44,host_01,user_02,Standard,rundll32.exe,explorer.exe,Stop-Registry /tmp.ps1 Set-File C:\Use,rundll32,38,2,success,benign,-0.9272715040288451,0
+04/12/2025 16:37:34,host_08,user_08,Standard,python.exe,explorer.exe,Get-Process,python,11,1,success,benign,-0.3889802934437754,0
+01/12/2025 16:56:38,host_04,user_09,Standard,rundll32.exe,explorer.exe,Get-Process C:,rundll32,14,1,success,benign,-0.7961017963625417,0
+24/12/2025 11:05:11,host_01,user_02,Standard,powershell.exe,explorer.exe,Get-File /tmp.py Set-Job,powershell,24,2,success,benign,-1.0393025782363292,0
+04/12/2025 14:31:35,host_07,user_09,Standard,rundll32.exe,cscript.exe,Start-Registry /usr/b,rundll32,21,1,success,benign,-0.7595090508583687,0
+31/12/2025 23:09:08,host_08,user_10,Standard,mshta.exe,winlogon.exe,Set-Service C:\U,mshta,16,1,success,benign,-0.312182123875053,0
+05/12/2025 09:50:12,host_04,user_05,Standard,powershell.exe,explorer.exe,Stop-File /tmp.txt Remove-Job /usr/bin.py Start-,powershell,48,3,success,benign,-1.581309089288232,0
+30/12/2025 12:25:00,host_07,user_10,Standard,python.exe,python.exe,Start-Service /tmp.,python,19,1,success,benign,-1.1400524109677959,0
+24/12/2025 16:13:14,host_01,user_20,Standard,cmd.exe,powershell.exe,Remove-Service,cmd,14,1,success,benign,-0.8175169956111566,0
+05/12/2025 14:13:53,host_04,user_03,Standard,notepad.exe,explorer.exe,Stop-Service /usr/bin.py Remove-File,notepad,36,2,success,benign,-1.1309483199980546,0
+12/12/2025 12:59:04,host_03,user_08,Admin,powershell.exe,cmd.exe,Set-Job C:\Windows\Temp.ps1,powershell,27,1,success,benign,-1.407011749515317,0
+29/12/2025 18:51:46,host_05,user_18,Standard,notepad.exe,explorer.exe,Start-Process C:\Windows\Temp,notepad,29,1,success,benign,-0.6109274433851979,0
+17/12/2025 18:14:52,host_07,user_08,Standard,powershell.exe,explorer.exe,New-Registry C:\Users\Public.ps1 Start-File C,powershell,45,2,success,benign,-1.570905964649552,0
+29/12/2025 14:59:43,host_06,user_12,Standard,notepad.exe,explorer.exe,Remove-Service /usr/bin.py St,notepad,29,2,success,benign,-1.0380407136113734,0
+03/12/2025 14:26:18,host_04,user_13,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.ps1 New-R,cmd,34,2,success,benign,-1.164682277149201,0
+10/12/2025 18:12:15,host_02,user_13,Standard,powershell.exe,cscript.exe,Stop-Proce,powershell,10,1,success,benign,-0.5790500882361564,0
+24/12/2025 09:37:34,host_05,user_07,Standard,python.exe,python.exe,Remove-Ser,python,10,1,success,benign,3.354373735849372,1
+26/12/2025 11:49:48,host_03,user_14,Standard,cmd.exe,explorer.exe,Get-Service /usr/bin.py R,cmd,25,2,success,benign,-1.4935325961974146,0
+12/12/2025 13:16:46,host_01,user_06,Standard,regsvr32.exe,explorer.exe,Start-Registry C:\Windows\Temp.,regsvr32,31,1,success,benign,-0.026459858432093697,0
+25/12/2025 16:37:16,host_04,user_12,Service,cmd.exe,rundll32.exe,Set-File C:\Windows\Te,cmd,22,1,success,benign,-1.2100229578288344,0
+15/12/2025 03:31:53,host_01,user_05,Standard,python.exe,python.exe,Remove-Service /usr/bin.py Start-Process C:\Users\,python,50,2,success,benign,-1.660417358030201,0
+02/12/2025 18:41:37,host_03,user_12,Standard,powershell.exe,explorer.exe,Stop-File /u,powershell,12,1,success,benign,-0.7603407319201805,0
+02/12/2025 17:52:52,host_07,user_06,Admin,powershell.exe,mshta.exe,Remove-Process C:\Users\Pub,powershell,27,1,success,benign,0.04973415260733579,0
+25/12/2025 08:23:39,host_04,user_12,Standard,python.exe,rundll32.exe,Stop-Job /usr/bin.log Start-R,python,29,2,success,benign,-0.49002022453919003,0
+18/12/2025 18:44:41,host_05,user_20,Standard,rundll32.exe,powershell.exe,Get-Service C:,rundll32,14,1,failure,benign,-0.6592059059802675,0
+31/12/2025 10:19:26,host_01,user_01,Standard,notepad.exe,cmd.exe,Get-File /tmp.py Stop-Service C:\User,notepad,37,2,success,benign,-0.6074672937125073,0
+01/12/2025 21:29:54,host_07,user_05,Standard,powershell.exe,rundll32.exe,New-Service /tmp.t,powershell,18,1,failure,benign,0.08066216150877402,0
+02/12/2025 17:08:51,host_06,user_11,Standard,cmd.exe,cscript.exe,Set-Process /,cmd,13,1,success,benign,-1.0224134848087305,0
+24/12/2025 08:49:23,host_05,user_06,Standard,rundll32.exe,explorer.exe,Start-File /tmp.log Se,rundll32,22,2,success,benign,-0.6991004627966553,0
+07/12/2025 15:59:47,host_06,user_16,Standard,cmd.exe,cmd.exe,Stop-File C:\Win,cmd,16,1,success,benign,-0.7317571072559189,0
+03/12/2025 18:31:47,host_08,user_07,Standard,python.exe,powershell.exe,Remove-Process C:\Windows\Tem,python,29,1,success,benign,-0.6857107095593521,0
+09/12/2025 09:34:31,host_01,user_10,Service,cmd.exe,rundll32.exe,New-Job /usr/bin.py Set-Registry C:\Users\Public.,cmd,49,2,success,benign,-0.06767807433040074,0
+10/12/2025 12:57:19,host_05,user_17,Standard,notepad.exe,explorer.exe,New-Registry,notepad,12,1,success,benign,-1.2942205197763597,0
+21/12/2025 10:45:34,host_05,user_18,Standard,python.exe,cmd.exe,Start-File /tmp.py Start-File /tmp.log Start-Reg,python,48,3,success,benign,-1.3542927879148152,0
+17/12/2025 18:51:03,host_07,user_06,Standard,python.exe,python.exe,Start-File C:\Wi,python,16,1,success,benign,-0.3599924781331352,0
+04/12/2025 18:57:27,host_08,user_03,Standard,python.exe,cmd.exe,Remove-Fil,python,10,1,success,benign,-1.1164605429635142,0
+19/12/2025 12:28:18,host_03,user_14,Standard,mshta.exe,wscript.exe,Get-Process /usr/bin.txt R,mshta,26,2,success,benign,-0.6668605885996538,0
+26/12/2025 13:22:56,host_02,user_09,Standard,powershell.exe,regsvr32.exe,New-Service /usr/bin.log Start-Process C:\Wi,powershell,44,2,success,benign,-1.2613689981726228,0
+17/12/2025 11:04:43,host_03,user_15,Standard,notepad.exe,powershell.exe,Get-File /usr/bin.py Start-Registry C:\Windo,notepad,44,2,success,benign,-0.7964708800952732,0
+16/12/2025 13:42:16,host_02,user_01,Admin,python.exe,python.exe,New-Registry C:\Wind,python,20,1,success,benign,-0.888771642200728,0
+22/12/2025 10:49:45,host_01,user_12,Admin,powershell.exe,explorer.exe,Start-Job C:,powershell,12,1,success,benign,-1.276040178498721,0
+22/12/2025 17:39:54,host_08,user_02,Standard,powershell.exe,powershell.exe,Remove-Process C:\Windows\Temp.py New-Pro,powershell,41,2,success,benign,-1.3390923995941664,0
+04/12/2025 16:26:06,host_08,user_04,Standard,powershell.exe,rundll32.exe,New-Service /tmp.txt New-Registry /usr/bin,powershell,42,2,success,benign,-0.7150935924873048,0
+22/12/2025 17:35:05,host_03,user_01,Standard,rundll32.exe,python.exe,Get-Job C:\Window,rundll32,17,1,success,benign,-0.7593009326993599,0
+19/12/2025 09:09:20,host_01,user_19,Admin,wscript.exe,powershell.exe,Set-Registry C:\Windows\Temp.ps1 Start-Registry,wscript,47,2,success,benign,-1.2442856448524282,0
+14/12/2025 12:09:39,host_01,user_05,Standard,powershell.exe,powershell.exe,Get-Job /tmp.ps1 Get-Registry /usr/bin.log Ge,powershell,45,3,success,benign,-1.2116280959996983,0
+16/12/2025 15:13:07,host_08,user_17,Standard,cmd.exe,python.exe,Stop-Process C:\Windows\Temp.txt Stop-File C:\U,cmd,47,2,success,benign,-0.9148027417750353,0
+03/12/2025 16:40:39,host_05,user_08,Standard,cmd.exe,powershell.exe,Stop-File /tmp.log Get-File C:\Windows\T,cmd,40,2,success,benign,-1.0242901518624468,0
+15/12/2025 16:11:16,host_07,user_13,Standard,notepad.exe,explorer.exe,New-Service /usr/bin.ps1 Get-Registry C:\Users\P,notepad,48,2,success,benign,-1.1888404924294231,0
+29/12/2025 15:48:05,host_03,user_11,Standard,powershell.exe,powershell.exe,New-Job /tmp.txt New-,powershell,21,2,success,benign,-0.3036748746318282,0
+21/12/2025 00:10:14,host_02,user_03,Standard,cmd.exe,explorer.exe,New-File C:\Windows\Temp.ps1 New-Registry C:\Users\,cmd,51,2,success,suspicious,-0.703855629042555,0
+30/12/2025 14:21:18,host_05,user_19,Service,rundll32.exe,rundll32.exe,Set-File /tmp.log Get-Job /tmp.py Get-Job,rundll32,41,3,success,benign,-0.8765013948084682,0
+02/12/2025 16:11:15,host_05,user_16,Standard,powershell.exe,python.exe,Start-Job C:\Users\Public.txt Start,powershell,35,2,success,benign,-0.8012022067323057,0
+05/12/2025 13:47:12,host_02,user_14,Standard,powershell.exe,svchost.exe,Get-Service,powershell,11,1,success,benign,-0.19906186306379736,0
+12/12/2025 12:22:29,host_04,user_20,Standard,powershell.exe,cmd.exe,Remove-Process /usr/bin.txt Remove-Job C:,powershell,41,2,success,benign,-0.4960534371932217,0
+28/12/2025 18:07:33,host_02,user_15,Standard,cmd.exe,cmd.exe,Stop-Registry /tmp.txt,cmd,22,1,success,benign,-0.7170686577463617,0
+03/12/2025 17:30:17,host_03,user_08,Standard,powershell.exe,python.exe,Start-File C:\Users\Public.txt Remove-Proces,powershell,44,2,success,benign,-0.3471496970299321,0
+04/12/2025 18:33:48,host_03,user_12,Service,rundll32.exe,cmd.exe,Start-Job C:\Windows\Temp.log Set-Serv,rundll32,38,2,success,benign,-0.7636947018087634,0
+31/12/2025 16:12:38,host_07,user_13,Standard,python.exe,python.exe,Set-Job /tmp.log Start-Process C:\Users\P,python,41,2,success,benign,-0.7237935845259469,0
+26/12/2025 12:09:57,host_08,user_14,Standard,notepad.exe,explorer.exe,Remove-Service C:\Windows\,notepad,26,1,success,benign,-0.8257866387616747,0
+02/12/2025 15:25:50,host_04,user_19,Standard,powershell.exe,regsvr32.exe,Remove-Service /tmp.py N,powershell,24,2,success,benign,-1.0882912110684668,0
+26/12/2025 09:06:49,host_06,user_08,Standard,rundll32.exe,explorer.exe,Stop-Job /,rundll32,10,1,success,benign,-1.5629991458707695,0
+09/12/2025 11:39:05,host_07,user_05,Standard,powershell.exe,cmd.exe,New-Registry /tmp.log New-Registry C:,powershell,37,2,success,benign,-0.9017469740723152,0
+17/12/2025 08:12:56,host_03,user_12,Service,powershell.exe,explorer.exe,Remove-Registr,powershell,14,1,success,benign,-0.6619528950225647,0
+07/12/2025 10:26:02,host_07,user_02,Standard,cmd.exe,python.exe,Stop-Process /tmp.log Start-File C:\Windows,cmd,43,2,failure,benign,-0.5336567424574072,0
+16/12/2025 16:30:28,host_02,user_04,Admin,python.exe,cscript.exe,Get-Process C:\Windows\T,python,24,1,success,benign,-0.9628815826956812,0
+12/12/2025 13:12:16,host_06,user_09,Admin,powershell.exe,rundll32.exe,Get-File C:\Windows\Temp.py Start-Registry /usr,powershell,47,2,success,benign,-1.1212294496165014,0
+11/12/2025 08:41:37,host_07,user_03,Admin,cmd.exe,taskeng.exe,Get-File /usr/bin.py New-Service C:\,cmd,36,2,success,benign,-0.05255802327528053,0
+08/12/2025 13:19:59,host_01,user_07,Standard,powershell.exe,explorer.exe,Set-Service C:\Users\Public.txt New-Process C,powershell,45,2,success,benign,0.07488024994515298,0
+11/12/2025 11:15:52,host_03,user_05,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.py Get-Job /tmp.py,notepad,35,2,success,benign,-0.505075695945705,0
+18/12/2025 19:24:55,host_03,user_19,Standard,python.exe,explorer.exe,Start-Service /usr/bin.ps1 Stop-Service /us,python,43,2,success,suspicious,-0.8250278712619428,0
+24/12/2025 17:51:17,host_08,user_18,Standard,cscript.exe,python.exe,New-File C:\Windows\Temp.txt New-Serv,cscript,37,2,success,benign,-1.02043655575954,0
+12/12/2025 14:30:59,host_05,user_05,Standard,python.exe,powershell.exe,Stop-Registry /tmp.log New-File /usr/bin.txt Stop,python,49,3,success,benign,-0.4642794010643787,0
+28/12/2025 12:59:29,host_05,user_20,Standard,powershell.exe,explorer.exe,Get-File /tmp.txt Stop-File /usr/bin.txt Start-Jo,powershell,49,3,success,benign,-1.0726655170308144,0
+17/12/2025 13:18:10,host_01,user_05,Standard,rundll32.exe,cmd.exe,Get-Job /usr/bin.ps1 Se,rundll32,23,2,success,benign,-0.7734305502098839,0
+11/12/2025 02:46:58,host_08,user_12,Standard,python.exe,taskeng.exe,Set-Registry /usr/bin.ps1 New-Registry /tmp.log Get-Job,python,55,3,success,suspicious,-0.24026802736291653,0
+23/12/2025 11:54:06,host_03,user_04,Standard,python.exe,mshta.exe,Get-File C:\Users\Public.log Set-Job /u,python,39,2,success,benign,-0.6508844714837243,0
+09/12/2025 12:54:37,host_04,user_16,Standard,cmd.exe,powershell.exe,Remove-File C:\Windows\Temp.txt Get-File C:\W,cmd,45,2,success,benign,-0.8590349491437477,0
+12/12/2025 08:30:27,host_03,user_12,Standard,cmd.exe,cmd.exe,Start-Job C:\Windows\Te,cmd,23,1,success,benign,-0.966840893922888,0
+12/12/2025 12:07:51,host_07,user_16,Standard,powershell.exe,taskeng.exe,Get-File /usr/bin.log Stop-Registry,powershell,35,2,success,benign,-0.8945149449597403,0
+10/12/2025 08:00:51,host_04,user_06,Standard,python.exe,explorer.exe,New-Job C:\Users\Public.ps1 Start-Serv,python,38,2,success,benign,-0.3540491894798347,0
+03/12/2025 09:57:48,host_06,user_10,Standard,cmd.exe,python.exe,New-File C:\Us,cmd,14,1,success,benign,-1.2928426060259748,0
+11/12/2025 00:23:14,host_04,user_19,Standard,cscript.exe,explorer.exe,Stop-Registry /tmp.py New-Job /tmp.txt Start-,cscript,45,3,success,benign,-0.9453694946722389,0
+22/12/2025 11:21:46,host_05,user_13,Standard,powershell.exe,cmd.exe,Set-File /tmp.txt Remove-P,powershell,26,2,success,benign,-0.9089046469309361,0
+22/12/2025 05:41:30,host_04,user_04,Standard,cmd.exe,wscript.exe,Set-Service /tmp.py Remove-Job C:,cmd,33,2,success,benign,-0.9905268137472361,0
+31/12/2025 09:26:20,host_02,user_11,Standard,mshta.exe,rundll32.exe,Remove-File C:\Users\,mshta,21,1,success,benign,-0.863552339049814,0
+11/12/2025 16:53:01,host_08,user_05,Standard,rundll32.exe,cscript.exe,Start-Job C:\Window,rundll32,19,1,success,benign,-1.187438723994436,0
+04/12/2025 08:03:23,host_04,user_18,Standard,powershell.exe,mshta.exe,Remove-Job C:\Win,powershell,17,1,success,benign,-1.031100459475747,0
+05/12/2025 13:22:41,host_04,user_11,Standard,notepad.exe,explorer.exe,New-Proces,notepad,10,1,success,benign,-0.359435282893944,0
+24/12/2025 17:51:10,host_04,user_18,Standard,powershell.exe,rundll32.exe,Start-Process C:\Users\Public.txt,powershell,33,1,success,benign,-0.6201872806617191,0
+26/12/2025 09:04:50,host_04,user_16,Standard,powershell.exe,regsvr32.exe,Get-File C:\Windows\Temp.log Stop,powershell,33,2,success,benign,1.0769383391580363,1
+17/12/2025 10:52:39,host_01,user_07,Admin,python.exe,python.exe,Set-Job C:\Users\Public.log Get-Proce,python,37,2,success,benign,-0.5878589186520211,0
+02/12/2025 13:51:01,host_02,user_14,Standard,python.exe,wscript.exe,Remove-Job C:\Users\Public.log Stop,python,35,2,success,benign,-0.9393894862927692,0
+15/12/2025 18:40:26,host_03,user_03,Standard,rundll32.exe,wscript.exe,New-Registry /tmp.ps1 New-File C:\Windows\Temp,rundll32,46,2,success,benign,-1.1767400474104863,0
+05/12/2025 23:33:30,host_03,user_20,Standard,cmd.exe,regsvr32.exe,Set-Service C:\Windows\Temp.py G,cmd,32,2,success,benign,-0.5417676379503629,0
+14/12/2025 18:35:18,host_02,user_04,Standard,cmd.exe,wscript.exe,Stop-Job C:\Wind,cmd,16,1,success,benign,-0.36283233395504033,0
+07/12/2025 18:52:58,host_06,user_12,Standard,cmd.exe,python.exe,New-Service C:\Users\Public.log Remove-Registry C:\Users\Public.py,cmd,66,2,success,suspicious,-0.3809153381621937,0
+23/12/2025 12:54:11,host_06,user_13,Standard,rundll32.exe,explorer.exe,Remove-Job /tmp.log Stop-Servic,rundll32,31,2,success,benign,-0.5376594489941089,0
+30/12/2025 09:54:07,host_05,user_17,Standard,cmd.exe,cmd.exe,Remove-Service C:\Windo,cmd,23,1,success,benign,-0.8636937896562584,0
+22/12/2025 08:39:51,host_07,user_04,Standard,python.exe,services.exe,Get-Job /usr/bin.txt New-Service C:\,python,36,2,success,benign,-0.6651268727159381,0
+25/12/2025 08:18:34,host_02,user_04,Standard,cmd.exe,wscript.exe,Start-Registry C:\Windows\,cmd,26,1,success,benign,-0.9547535253693525,0
+19/12/2025 08:18:39,host_07,user_02,Standard,rundll32.exe,explorer.exe,Set-Process C:\Wi,rundll32,17,1,success,benign,-1.257218443239366,0
+17/12/2025 15:43:27,host_05,user_10,Standard,notepad.exe,explorer.exe,Get-Service C:\Windows,notepad,22,1,success,benign,-0.7368446357391675,0
+22/12/2025 15:42:59,host_08,user_09,Standard,cmd.exe,explorer.exe,Set-Service C:\Users\Public.ps1,cmd,31,1,success,benign,-1.0414642774936513,0
+02/12/2025 09:29:40,host_06,user_02,Standard,cmd.exe,explorer.exe,Get-Service /tmp.txt G,cmd,22,2,success,benign,-1.0170280712382784,0
+09/12/2025 09:51:16,host_06,user_12,Standard,python.exe,powershell.exe,Start-Process /tmp.py Get-File C:\Windo,python,39,2,success,benign,-0.29531201579684774,0
+30/12/2025 10:12:06,host_04,user_18,Standard,notepad.exe,explorer.exe,Start-File /usr/bin.ps1,notepad,23,1,success,benign,-0.7839820612867991,0
+16/12/2025 09:07:12,host_05,user_13,Standard,powershell.exe,explorer.exe,Start-Job C:\Users\Public,powershell,25,1,success,benign,-1.2828511998802992,0
+17/12/2025 11:39:32,host_04,user_18,Standard,cscript.exe,explorer.exe,Stop-Registry C:\Windows\Temp,cscript,29,1,success,benign,-0.5391090911153564,0
+22/12/2025 11:18:45,host_05,user_18,Admin,cscript.exe,explorer.exe,Remove-Registry C:\Wind,cscript,23,1,success,benign,-1.1546208588055986,0
+31/12/2025 10:56:40,host_08,user_20,Standard,cmd.exe,wscript.exe,Get-Registry C:\Users\Public.log Get-Service /us,cmd,48,2,success,benign,-0.7551672099850285,0
+28/12/2025 13:44:12,host_05,user_04,Standard,powershell.exe,regsvr32.exe,New-Process,powershell,11,1,success,benign,0.046253638874600184,0
+26/12/2025 11:38:19,host_01,user_09,Standard,cmd.exe,explorer.exe,Stop-Registry C:\Windows\Temp.p,cmd,31,1,success,benign,-0.8794033866948692,0
+17/12/2025 13:02:24,host_08,user_18,Standard,powershell.exe,regsvr32.exe,New-Process C:\Wind,powershell,19,1,success,benign,-0.6376169496880423,0
+08/12/2025 10:01:25,host_07,user_04,Standard,powershell.exe,explorer.exe,Remove-Process /usr/bin.log New-File C:\Users\P,powershell,47,2,success,benign,-0.7818876413012223,0
+25/12/2025 15:08:18,host_06,user_13,Standard,python.exe,python.exe,Start-Service /u,python,16,1,success,benign,-0.20416866562371672,0
+14/12/2025 13:51:29,host_05,user_13,Standard,python.exe,rundll32.exe,Start-Process,python,13,1,success,benign,-0.7852809545538846,0
+04/12/2025 23:28:20,host_07,user_17,Admin,rundll32.exe,explorer.exe,Set-Service C:\Windows\Temp.lo,rundll32,30,1,success,benign,-1.1258580883238045,0
+02/12/2025 11:22:12,host_05,user_05,Standard,notepad.exe,explorer.exe,Get-Service C:\Wind,notepad,19,1,success,benign,-1.224939712642385,0
+07/12/2025 09:29:38,host_08,user_20,Standard,python.exe,cmd.exe,Stop-File /tmp.tx,python,17,1,success,benign,-0.7606378284011689,0
+25/12/2025 13:23:01,host_02,user_18,Service,cmd.exe,svchost.exe,Set-File /usr/bin.,cmd,18,1,success,benign,-0.874565158780623,0
+14/12/2025 11:07:55,host_07,user_04,Admin,mshta.exe,explorer.exe,Set-Job /tmp.ps1 Stop-File C:\Windows\Temp,mshta,42,2,success,benign,-0.4329890122275054,0
+31/12/2025 18:31:41,host_01,user_13,Standard,cmd.exe,rundll32.exe,Get-Registry C:\Windows\Temp.log N,cmd,34,2,success,benign,-0.977829676329905,0
+05/12/2025 19:02:54,host_08,user_05,Admin,python.exe,cmd.exe,Start-Registry C:\Windows\Temp.txt Start-File C:\Wind,python,53,2,success,suspicious,-1.0996461050137998,0
+30/12/2025 08:46:21,host_05,user_05,Standard,rundll32.exe,explorer.exe,Start-Job /tm,rundll32,13,1,success,benign,-0.8921692577344524,0
+11/12/2025 19:04:20,host_01,user_18,Standard,python.exe,cmd.exe,Stop-File C:\Windows\Temp.ps1 Set-Service C:\Windows\Temp.log New-File /u,python,73,3,success,suspicious,-0.7673986435862312,0
+23/12/2025 14:21:24,host_04,user_17,Standard,cmd.exe,cmd.exe,New-Job /tmp.py Start-Fil,cmd,25,2,success,benign,-1.436236403028028,0
+18/12/2025 11:27:20,host_07,user_20,Service,wscript.exe,powershell.exe,Remove-Regis,wscript,12,1,success,benign,-1.7629133941956596,0
+09/12/2025 22:54:12,host_07,user_05,Standard,python.exe,powershell.exe,Stop-Job /tmp.py Stop-Service /tmp.py Set-Registry /usr/bin.ps1 New-Process C:\Windows\T,python,88,4,success,suspicious,-1.7822988301622769,0
+22/12/2025 18:26:04,host_04,user_10,Admin,rundll32.exe,cmd.exe,Remove-Process /tmp.py Get,rundll32,26,2,success,benign,-0.5650054340462165,0
+21/12/2025 18:16:29,host_03,user_06,Standard,notepad.exe,explorer.exe,Start-File C:\Windo,notepad,19,1,success,benign,-0.6493284523179271,0
+28/12/2025 11:17:16,host_03,user_16,Standard,rundll32.exe,python.exe,Get-Service /usr/bin.log Set-Job C:\User,rundll32,40,2,success,benign,-1.3399527186707658,0
+08/12/2025 15:07:25,host_06,user_07,Standard,powershell.exe,rundll32.exe,New-File C:\User,powershell,16,1,success,benign,-1.201962191392081,0
+23/12/2025 20:24:17,host_01,user_15,Standard,cmd.exe,wscript.exe,Set-Service C:\Windows\Temp.ps1 Rem,cmd,35,2,success,benign,-1.2284471151753895,0
+19/12/2025 10:08:16,host_08,user_17,Standard,cmd.exe,python.exe,Remove-Service /usr,cmd,19,1,success,benign,-0.07729849267526215,0
+14/12/2025 11:32:00,host_02,user_02,Standard,notepad.exe,explorer.exe,Stop-Service /tmp.txt Set-Registry C:\Users\P,notepad,45,2,success,benign,-0.19858414705436242,0
+16/12/2025 10:46:15,host_03,user_15,Standard,python.exe,powershell.exe,New-Process C:\Windows\Temp.py Get-Job,python,38,2,success,benign,-1.322264004002699,0
+12/12/2025 09:07:44,host_07,user_11,Admin,cmd.exe,explorer.exe,Stop-Process C:\Windows\Temp.py Remove-File,cmd,43,2,success,benign,-1.0579797807561646,0
+16/12/2025 11:25:22,host_04,user_02,Standard,python.exe,rundll32.exe,Get-Registry C:\Windows\Temp.log Set-File,python,41,2,success,benign,-0.3632637116195137,0
+24/12/2025 16:27:13,host_04,user_07,Standard,cscript.exe,explorer.exe,Start-Process C:\Windows\Temp.txt Start-Pro,cscript,43,2,success,benign,-0.4400477837453778,0
+09/12/2025 09:25:56,host_01,user_18,Standard,python.exe,explorer.exe,New-File C:\Windows\Temp.log Start-Job /u,python,41,2,success,benign,1.409637466543327,1
+23/12/2025 17:00:17,host_05,user_01,Standard,cmd.exe,python.exe,Remove-Registry /usr/bin.py Get-Serv,cmd,36,2,success,benign,-1.1796174998082067,0
+02/12/2025 09:05:05,host_05,user_02,Standard,cmd.exe,python.exe,Stop-Process /tmp.log Start-Regist,cmd,34,2,success,benign,-0.9847492566256644,0
+28/12/2025 10:35:00,host_05,user_08,Standard,notepad.exe,explorer.exe,Stop-File /tmp.log Start-Job C:\Windows\Temp,notepad,44,2,success,benign,-0.6510173391058862,0
+17/12/2025 08:59:23,host_08,user_14,Standard,cmd.exe,powershell.exe,Start-File C:\Users\Public.t,cmd,28,1,success,benign,-1.2926368556078354,0
+24/12/2025 11:03:06,host_06,user_03,Standard,powershell.exe,powershell.exe,Get-Registry /us,powershell,16,1,success,benign,-0.1892566804879674,0
+28/12/2025 12:23:51,host_04,user_19,Standard,powershell.exe,svchost.exe,Set-Job C:\Users\Public.log Set-Process /u,powershell,42,2,failure,benign,-0.8553390698707505,0
+12/12/2025 10:33:50,host_05,user_16,Standard,powershell.exe,python.exe,Remove-Process /usr/bin.log Start-File,powershell,38,2,success,benign,-0.9451598007199452,0
+25/12/2025 10:27:24,host_01,user_10,Standard,python.exe,python.exe,Start-File /usr/bin.ps1 Start-Process /tmp.lo,python,45,2,success,benign,-1.144315075496755,0
+11/12/2025 18:28:10,host_02,user_18,Standard,notepad.exe,explorer.exe,Start-Service /usr/bin.txt Stop-Job C:\User,notepad,43,2,success,benign,-1.0417303536238656,0
+19/12/2025 10:20:31,host_02,user_04,Standard,powershell.exe,regsvr32.exe,Stop-Process C:\Users\Publi,powershell,27,1,success,benign,-0.1858177065779918,0
+31/12/2025 14:30:56,host_08,user_16,Standard,cmd.exe,mshta.exe,Stop-File /tmp.,cmd,15,1,success,benign,-0.4951231614536036,0
+18/12/2025 16:07:15,host_02,user_12,Standard,powershell.exe,mshta.exe,New-File C:\Windows\Temp.,powershell,25,1,success,benign,-1.4639831785760324,0
+17/12/2025 19:13:05,host_02,user_13,Admin,cmd.exe,cscript.exe,Start-File C:\Win,cmd,17,1,success,benign,2.18191098584448,1
+25/12/2025 18:30:29,host_05,user_16,Standard,python.exe,python.exe,Stop-Job C:\Win,python,15,1,success,benign,-1.0509973105952253,0
+05/12/2025 14:33:30,host_06,user_18,Admin,notepad.exe,explorer.exe,New-Registry C:\Windows\Temp,notepad,28,1,success,benign,-0.9031988743210262,0
+12/12/2025 13:51:20,host_01,user_01,Standard,notepad.exe,python.exe,Start-Process /tmp.ps1 Remove-Process C,notepad,39,2,success,benign,4.566752163326533,1
+23/12/2025 11:14:48,host_02,user_04,Standard,notepad.exe,explorer.exe,Get-Job C:\Window,notepad,17,1,success,benign,-1.3798269333482698,0
+25/12/2025 08:25:11,host_04,user_15,Standard,cscript.exe,cmd.exe,Remove-Registry /usr/bin.txt Get-Process /usr/,cscript,46,2,success,benign,-0.005248256533734744,0
+19/12/2025 09:24:58,host_02,user_13,Standard,powershell.exe,explorer.exe,Stop-Registry /tm,powershell,17,1,success,benign,0.5924615911001513,0
+24/12/2025 08:05:38,host_05,user_17,Standard,notepad.exe,explorer.exe,Get-Registry C:\Users\Public.py New-Process /usr/,notepad,49,2,success,benign,-1.2814432092820098,0
+25/12/2025 07:01:34,host_03,user_16,Standard,rundll32.exe,python.exe,Set-Job /usr/bin.ps1,rundll32,20,1,success,benign,-0.17055675186930191,0
+19/12/2025 12:40:22,host_07,user_07,Admin,rundll32.exe,cscript.exe,Get-Service C,rundll32,13,1,success,benign,-0.7229184269710798,0
+01/12/2025 18:27:41,host_02,user_11,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.log Remove-Process /tm,notepad,39,2,success,benign,-0.6386011338335494,0
+02/12/2025 13:18:04,host_06,user_05,Standard,powershell.exe,cmd.exe,Set-Service C:\Users\Public.ps1 New-Process /tm,powershell,47,2,success,benign,-1.5734474863742627,0
+16/12/2025 15:50:44,host_07,user_13,Admin,rundll32.exe,python.exe,Start-Job C:\Windows\Temp.log Sto,rundll32,33,2,success,benign,-1.009158436146919,0
+11/12/2025 18:49:27,host_07,user_03,Standard,cscript.exe,explorer.exe,Set-Service C:\,cscript,15,1,success,benign,-0.034155970106609035,0
+10/12/2025 14:29:04,host_05,user_14,Standard,cmd.exe,regsvr32.exe,Start-File /tmp.log Remove-Jo,cmd,29,2,success,benign,-1.4288014470993249,0
+14/12/2025 17:19:04,host_03,user_07,Standard,cscript.exe,explorer.exe,Set-Job /usr/bin.py Stop-File /usr/bin.,cscript,39,2,success,benign,-1.2568957787984236,0
+17/12/2025 13:31:31,host_04,user_18,Standard,rundll32.exe,cscript.exe,Stop-Job C:\Windows\,rundll32,20,1,success,benign,-1.2522136748502828,0
+14/12/2025 14:38:44,host_04,user_15,Standard,python.exe,cscript.exe,Remove-Proc,python,11,1,success,benign,1.8306177829922243,1
+02/12/2025 10:01:48,host_02,user_10,Standard,cmd.exe,cscript.exe,Get-Service C:\Users\Public.ps,cmd,30,1,success,benign,-0.05982613725356513,0
+26/12/2025 11:36:17,host_04,user_12,Standard,wscript.exe,powershell.exe,Remove-File C:\Windows\Temp.ps1,wscript,31,1,success,benign,-1.7412283348331827,0
+08/12/2025 18:16:23,host_05,user_01,Standard,python.exe,explorer.exe,Start-Service /usr/bin.p,python,24,1,success,benign,-0.7022178905100569,0
+22/12/2025 14:09:59,host_01,user_12,Admin,wscript.exe,python.exe,Start-Registry /tmp.ps1 Set-Service /usr/bin.log S,wscript,50,3,success,benign,-1.2368890112177895,0
+23/12/2025 14:08:20,host_03,user_12,Standard,python.exe,rundll32.exe,Set-File /tmp.log Set-File,python,26,2,success,benign,1.800732963083185,1
+02/12/2025 15:08:02,host_03,user_16,Standard,powershell.exe,powershell.exe,New-Job C:,powershell,10,1,success,benign,-1.0605963458382683,0
+01/12/2025 14:02:22,host_06,user_10,Standard,cmd.exe,wscript.exe,New-Process C:\Users\Public.ps1 Get-Registry C:,cmd,47,2,success,benign,-1.2939043782088995,0
+30/12/2025 17:18:05,host_08,user_06,Standard,python.exe,taskeng.exe,Set-Service /tmp.l,python,18,1,success,benign,-1.4906844934140338,0
+14/12/2025 13:47:10,host_08,user_05,Admin,powershell.exe,cmd.exe,Set-Service,powershell,11,1,success,benign,-1.0545471442450975,0
+30/12/2025 13:22:55,host_02,user_14,Standard,powershell.exe,powershell.exe,New-File C:\Win,powershell,15,1,success,benign,-1.223741847945953,0
+25/12/2025 17:00:39,host_01,user_06,Standard,rundll32.exe,explorer.exe,Start-File /tmp,rundll32,15,1,success,benign,-1.1889749284268072,0
+10/12/2025 13:46:16,host_08,user_12,Standard,mshta.exe,regsvr32.exe,Get-Job C:\Windows\Temp.txt Get-Job /usr/,mshta,41,2,success,benign,-1.3167927526199399,0
+12/12/2025 08:14:38,host_03,user_11,Standard,cmd.exe,taskeng.exe,Start-Process /tmp.ps1 Get-Job /usr/bin.txt,cmd,43,2,success,benign,-1.1316839389478917,0
+09/12/2025 18:51:11,host_05,user_06,Standard,rundll32.exe,wscript.exe,New-Job C:\,rundll32,11,1,success,benign,-1.1952206833815249,0
+15/12/2025 12:19:55,host_01,user_15,Standard,notepad.exe,explorer.exe,Remove-Serv,notepad,11,1,success,benign,-0.6010538602060242,0
+30/12/2025 10:57:46,host_04,user_06,Admin,rundll32.exe,explorer.exe,Get-Process C:\Windows\Temp.py Get-Regi,rundll32,39,2,success,benign,0.5242890141981795,0
+31/12/2025 09:15:36,host_06,user_10,Standard,cmd.exe,explorer.exe,Set-Job C:\Windows\Temp.log N,cmd,29,2,success,benign,-1.0457370408054345,0
+05/12/2025 08:09:16,host_02,user_12,Standard,notepad.exe,explorer.exe,Get-Process C:\Wind,notepad,19,1,success,benign,0.1827058853162648,0
+14/12/2025 13:25:37,host_03,user_12,Admin,rundll32.exe,explorer.exe,Set-Registry /tmp.ps1 Stop-Regis,rundll32,32,2,success,benign,0.011216011164218186,0
+01/12/2025 15:57:14,host_01,user_06,Standard,python.exe,explorer.exe,Set-File C:\Users\Public.py,python,27,1,success,benign,-1.0608280862071233,0
+17/12/2025 12:26:35,host_02,user_09,Standard,notepad.exe,explorer.exe,New-Service /usr/bin.txt New-Service /usr/bin.,notepad,46,2,success,benign,-0.5290955900992191,0
+10/12/2025 16:28:59,host_03,user_07,Standard,cmd.exe,cscript.exe,Get-File /usr/bin.log New-Process /usr/bin.log,cmd,46,2,success,benign,-1.2592423999021105,0
+31/12/2025 08:30:25,host_07,user_12,Standard,python.exe,cscript.exe,Start-Service C:\Users\P,python,24,1,success,benign,-0.7981198364958231,0
+03/12/2025 08:37:39,host_03,user_14,Standard,notepad.exe,explorer.exe,Start-Job C:\Us,notepad,15,1,success,benign,-1.0650200596741706,0
+03/12/2025 18:02:34,host_04,user_03,Standard,python.exe,regsvr32.exe,Set-File /tmp.ps1 Remove-Process /tmp.log,python,41,2,success,benign,-0.8121713133926349,0
+23/12/2025 17:48:52,host_02,user_06,Standard,notepad.exe,explorer.exe,Get-Job C:\Users\Public,notepad,23,1,success,benign,-0.4880974151890739,0
+02/12/2025 16:02:17,host_02,user_10,Standard,python.exe,explorer.exe,Stop-Job C:\Windows\Temp.txt Start-Servic,python,41,2,failure,benign,-1.135499490811314,0
+30/12/2025 09:11:29,host_03,user_14,Admin,notepad.exe,explorer.exe,Start-File /tmp.log S,notepad,21,2,success,benign,-0.4357834805774911,0
+04/12/2025 09:03:44,host_08,user_05,Standard,rundll32.exe,wscript.exe,Start-File /tmp.ps1 Stop-File /tmp.ps1 Se,rundll32,41,3,success,benign,-0.9604283636866059,0
+01/12/2025 18:56:49,host_07,user_06,Standard,cscript.exe,explorer.exe,New-Registry /usr/bin.log Get-Jo,cscript,32,2,success,benign,2.359214825005292,1
+29/12/2025 02:44:46,host_03,user_17,Admin,cmd.exe,wscript.exe,Start-Service C:\Wi,cmd,19,1,success,benign,-0.852661994216943,0
+16/12/2025 17:25:54,host_07,user_01,Standard,cmd.exe,explorer.exe,Stop-Registry /tmp.log Set,cmd,26,2,success,benign,-0.8481417150918998,0
+09/12/2025 08:43:19,host_01,user_13,Standard,notepad.exe,explorer.exe,Set-Job /usr/bin.log Start-F,notepad,28,2,success,benign,-0.07710681189033668,0
+22/12/2025 11:08:26,host_04,user_06,Admin,notepad.exe,explorer.exe,Get-Registry /usr/bin.log New-Process /tmp.tx,notepad,45,2,success,benign,-1.0187412670567277,0
+04/12/2025 19:35:55,host_08,user_16,Standard,python.exe,python.exe,Stop-File C:\Windows\T,python,22,1,success,benign,0.30628540231976786,0
+04/12/2025 16:04:06,host_01,user_10,Standard,cmd.exe,explorer.exe,Remove-File /tmp.py Remov,cmd,25,2,success,benign,-0.216455774028867,0
+02/12/2025 11:49:32,host_02,user_04,Standard,cmd.exe,powershell.exe,Start-File C:\Users\Public.log Stop-File /usr/,cmd,46,2,success,benign,-1.1448163799951545,0
+02/12/2025 15:20:44,host_03,user_12,Standard,cmd.exe,wscript.exe,Get-File C:\Windows\Temp.ps1,cmd,28,1,success,benign,-1.267344237208862,0
+05/12/2025 12:03:23,host_03,user_07,Standard,notepad.exe,explorer.exe,Set-Process /usr/bin.log Remove-Registry,notepad,40,2,success,benign,-0.6353671568477277,0
+17/12/2025 09:06:32,host_07,user_12,Admin,powershell.exe,python.exe,New-Registry C:\Users\Pu,powershell,24,1,success,benign,-0.4569709645303527,0
+12/12/2025 08:00:01,host_02,user_10,Standard,cmd.exe,wscript.exe,Stop-Process C:\Users\Public,cmd,28,1,success,benign,-1.4883071398390886,0
+05/12/2025 10:16:47,host_07,user_15,Standard,rundll32.exe,python.exe,Get-Job /usr/bin.ps1 Start-Job,rundll32,30,2,success,benign,-1.3969434471411575,0
+31/12/2025 11:08:07,host_02,user_07,Standard,cmd.exe,cscript.exe,Remove-Process /tmp.txt Remove-Regis,cmd,36,2,failure,benign,-1.2892722638639675,0
+05/12/2025 11:29:15,host_03,user_20,Standard,rundll32.exe,explorer.exe,Stop-File C:\Windows\T,rundll32,22,1,success,benign,-0.4536097388767535,0
+16/12/2025 13:43:15,host_07,user_20,Standard,mshta.exe,wscript.exe,Get-Registry,mshta,12,1,success,benign,-0.7165426080820958,0
+31/12/2025 10:30:52,host_08,user_15,Standard,python.exe,taskeng.exe,Get-File /usr/bin.ps1 Stop-Process /,python,36,2,failure,benign,-0.7364563265783975,0
+05/12/2025 11:34:13,host_04,user_05,Standard,notepad.exe,cmd.exe,Stop-Process C:\Users\Public.txt Stop-J,notepad,39,2,success,benign,-1.0783156577088662,0
+03/12/2025 14:39:21,host_04,user_17,Standard,rundll32.exe,cscript.exe,New-Process C:\Users\Public.log Stop-Job C:\Us,rundll32,46,2,success,benign,-1.5668550187134729,0
+21/12/2025 13:05:31,host_06,user_13,Standard,cmd.exe,wscript.exe,Stop-Service /usr/bin.ps1 Stop-Process /tm,cmd,42,2,success,benign,-0.962798185476619,0
+05/12/2025 12:53:01,host_07,user_05,Standard,cscript.exe,powershell.exe,Start-Process C:\Windows\Temp,cscript,29,1,success,benign,-0.7230189690323217,0
+28/12/2025 10:03:32,host_07,user_12,Standard,powershell.exe,explorer.exe,Get-Registry /usr/bin.ps1,powershell,25,1,success,benign,-1.1307166920253946,0
+22/12/2025 09:42:48,host_02,user_08,Service,cmd.exe,explorer.exe,Set-Process,cmd,11,1,success,benign,3.497915703311544,1
+18/12/2025 11:55:00,host_07,user_17,Admin,rundll32.exe,python.exe,Get-Process /tmp.ps1 New-File /tmp.,rundll32,35,2,success,benign,-1.0160481586220398,0
+08/12/2025 09:43:28,host_08,user_02,Standard,python.exe,python.exe,Remove-File C:\Users\Public.ps1,python,31,1,success,benign,-1.0335397573056415,0
+09/12/2025 15:40:57,host_06,user_09,Standard,regsvr32.exe,explorer.exe,New-Service,regsvr32,11,1,success,benign,-0.3326604012227807,0
+26/12/2025 08:28:40,host_08,user_10,Standard,cmd.exe,powershell.exe,Start-Job C:\Users\Public.log Remove-Fi,cmd,39,2,success,benign,-0.12689793509510278,0
+04/12/2025 01:43:24,host_02,user_14,Standard,powershell.exe,explorer.exe,Set-Job C:\Users\Public.txt New-Job C:\Windows\Temp.log Remove,powershell,62,3,success,suspicious,-1.1292130141431043,0
+22/12/2025 11:42:19,host_07,user_15,Standard,notepad.exe,python.exe,Set-File C:\Users\Public.py Remove,notepad,34,2,success,benign,-1.033276964533603,0
+11/12/2025 15:32:51,host_08,user_15,Standard,cmd.exe,winlogon.exe,Set-Process,cmd,11,1,success,benign,-0.36839096477950845,0
+23/12/2025 15:38:27,host_01,user_04,Standard,cscript.exe,powershell.exe,Get-Job C:\Users\Public.py Remove-Fi,cscript,36,2,success,benign,-0.958240618255648,0
+31/12/2025 18:28:45,host_03,user_03,Service,powershell.exe,cscript.exe,Set-Service C:\Users\,powershell,21,1,success,benign,-0.9803405041385778,0
+25/12/2025 18:29:38,host_06,user_19,Standard,cmd.exe,wscript.exe,Get-File /usr/bin.ps1 New-Job C:\Windows\Temp,cmd,45,2,success,suspicious,-1.29921527173038,0
+08/12/2025 10:58:23,host_07,user_12,Standard,cmd.exe,python.exe,Set-Service C:\Users\Public.log Remove-File C:\W,cmd,48,2,success,benign,-0.666754396932755,0
+17/12/2025 08:19:38,host_07,user_14,Standard,powershell.exe,powershell.exe,Get-Job /usr/bin.txt Set-File C:,powershell,32,2,success,benign,-1.104376506974034,0
+21/12/2025 17:03:03,host_07,user_15,Standard,rundll32.exe,explorer.exe,Start-Job /tmp.txt Set-,rundll32,23,2,success,benign,-1.6848948399510073,0
+10/12/2025 09:23:16,host_01,user_20,Standard,powershell.exe,powershell.exe,Start-Service C:\Windows\Temp.txt,powershell,33,1,success,benign,-0.702096594218103,0
+03/12/2025 10:30:53,host_02,user_16,Service,python.exe,regsvr32.exe,Stop-File C:\Users\Pu,python,21,1,success,benign,-1.2290913559364358,0
+23/12/2025 14:53:01,host_06,user_15,Standard,python.exe,regsvr32.exe,Start-File,python,10,1,success,benign,-1.8347765491979147,0
+07/12/2025 10:33:35,host_03,user_10,Standard,cscript.exe,explorer.exe,Start-Service /tmp,cscript,18,1,success,benign,-1.0840954031353136,0
+15/12/2025 08:26:53,host_08,user_13,Service,python.exe,python.exe,Set-Registry C:\Users\Pu,python,24,1,success,benign,4.128795119480896,1
+24/12/2025 09:58:27,host_03,user_10,Standard,python.exe,python.exe,Stop-File /tmp.log Start-Job /usr,python,33,2,success,benign,-1.0130794625828345,0
+08/12/2025 14:12:58,host_02,user_10,Admin,python.exe,rundll32.exe,New-Registry C:\Users\,python,22,1,success,benign,-1.418762870963068,0
+07/12/2025 08:16:32,host_07,user_05,Standard,powershell.exe,cmd.exe,Start-Process /tmp.py Remove-File /t,powershell,36,2,success,benign,-1.645679338466895,0
+19/12/2025 09:12:19,host_06,user_14,Standard,wscript.exe,cmd.exe,Start-File /usr/bin.py Remove-Process C:\Windows\,wscript,49,2,failure,benign,-0.8707905088914293,0
+30/12/2025 16:39:11,host_01,user_20,Standard,rundll32.exe,cmd.exe,Get-Process C:\Windows\Temp.,rundll32,28,1,success,benign,-0.32545210791437845,0
+09/12/2025 18:58:16,host_04,user_18,Standard,notepad.exe,cmd.exe,Stop-File C:\Users\Pub,notepad,22,1,success,benign,-0.5277398680448335,0
+22/12/2025 12:37:56,host_05,user_15,Standard,powershell.exe,wscript.exe,Start-Registry C:\Users\Public.py New-Job C:\,powershell,45,2,success,benign,-1.3062841415370647,0
+15/12/2025 10:42:53,host_04,user_15,Standard,python.exe,rundll32.exe,Get-Job /usr/bin.txt Star,python,25,2,success,benign,-0.9133579137961583,0
+30/12/2025 15:17:48,host_08,user_17,Standard,cmd.exe,wscript.exe,Start-Registry /tmp.txt Set-Registry C,cmd,38,2,success,benign,-0.7171976958872006,0
+30/12/2025 09:01:21,host_03,user_03,Standard,python.exe,powershell.exe,Stop-Job C:\Users\Public.py New-S,python,33,2,success,benign,-1.3970894259429347,0
+21/12/2025 11:56:47,host_08,user_15,Standard,powershell.exe,python.exe,Get-Job C:\Users\Public.py Set-Serv,powershell,35,2,success,benign,-1.1127227432799738,0
+22/12/2025 11:53:22,host_06,user_17,Admin,cscript.exe,explorer.exe,Stop-Regis,cscript,10,1,success,benign,-1.2472403246916088,0
+04/12/2025 16:05:50,host_05,user_02,Admin,notepad.exe,explorer.exe,Remove-Job /,notepad,12,1,success,benign,-0.0064489078867378535,0
+17/12/2025 12:58:24,host_05,user_09,Admin,rundll32.exe,cscript.exe,Set-Job /tmp.txt New-File C:\Users\Pub,rundll32,38,2,success,benign,-0.7080906448800678,0
+18/12/2025 18:34:25,host_04,user_17,Standard,cmd.exe,cscript.exe,Set-Registry /tmp.ps1 Stop-Job C:\Users\Pub,cmd,43,2,success,benign,-0.4397329745727597,0
+05/12/2025 12:28:35,host_01,user_13,Standard,python.exe,cscript.exe,Start-Service C:\Wind,python,21,1,success,benign,-0.4409031200368013,0
+03/12/2025 08:00:09,host_06,user_10,Standard,notepad.exe,explorer.exe,New-Service,notepad,11,1,success,benign,-0.9538929234067575,0
+08/12/2025 17:49:09,host_04,user_13,Standard,powershell.exe,explorer.exe,New-Job /tmp.ps1 Get-File /usr/b,powershell,32,2,success,benign,-0.4138386020646493,0
+12/12/2025 08:51:15,host_02,user_09,Standard,notepad.exe,python.exe,Get-File /tmp.log Get-Registry C:\Windows\Temp.tx,notepad,49,2,success,benign,-1.094391898475393,0
+14/12/2025 17:46:17,host_04,user_04,Standard,cscript.exe,explorer.exe,Start-File C:\Users\Publi,cscript,25,1,success,benign,-0.5598570211039007,0
+10/12/2025 16:42:22,host_03,user_08,Standard,python.exe,explorer.exe,Remove-Service C:\Users\Public.log Get-Process C,python,48,2,success,benign,-1.1498416674618333,0
+24/12/2025 09:36:41,host_03,user_08,Admin,mshta.exe,powershell.exe,Stop-Registr,mshta,12,1,success,benign,-0.13276747414019954,0
+14/12/2025 14:53:41,host_04,user_13,Standard,wscript.exe,explorer.exe,Start-File C:\Users\Public,wscript,26,1,success,benign,-0.899329179303173,0
+11/12/2025 13:42:49,host_06,user_02,Service,python.exe,python.exe,New-Job /usr/bi,python,15,1,success,benign,-0.32035626169313547,0
+08/12/2025 18:35:52,host_07,user_06,Standard,rundll32.exe,powershell.exe,Remove-Registry /tmp.ps1 Sta,rundll32,28,2,success,benign,-0.7376622894904487,0
+01/12/2025 16:07:56,host_02,user_15,Standard,cmd.exe,cmd.exe,New-File /,cmd,10,1,success,benign,-0.9759752060338988,0
+08/12/2025 16:57:42,host_06,user_16,Standard,cmd.exe,cmd.exe,Set-File /tmp.py New-File /usr,cmd,30,2,success,benign,-0.8704630092397163,0
+21/12/2025 16:18:34,host_07,user_03,Standard,python.exe,regsvr32.exe,New-Process /usr/bin.log Remove-File /usr/bin.txt,python,49,2,success,benign,-0.3919211308010892,0
+16/12/2025 14:15:13,host_07,user_12,Standard,notepad.exe,explorer.exe,Stop-Proce,notepad,10,1,success,benign,0.2505126503669872,0
+16/12/2025 15:20:00,host_07,user_14,Standard,python.exe,python.exe,Start-File C:\Users\Public.txt Set-File /tmp.log,python,48,2,success,benign,-1.0202917002665557,0
+28/12/2025 19:06:10,host_01,user_13,Standard,cmd.exe,rundll32.exe,Set-Service /tmp.py Start-Registry C:\Users\P,cmd,45,2,success,benign,-0.596023576730022,0
+02/12/2025 16:12:56,host_07,user_01,Standard,powershell.exe,powershell.exe,Start-Process C:\Users\Public.txt Remove-Registry,powershell,49,2,success,benign,-0.8552253017973941,0
+21/12/2025 08:12:46,host_02,user_15,Admin,rundll32.exe,rundll32.exe,Start-Service /usr/bin,rundll32,22,1,success,benign,-1.1921719883842021,0
+11/12/2025 16:07:48,host_05,user_16,Admin,cmd.exe,cmd.exe,Stop-File /tmp.ps1 Stop-Service C:\Use,cmd,38,2,success,benign,-0.4423821066102074,0
+03/12/2025 18:56:59,host_02,user_15,Standard,powershell.exe,explorer.exe,Set-Job /usr/bin.log Remove-,powershell,28,2,success,benign,-0.8109982472280726,0
+29/12/2025 15:34:37,host_03,user_04,Standard,cmd.exe,rundll32.exe,Set-Registry C,cmd,14,1,success,benign,-1.8208180740205309,0
+14/12/2025 17:19:27,host_06,user_09,Standard,cscript.exe,explorer.exe,New-Registry C,cscript,14,1,success,benign,-0.6985960676998905,0
+26/12/2025 14:43:49,host_08,user_13,Standard,wscript.exe,powershell.exe,New-Process C:\User,wscript,19,1,success,benign,-1.0825588474390357,0
+17/12/2025 18:19:52,host_05,user_13,Standard,python.exe,explorer.exe,New-Job /usr/bin.py Get-Job C:\Users\Public.log Ge,python,50,3,success,benign,-0.941761024495096,0
+09/12/2025 09:24:49,host_08,user_04,Standard,rundll32.exe,explorer.exe,New-Job /tmp.txt New-Registry C:\Windows\Temp.,rundll32,46,2,success,benign,2.381770193111815,1
+31/12/2025 14:17:06,host_03,user_20,Standard,mshta.exe,cscript.exe,Get-Service C:\Users\Public.py Remove-Service,mshta,45,2,success,benign,-1.4304047928662174,0
+29/12/2025 13:32:45,host_04,user_18,Standard,powershell.exe,explorer.exe,Start-File /tmp.log Get-,powershell,24,2,success,benign,-0.817393983847223,0
+01/12/2025 09:46:18,host_01,user_11,Standard,notepad.exe,explorer.exe,Set-Process C:\Windows\Temp.py Get-File /tmp.txt,notepad,48,2,success,benign,-0.8474911766154445,0
+18/12/2025 17:49:58,host_01,user_05,Standard,rundll32.exe,explorer.exe,Stop-Job C:\Users\Public.txt Get-Service /tmp,rundll32,45,2,success,benign,-0.8652729915600639,0
+15/12/2025 05:23:35,host_04,user_05,Standard,python.exe,explorer.exe,Start-Registry /tmp.txt Get-File /usr/bin.txt R,python,47,3,success,benign,-1.1251711635095332,0
+11/12/2025 11:56:50,host_01,user_19,Standard,cmd.exe,cscript.exe,Set-Process C:\Window,cmd,21,1,success,benign,-0.7480484793934699,0
+22/12/2025 20:49:14,host_05,user_13,Standard,notepad.exe,explorer.exe,Get-File /tmp.log New-Process /usr/,notepad,35,2,success,benign,-0.09900642740071848,0
+26/12/2025 09:41:39,host_06,user_07,Standard,powershell.exe,python.exe,Start-File /tmp.log Set-,powershell,24,2,success,benign,-0.7189812262121539,0
+03/12/2025 15:58:00,host_04,user_12,Service,regsvr32.exe,powershell.exe,Set-Service C:\Users\Public.py Get-Job C:\Windows,regsvr32,49,2,success,benign,-0.6016015146203446,0
+07/12/2025 08:58:44,host_03,user_15,Admin,python.exe,python.exe,New-Process /tmp.txt Get-,python,25,2,success,benign,-0.8605752553569908,0
+12/12/2025 06:01:34,host_01,user_11,Standard,cmd.exe,wscript.exe,Set-Job /us,cmd,11,1,success,benign,-1.5217762897328178,0
+18/12/2025 18:01:25,host_08,user_01,Admin,powershell.exe,mshta.exe,Stop-Registry,powershell,13,1,success,benign,-0.44704981414948974,0
+21/12/2025 11:57:31,host_08,user_17,Standard,notepad.exe,explorer.exe,Stop-Process C:\Windows\Te,notepad,26,1,success,benign,-1.7166223486325476,0
+08/12/2025 10:23:46,host_03,user_12,Standard,python.exe,python.exe,Set-File /usr/bin.lo,python,20,1,success,benign,1.0059160522794457,1
+07/12/2025 10:23:50,host_08,user_11,Standard,cmd.exe,explorer.exe,New-Service C:\Windows\Temp.log New,cmd,35,2,success,benign,-0.5819780529996691,0
+21/12/2025 11:12:10,host_06,user_11,Standard,rundll32.exe,rundll32.exe,Stop-Registry /tmp.py G,rundll32,23,2,success,benign,-1.4909169092805497,0
+14/12/2025 17:44:05,host_05,user_15,Standard,cmd.exe,powershell.exe,Stop-File C:\Users\Public.ps1 Stop-Job,cmd,38,2,success,benign,-0.6519661655767502,0
+24/12/2025 10:01:16,host_08,user_01,Standard,cmd.exe,powershell.exe,Remove-Job C:\Users\Public.py Remove-J,cmd,38,2,failure,benign,-0.8619284386338739,0
+25/12/2025 18:56:57,host_08,user_11,Standard,notepad.exe,explorer.exe,Get-Job /usr/bin.py Get-Service /usr/bin,notepad,40,2,success,benign,-0.20659654432255742,0
+14/12/2025 13:51:43,host_03,user_18,Standard,cmd.exe,python.exe,New-Process C:\Users\Public.py Remove-Job /,cmd,43,2,success,benign,-1.2938885056867668,0
+21/12/2025 10:08:15,host_07,user_02,Admin,notepad.exe,explorer.exe,Set-Servic,notepad,10,1,success,benign,-0.9645459829101346,0
+08/12/2025 17:41:52,host_02,user_06,Standard,python.exe,python.exe,New-File C:\Users\Public.log Set-Service /tmp.p,python,47,2,success,benign,-0.35499307390767115,0
+04/12/2025 14:08:26,host_02,user_06,Admin,regsvr32.exe,explorer.exe,Set-Registry C:\Users\Public.py,regsvr32,31,1,success,benign,-0.8275848026931079,0
+03/12/2025 08:50:15,host_02,user_04,Standard,cscript.exe,powershell.exe,New-File /usr/bin.log Start-Proc,cscript,32,2,success,benign,-1.3539288506731266,0
+22/12/2025 17:08:00,host_05,user_07,Standard,python.exe,python.exe,Get-Service /usr/bin.l,python,22,1,success,benign,-1.1380031058861326,0
+22/12/2025 12:57:11,host_08,user_17,Standard,rundll32.exe,cmd.exe,Remove-Job C:\Users\Public.txt,rundll32,30,1,success,benign,-1.0141344053049552,0
+01/12/2025 09:26:05,host_08,user_12,Admin,python.exe,svchost.exe,Set-Process C:\Windows\Tem,python,26,1,success,benign,-0.9124496776308031,0
+01/12/2025 13:38:51,host_08,user_04,Service,powershell.exe,powershell.exe,Set-Service /tmp.log,powershell,20,1,success,benign,-0.946847062397972,0
+01/12/2025 11:08:31,host_08,user_12,Standard,mshta.exe,rundll32.exe,New-Job C:\Windows\Temp.py Remove-Registry C:\Us,mshta,48,2,success,benign,-0.8338464088410944,0
+10/12/2025 17:45:20,host_05,user_16,Standard,cscript.exe,explorer.exe,Remove-Job /tmp.,cscript,16,1,success,benign,-1.140591423361631,0
+25/12/2025 15:44:15,host_06,user_06,Standard,notepad.exe,explorer.exe,Set-Service /usr/bin.ps1 Sta,notepad,28,2,success,benign,-0.8769027096655276,0
+26/12/2025 08:19:32,host_08,user_19,Standard,python.exe,python.exe,Remove-Service C:\Users\Public.py New-File /tmp.,python,48,2,success,benign,-0.1326870530017428,0
+10/12/2025 10:19:26,host_01,user_08,Standard,python.exe,explorer.exe,New-Process C:\Win,python,18,1,success,benign,-0.37396201492526593,0

@@ -62,7 +62,7 @@ def main():
         X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
         X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42, stratify=y_temp)
 
-        if key == "Autoencoder":
+        if key == "Autoencoder" or key == "OneClassSVM":
             benign_idx = y_train[y_train == 0].index
             X_train = X[benign_idx]
             y_train = y_train[benign_idx]
@@ -78,8 +78,7 @@ def main():
 
     # Find best nu for SVM
     X_svm = X_train_dict["OneClassSVM"]
-    y_svm = y_train_dict["OneClassSVM"]
-    best_nu = bh.find_best_nu(SVMAgent, X_svm, y_svm)
+    best_nu = bh.find_best_nu(SVMAgent, X_svm, X_val_dict["OneClassSVM"], y_val)
 
     # Find ideal n_estimators for IsolationForest
     X_if = X_train_dict["IsolationForest"]
